@@ -1,0 +1,5 @@
+/usr/bin/ld: cannot find -l{OpenCV_LIBS}: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:102: my_motion_planner] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,57 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan()[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:125:34:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+  125 |         path_msg->header.stamp = [01;31m[Knode[m[K->get_clock()->now();
+      |                                  [01;31m[K^~~~[m[K
+      |                                  [32m[KYAML::detail::node[m[K
+In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:6[m[K:
+[01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+   20 | class [01;36m[Knode[m[K {
+      |       [01;36m[K^~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:129:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PathPtr = class std::shared_ptr<ompl::base::Path>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<ompl::base::Path>[m[K’} has no member named ‘[01m[KgetStateCount[m[K’
+  129 |         for (std::size_t i = 0; i < solution_path.[01;31m[KgetStateCount[m[K(); ++i)
+      |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:131:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PathPtr = class std::shared_ptr<ompl::base::Path>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<ompl::base::Path>[m[K’} has no member named ‘[01m[KgetState[m[K’
+  131 |             const ob::State* state = solution_path.[01;31m[KgetState[m[K(i);
+      |                                                    [01;31m[K^~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:139:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  139 |             pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(tf2::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                     [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:139:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  139 |             pose.pose.orientation = tf2::toMsg([01;31m[Ktf2[m[K::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:139:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  139 |             pose.pose.orientation = tf2::toMsg(tf2::Quaternion([01;31m[Ktf2[m[K::Vector3(0, 0, 1), rot->value));
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:144:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_publisher[m[K’ was not declared in this scope
+  144 |         [01;31m[Kpath_publisher[m[K->publish(std::move(path_msg));
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid planWithSimpleSetup()[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:196:35:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+  196 |          path_msg->header.stamp = [01;31m[Knode[m[K->get_clock()->now();
+      |                                   [01;31m[K^~~~[m[K
+      |                                   [32m[KYAML::detail::node[m[K
+In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:6[m[K:
+[01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+   20 | class [01;36m[Knode[m[K {
+      |       [01;36m[K^~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:210:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  210 |             pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(tf2::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                     [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:210:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  210 |             pose.pose.orientation = tf2::toMsg([01;31m[Ktf2[m[K::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:210:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  210 |             pose.pose.orientation = tf2::toMsg(tf2::Quaternion([01;31m[Ktf2[m[K::Vector3(0, 0, 1), rot->value));
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:215:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_publisher[m[K’ was not declared in this scope
+  215 |         [01;31m[Kpath_publisher[m[K->publish(std::move(path_msg));
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,26 @@
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&, const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:55:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 | s::msg::Path>::SharedPtr& path_publisher,[01;35m[Kconst rclcpp::Node::SharedPtr& node[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid planWithSimpleSetup(const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:207:35:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+  207 |          path_msg->header.stamp = [01;31m[Knode[m[K->get_clock()->now();
+      |                                   [01;31m[K^~~~[m[K
+      |                                   [32m[KYAML::detail::node[m[K
+In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+                 from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:8[m[K:
+[01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+   20 | class [01;36m[Knode[m[K {
+      |       [01;36m[K^~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:246:25:[m[K [01;31m[Kerror: [m[Ktoo many arguments to function ‘[01m[Kvoid planWithSimpleSetup(const SharedPtr&)[m[K’
+  246 |      [01;31m[KplanWithSimpleSetup(pather,node)[m[K;
+      |      [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:163:7:[m[K [01;36m[Knote: [m[Kdeclared here
+  163 |  void [01;36m[KplanWithSimpleSetup[m[K(const rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr& path_publisher)
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/root/ros2_ws/src/mp.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/msg/model_states.hpp: No such file or directory
+   16 | #include [01;31m[K"gazebo_msgs/msg/model_states.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

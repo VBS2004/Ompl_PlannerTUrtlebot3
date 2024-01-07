@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&, const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:123:64:[m[K [01;31m[Kerror: [m[Kinvalid initialization of non-const reference of type ‘[01m[Kompl::geometric::PathGeometric&[m[K’ from an rvalue of type ‘[01m[Kompl::base::PathPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<ompl::base::Path>[m[K’}
+  123 |         og::PathGeometric& solution_path= [01;31m[Kpdef->getSolutionPath()[m[K;
+      |                                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:139:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  139 |             pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(tf2::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                     [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:139:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  139 |             pose.pose.orientation = tf2::toMsg([01;31m[Ktf2[m[K::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:139:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  139 |             pose.pose.orientation = tf2::toMsg(tf2::Quaternion([01;31m[Ktf2[m[K::Vector3(0, 0, 1), rot->value));
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid planWithSimpleSetup(const SharedPtr&, const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:210:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  210 |             pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(tf2::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                     [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:210:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  210 |             pose.pose.orientation = tf2::toMsg([01;31m[Ktf2[m[K::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:210:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  210 |             pose.pose.orientation = tf2::toMsg(tf2::Quaternion([01;31m[Ktf2[m[K::Vector3(0, 0, 1), rot->value));
+      |                                                                [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,7 @@
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:43:17:[m[K [01;31m[Kerror: [m[Kcomparison between distinct pointer types ‘[01m[Kconst ompl::base::SO2StateSpace::StateType*[m[K’ and ‘[01m[Kconst ompl::base::RealVectorStateSpace::StateType*[m[K’ lacks a cast
+   43 |      return [01;31m[Krot !=pos[m[K;
+      |             [01;31m[K~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

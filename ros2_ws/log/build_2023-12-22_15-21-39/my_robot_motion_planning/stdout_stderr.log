@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:29:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst ompl::base::SO2StateSpace::StateType[m[K’ to ‘[01m[Kdouble[m[K’ in initialization
+   29 |         double theta = [01;31m[K(*rot)[m[K;  // In SE2, the rotation is represented by a single angle (theta) in SO2.
+      |                        [01;31m[K~^~~~~[m[K
+      |                         [01;31m[K|[m[K
+      |                         [01;31m[Kconst ompl::base::SO2StateSpace::StateType[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

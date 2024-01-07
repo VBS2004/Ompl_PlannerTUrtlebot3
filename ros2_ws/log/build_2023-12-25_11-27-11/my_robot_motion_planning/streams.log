@@ -1,0 +1,53 @@
+[0.033s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[2.645s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan()[m[K’:
+[2.645s] [01m[K/root/ros2_ws/src/mp.cpp:125:34:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+[2.645s]   125 |         path_msg->header.stamp = [01;31m[Knode[m[K->get_clock()->now();
+[2.645s]       |                                  [01;31m[K^~~~[m[K
+[2.645s]       |                                  [32m[KYAML::detail::node[m[K
+[2.645s] In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+[2.645s]                  from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+[2.645s]                  from [01m[K/root/ros2_ws/src/mp.cpp:6[m[K:
+[2.645s] [01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+[2.645s]    20 | class [01;36m[Knode[m[K {
+[2.645s]       |       [01;36m[K^~~~[m[K
+[2.645s] [01m[K/root/ros2_ws/src/mp.cpp:129:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PathPtr = class std::shared_ptr<ompl::base::Path>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<ompl::base::Path>[m[K’} has no member named ‘[01m[KgetStateCount[m[K’
+[2.645s]   129 |         for (std::size_t i = 0; i < solution_path.[01;31m[KgetStateCount[m[K(); ++i)
+[2.645s]       |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[2.645s] [01m[K/root/ros2_ws/src/mp.cpp:131:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PathPtr = class std::shared_ptr<ompl::base::Path>[m[K’ {aka ‘[01m[Kclass std::shared_ptr<ompl::base::Path>[m[K’} has no member named ‘[01m[KgetState[m[K’
+[2.645s]   131 |             const ob::State* state = solution_path.[01;31m[KgetState[m[K(i);
+[2.645s]       |                                                    [01;31m[K^~~~~~~~[m[K
+[2.645s] [01m[K/root/ros2_ws/src/mp.cpp:139:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[2.645s]   139 |             pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(tf2::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+[2.646s]       |                                     [01;31m[K^~~[m[K
+[2.646s] [01m[K/root/ros2_ws/src/mp.cpp:139:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[2.646s]   139 |             pose.pose.orientation = tf2::toMsg([01;31m[Ktf2[m[K::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+[2.646s]       |                                                [01;31m[K^~~[m[K
+[2.646s] [01m[K/root/ros2_ws/src/mp.cpp:139:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[2.646s]   139 |             pose.pose.orientation = tf2::toMsg(tf2::Quaternion([01;31m[Ktf2[m[K::Vector3(0, 0, 1), rot->value));
+[2.646s]       |                                                                [01;31m[K^~~[m[K
+[2.651s] [01m[K/root/ros2_ws/src/mp.cpp:144:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath_publisher[m[K’ was not declared in this scope
+[2.651s]   144 |         [01;31m[Kpath_publisher[m[K->publish(std::move(path_msg));
+[2.652s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.655s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid planWithSimpleSetup(const SharedPtr&, const SharedPtr&)[m[K’:
+[2.655s] [01m[K/root/ros2_ws/src/mp.cpp:210:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[2.655s]   210 |             pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(tf2::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+[2.655s]       |                                     [01;31m[K^~~[m[K
+[2.655s] [01m[K/root/ros2_ws/src/mp.cpp:210:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[2.655s]   210 |             pose.pose.orientation = tf2::toMsg([01;31m[Ktf2[m[K::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+[2.655s]       |                                                [01;31m[K^~~[m[K
+[2.655s] [01m[K/root/ros2_ws/src/mp.cpp:210:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[2.655s]   210 |             pose.pose.orientation = tf2::toMsg(tf2::Quaternion([01;31m[Ktf2[m[K::Vector3(0, 0, 1), rot->value));
+[2.656s]       |                                                                [01;31m[K^~~[m[K
+[2.660s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.660s] [01m[K/root/ros2_ws/src/mp.cpp:235:26:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kconst SharedPtr&[m[K’ {aka ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<nav_msgs::msg::Path_<std::allocator<void> > > >&[m[K’} from expression of type ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’
+[2.660s]   235 |      planWithSimpleSetup([01;31m[Knode[m[K,pather);
+[2.660s]       |                          [01;31m[K^~~~[m[K
+[2.660s] [01m[K/root/ros2_ws/src/mp.cpp:152:84:[m[K [01;36m[Knote: [m[Kin passing argument 1 of ‘[01m[Kvoid planWithSimpleSetup(const SharedPtr&, const SharedPtr&)[m[K’
+[2.660s]   152 |  void planWithSimpleSetup([01;36m[Kconst rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr& path_publisher[m[K,const rclcpp::Node::SharedPtr& node)
+[2.660s]       |                           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.558s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[3.558s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[3.558s] gmake: *** [Makefile:146: all] Error 2
+[3.560s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

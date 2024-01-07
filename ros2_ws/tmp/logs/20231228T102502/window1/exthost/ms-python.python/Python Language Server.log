@@ -1,0 +1,14 @@
+2023-12-28 11:01:44.212 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2023-12-28 11:01:44.604 [info] [Info  - 11:01:44] (10491) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2023-12-28 11:01:44.605 [info] [Info  - 11:01:44] (10491) Server root directory: /root/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2023-12-28 11:01:44.605 [info] [Info  - 11:01:44] (10491) Starting service instance "ros2_ws"
+2023-12-28 11:01:44.630 [info] [Info  - 11:01:44] (10491) Setting pythonPath for service "ros2_ws": "/bin/python"
+2023-12-28 11:01:44.630 [info] [Info  - 11:01:44] (10491) Setting environmentName for service "ros2_ws": "3.10.12 (global)"
+2023-12-28 11:01:44.651 [info] [Info  - 11:01:44] (10491) Assuming Python version 3.10
+2023-12-28 11:01:44.745 [info] [Info  - 11:01:44] (10491) Found 6 source files
+2023-12-28 11:01:47.941 [info] [Info  - 11:01:47] (10491) [IDX(2)] Long operation: index execution environment /root/ros2_ws (2167ms)
+2023-12-28 11:01:47.955 [info] [Info  - 11:01:47] (10491) [IDX(2)] Long operation: index packages /root/ros2_ws (2188ms)
+2023-12-28 11:02:06.169 [info] [Info  - 11:02:06] (10491) Found 7 source files
+2023-12-28 11:03:16.167 [info] [Info  - 11:03:16] (10491) Found 8 source files
+2023-12-28 11:08:00.183 [info] [Info  - 11:08:00] (10491) Found 9 source files
+2023-12-28 11:53:35.099 [info] [Error - 11:53:35] Server process exited with code 0.

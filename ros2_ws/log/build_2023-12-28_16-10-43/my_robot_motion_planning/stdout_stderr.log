@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:29:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktheta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   29 |         double [01;35m[Ktheta[m[K = rot->value;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:30:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmap_width[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   30 |         double [01;35m[Kmap_width[m[K = 348 * 0.05; // Convert map width from pixels to meters
+      |                [01;35m[K^~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:31:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmap_height[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   31 |         double [01;35m[Kmap_height[m[K = 348 * 0.05; // Convert map height from pixels to meters
+      |                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:138:5:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::waitKey[m[K’?
+  138 |     [01;31m[KwaitKey[m[K(0);
+      |     [01;31m[K^~~~~~~[m[K
+      |     [32m[Kcv::waitKey[m[K
+In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:7[m[K:
+[01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:359:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::waitKey[m[K’ declared here
+  359 | CV_EXPORTS_W int [01;36m[KwaitKey[m[K(int delay = 0);
+      |                  [01;36m[K^~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:139:7:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+  139 |     cv[01;31m[K.[m[Kims
+      |       [01;31m[K^[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:133:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kocct[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  133 |     double [01;35m[Kocct[m[K=config["occupied_thresh"].as<double>();
+      |            [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,99 @@
+[ 11%] Built target gtest
+[ 11%] Built target gtest_main
+[ 19%] Built target map_io
+[ 27%] Built target test_map_saver_cli
+[ 44%] Built target test_map_saver_publisher
+[ 44%] Built target test_map_io
+[ 55%] Built target map_server_core
+[ 72%] Built target map_server
+[ 72%] Built target map_saver_cli
+[ 72%] Built target map_saver_server
+[ 77%] Built target costmap_filter_info_server
+[ 86%] Built target test_map_saver_node
+[ 91%] Built target test_costmap_filter_info_server
+[100%] Built target test_map_server_node
+-- Install configuration: "Release"
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_server_core.so
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_io.so
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_server
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include/
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/build_2023-12-28_12-59-38
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/build_2023-12-28_12-59-38/logger_all.log
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/build_2023-12-28_12-59-38/events.log
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/latest_build
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/COLCON_IGNORE
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/latest
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/local_setup.bash
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/_local_setup_util_ps1.py
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/_local_setup_util_sh.py
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/local_setup.zsh
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/.colcon_install_layout
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/setup.zsh
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/setup.ps1
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/local_setup.ps1
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/setup.bash
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/local_setup.sh
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/setup.sh
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/COLCON_IGNORE
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/build
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/build/.built_by
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/build/COLCON_IGNORE
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/build_2023-12-28_12-59-38
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/build_2023-12-28_12-59-38/logger_all.log
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/build_2023-12-28_12-59-38/events.log
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/latest_build
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/COLCON_IGNORE
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/log/latest
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/local_setup.bash
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/_local_setup_util_ps1.py
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/_local_setup_util_sh.py
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/local_setup.zsh
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/.colcon_install_layout
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/setup.zsh
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/setup.ps1
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/local_setup.ps1
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/setup.bash
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/local_setup.sh
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/setup.sh
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/install/COLCON_IGNORE
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/build
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/build/.built_by
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/build/COLCON_IGNORE
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.dsv
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.xml

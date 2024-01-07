@@ -1,0 +1,65 @@
+2023-12-26 13:53:37.037 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-26 13:53:37.207 [info] Started local extension host with pid 11544.
+2023-12-26 13:53:37.552 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-26 13:53:37.641 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-12-26 13:53:40.077 [info] [perf] Render performance baseline is 20ms
+2023-12-26 13:53:45.594 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'registerIssueDataProvider' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-12-26 13:53:45.762 [info] Started local extension host with pid 11636.
+2023-12-26 13:53:48.380 [info] [perf] Render performance baseline is 16ms
+2023-12-26 13:53:48.842 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-26 13:53:48.935 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-26 13:53:48.948 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2023-12-26 13:53:56.884 [error] [Extension Host] [CMakeTools] 2023-12-26T08:23:56.883Z [error] [cmake] You have changed variables that require your cache to be deleted.
+2023-12-26 13:53:56.884 [error] [Extension Host] [CMakeTools] 2023-12-26T08:23:56.883Z [error] [cmake] Configure will be re-run and you may have to reset some variables.
+2023-12-26 13:53:56.885 [error] [Extension Host] [CMakeTools] 2023-12-26T08:23:56.883Z [error] [cmake] The following variables have changed:
+2023-12-26 13:53:56.885 [error] [Extension Host] [CMakeTools] 2023-12-26T08:23:56.884Z [error] [cmake] CMAKE_C_COMPILER= /usr/bin/gcc
+2023-12-26 13:53:56.885 [error] [Extension Host] [CMakeTools] 2023-12-26T08:23:56.884Z [error] [cmake] CMAKE_CXX_COMPILER= /usr/bin/g++
+2023-12-26 13:53:56.886 [error] [Extension Host] [CMakeTools] 2023-12-26T08:23:56.884Z [error] [cmake] 
+2023-12-26 13:54:56.366 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAExit (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:35)
+    at m.S (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16966)
+    at o.value (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at x.onmessage (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1657:7802)
+2023-12-26 13:54:56.366 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAError (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1552:7629)
+    at m.S (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16827)
+    at o.value (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at x.onmessage (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1657:7802)
+2023-12-26 13:55:13.191 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAError (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1552:7629)
+    at m.S (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16827)
+    at o.value (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at x.onmessage (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1657:7802)
+2023-12-26 13:55:13.192 [error] Invalid debug adapter: Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAExit (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:35)
+    at m.S (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16966)
+    at o.value (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at x.onmessage (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1657:7802)

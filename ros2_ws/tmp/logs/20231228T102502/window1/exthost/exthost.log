@@ -1,0 +1,29 @@
+2023-12-28 10:25:04.970 [info] Extension host with pid 6604 started
+2023-12-28 10:25:04.970 [info] Skipping acquiring lock for /root/ros2_ws/tmp/User/workspaceStorage/d3c7039dc4f3aea61f49414fac31189f.
+2023-12-28 10:25:04.988 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-12-28 10:25:05.008 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-28 10:25:05.050 [info] Eager extensions activated
+2023-12-28 10:25:05.053 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-28 10:25:05.055 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-28 10:25:08.142 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-12-28 10:25:08.217 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'workspaceContains:CMakeLists.txt'
+2023-12-28 10:25:08.299 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'workspaceContains:/.vscode/c_cpp_properties.json'
+2023-12-28 10:25:08.762 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-12-28 10:25:08.773 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-12-28 10:25:08.807 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2023-12-28 10:25:08.825 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-28 10:25:08.852 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-12-28 10:30:00.932 [info] ExtensionService#_doActivateExtension usernamehw.remove-empty-lines, startup: false, activationEvent: 'onStartupFinished'
+2023-12-28 10:30:24.417 [info] ExtensionService#_doActivateExtension plibither8.remove-comments, startup: false, activationEvent: 'onCommand:extension.removeAllComments'
+2023-12-28 10:30:29.413 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-12-28 10:30:49.697 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-12-28 10:55:11.511 [info] ExtensionService#_doActivateExtension ngtystr.ppm-pgm-viewer-for-vscode, startup: false, activationEvent: 'onCustomEditor:ppm-pgm-viewer-for-vscode.imagepreview'
+2023-12-28 11:01:42.764 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-12-28 11:01:43.165 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-12-28 11:03:10.523 [error] [ms-python.python] provider FAILED
+2023-12-28 11:03:10.524 [error] TypeError: Cannot read properties of undefined (reading 'data')
+	at /root/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist/extension.bundle.js:1:139734
+	at _0x1be708 (/root/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist/extension.bundle.js:1:152918)
+	at async ve.provideCompletionItems (/snap/code/148/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:143:53055)
+2023-12-28 11:53:35.003 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-28 11:53:35.234 [info] Extension host with pid 6604 exiting with code 0

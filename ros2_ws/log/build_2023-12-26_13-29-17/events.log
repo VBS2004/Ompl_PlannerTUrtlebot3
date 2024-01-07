@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.000146] (my_robot_motion_planning) JobQueued: {'identifier': 'my_robot_motion_planning', 'dependencies': OrderedDict()}
+[0.000163] (my_robot_motion_planning) JobStarted: {'identifier': 'my_robot_motion_planning'}
+[0.029249] (my_robot_motion_planning) JobProgress: {'identifier': 'my_robot_motion_planning', 'progress': 'cmake'}
+[0.029530] (my_robot_motion_planning) JobProgress: {'identifier': 'my_robot_motion_planning', 'progress': 'build'}
+[0.029983] (my_robot_motion_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/my_robot_motion_planning', '--', '-j12', '-l12'], 'cwd': '/root/ros2_ws/build/my_robot_motion_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'root'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('CHROME_DESKTOP', 'tabby.desktop'), ('OLDPWD', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/tabby.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1978'), ('SYSTEMD_EXEC_PID', '2411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4471'), ('DEBUGINFOD_URLS', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('TABBY_PLUGINS', ''), ('LOGNAME', 'root'), ('JOURNAL_STREAM', '8:24013'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:@/tmp/.ICE-unix/2380,unix/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:/tmp/.ICE-unix/2380'), ('INVOCATION_ID', '41dbbc14c51f45a9b9486303333bf212'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/0/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'Tabby'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/0/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('NODE_PATH', 'undefined:/opt/Tabby/resources/builtin-plugins:/opt/Tabby/resources/app.asar/node_modules:/root/.config/tabby/plugins/node_modules'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/0/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('TABBY_CONFIG_DIRECTORY', '/root/.config/tabby'), ('PWD', '/root/ros2_ws/build/my_robot_motion_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060691] (my_robot_motion_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_motion_planner\x1b[0m\n'}
+[0.077070] (my_robot_motion_planning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o\x1b[0m\n'}
+[0.099687] (-) TimerEvent: {}
+[0.200055] (-) TimerEvent: {}
+[0.300443] (-) TimerEvent: {}
+[0.400496] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/chrono:42\x1b[m\x1b[K,\n'}
+[0.400668] (-) TimerEvent: {}
+[0.400760] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:32\x1b[m\x1b[K,\n'}
+[0.400829] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ctime:42\x1b[m\x1b[K,\n'}
+[0.400891] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:1\x1b[m\x1b[K:\n'}
+[0.400950] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:60:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclock_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.401009] (my_robot_motion_planning) StderrLine: {'line': b'   60 |   using ::\x1b[01;31m\x1b[Kclock_t\x1b[m\x1b[K;\n'}
+[0.401067] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.401123] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:61:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.401187] (my_robot_motion_planning) StderrLine: {'line': b'   61 |   using ::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K;\n'}
+[0.401258] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.401344] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:62:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.401547] (my_robot_motion_planning) StderrLine: {'line': b'   62 |   using ::\x1b[01;31m\x1b[Ktm\x1b[m\x1b[K;\n'}
+[0.401643] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.401678] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:64:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclock\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.401707] (my_robot_motion_planning) StderrLine: {'line': b'   64 |   using ::\x1b[01;31m\x1b[Kclock\x1b[m\x1b[K;\n'}
+[0.401740] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.401766] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:65:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdifftime\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.401794] (my_robot_motion_planning) StderrLine: {'line': b'   65 |   using ::\x1b[01;31m\x1b[Kdifftime\x1b[m\x1b[K;\n'}
+[0.401821] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.401846] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:66:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmktime\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.401871] (my_robot_motion_planning) StderrLine: {'line': b'   66 |   using ::\x1b[01;31m\x1b[Kmktime\x1b[m\x1b[K;\n'}
+[0.401896] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.401920] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:67:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.401945] (my_robot_motion_planning) StderrLine: {'line': b'   67 |   using ::\x1b[01;31m\x1b[Ktime\x1b[m\x1b[K;\n'}
+[0.401968] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[0.401993] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:68:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kasctime\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.402018] (my_robot_motion_planning) StderrLine: {'line': b'   68 |   using ::\x1b[01;31m\x1b[Kasctime\x1b[m\x1b[K;\n'}
+[0.402042] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[0.402066] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:69:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kctime\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.402090] (my_robot_motion_planning) StderrLine: {'line': b'   69 |   using ::\x1b[01;31m\x1b[Kctime\x1b[m\x1b[K;\n'}
+[0.402114] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.402137] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:70:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgmtime\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.402161] (my_robot_motion_planning) StderrLine: {'line': b'   70 |   using ::\x1b[01;31m\x1b[Kgmtime\x1b[m\x1b[K;\n'}
+[0.402184] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.402207] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:71:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klocaltime\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.402231] (my_robot_motion_planning) StderrLine: {'line': b'   71 |   using ::\x1b[01;31m\x1b[Klocaltime\x1b[m\x1b[K;\n'}
+[0.402254] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.402278] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:72:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstrftime\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.402304] (my_robot_motion_planning) StderrLine: {'line': b'   72 |   using ::\x1b[01;31m\x1b[Kstrftime\x1b[m\x1b[K;\n'}
+[0.402328] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.402352] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:79:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimespec\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.402377] (my_robot_motion_planning) StderrLine: {'line': b'   79 |   using ::\x1b[01;31m\x1b[Ktimespec\x1b[m\x1b[K;\n'}
+[0.402400] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.402423] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ctime:80:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimespec_get\x1b[m\x1b[K\xe2\x80\x99 has not been declared in \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.402451] (my_robot_motion_planning) StderrLine: {'line': b'   80 |   using ::\x1b[01;31m\x1b[Ktimespec_get\x1b[m\x1b[K;\n'}
+[0.402473] (my_robot_motion_planning) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.405891] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:32\x1b[m\x1b[K,\n'}
+[0.406110] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ctime:42\x1b[m\x1b[K,\n'}
+[0.406175] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:1\x1b[m\x1b[K:\n'}
+[0.406235] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1142:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.406322] (my_robot_motion_planning) StderrLine: {'line': b' 1142 |       static std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K\n'}
+[0.406381] (my_robot_motion_planning) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.406437] (my_robot_motion_planning) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Ksize_t\x1b[m\x1b[K\n'}
+[0.406495] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/chrono:1150:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::time_t\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[0.406556] (my_robot_motion_planning) StderrLine: {'line': b' 1150 |       from_time_t(\x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::time_t __t) noexcept\n'}
+[0.406612] (my_robot_motion_planning) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[0.500816] (-) TimerEvent: {}
+[0.601197] (-) TimerEvent: {}
+[0.701524] (-) TimerEvent: {}
+[0.801904] (-) TimerEvent: {}
+[0.902269] (-) TimerEvent: {}
+[0.955146] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:42\x1b[m\x1b[K,\n'}
+[0.955323] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/base/PlannerTerminationCondition.h:43\x1b[m\x1b[K,\n'}
+[0.955528] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/base/Planner.h:44\x1b[m\x1b[K,\n'}
+[0.955624] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/PlannerIncludes.h:40\x1b[m\x1b[K,\n'}
+[0.955698] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/rrt/RRTConnect.h:41\x1b[m\x1b[K,\n'}
+[0.955783] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:5\x1b[m\x1b[K:\n'}
+[0.955852] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:343:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.956004] (my_robot_motion_planning) StderrLine: {'line': b'  343 |       const std::\x1b[01;31m\x1b[Ktm\x1b[m\x1b[K* _M_tmb;\n'}
+[0.956104] (my_robot_motion_planning) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.956180] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:358:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.956252] (my_robot_motion_planning) StderrLine: {'line': b'  358 |     put_time(const std::\x1b[01;31m\x1b[Ktm\x1b[m\x1b[K* __tmb, const _CharT* __fmt)\n'}
+[0.956321] (my_robot_motion_planning) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.956386] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:398:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.956451] (my_robot_motion_planning) StderrLine: {'line': b'  398 |       std::\x1b[01;31m\x1b[Ktm\x1b[m\x1b[K*      _M_tmb;\n'}
+[0.956609] (my_robot_motion_planning) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.956716] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:413:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.956790] (my_robot_motion_planning) StderrLine: {'line': b'  413 |     get_time(std::\x1b[01;31m\x1b[Ktm\x1b[m\x1b[K* __tmb, const _CharT* __fmt)\n'}
+[0.956856] (my_robot_motion_planning) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.956920] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/cwchar:44\x1b[m\x1b[K,\n'}
+[0.956984] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/postypes.h:40\x1b[m\x1b[K,\n'}
+[0.957046] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:40\x1b[m\x1b[K,\n'}
+[0.957108] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[0.957170] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:34\x1b[m\x1b[K,\n'}
+[0.957231] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ctime:42\x1b[m\x1b[K,\n'}
+[0.957303] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:1\x1b[m\x1b[K:\n'}
+[0.957543] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/wchar.h:83:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[0.957598] (my_robot_motion_planning) StderrLine: {'line': b'   83 | struct \x1b[01;36m\x1b[Ktm\x1b[m\x1b[K;\n'}
+[0.957626] (my_robot_motion_planning) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.959283] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:42\x1b[m\x1b[K,\n'}
+[0.959381] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/base/PlannerTerminationCondition.h:43\x1b[m\x1b[K,\n'}
+[0.959446] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/base/Planner.h:44\x1b[m\x1b[K,\n'}
+[0.959506] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/PlannerIncludes.h:40\x1b[m\x1b[K,\n'}
+[0.959571] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/rrt/RRTConnect.h:41\x1b[m\x1b[K,\n'}
+[0.959630] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:5\x1b[m\x1b[K:\n'}
+[0.959687] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:413:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__tmb\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[0.959745] (my_robot_motion_planning) StderrLine: {'line': b'  413 |     get_time(std::tm* \x1b[01;31m\x1b[K__tmb\x1b[m\x1b[K, const _CharT* __fmt)\n'}
+[0.959802] (my_robot_motion_planning) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.959860] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:413:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[0.959917] (my_robot_motion_planning) StderrLine: {'line': b'  413 |     get_time(std::tm* __tmb, \x1b[01;31m\x1b[Kconst\x1b[m\x1b[K _CharT* __fmt)\n'}
+[0.959973] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[0.960029] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:413:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[0.960086] (my_robot_motion_planning) StderrLine: {'line': b'  413 |     get_time(std::tm* __tmb, const _CharT* __fmt)\n'}
+[0.960142] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[0.960201] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[0.960257] (my_robot_motion_planning) StderrLine: {'line': b'  414 |     \x1b[32m\x1b[K{\x1b[m\x1b[K return { __tmb, __fmt }; }\n'}
+[0.960316] (my_robot_motion_planning) StderrLine: {'line': b'      |     \x1b[32m\x1b[K~\x1b[m\x1b[K                                             \n'}
+[0.963688] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/base/PlannerTerminationCondition.h:43\x1b[m\x1b[K,\n'}
+[0.963828] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/base/Planner.h:44\x1b[m\x1b[K,\n'}
+[0.963893] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/PlannerIncludes.h:40\x1b[m\x1b[K,\n'}
+[0.963953] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/rrt/RRTConnect.h:41\x1b[m\x1b[K,\n'}
+[0.964011] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:5\x1b[m\x1b[K:\n'}
+[0.964068] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kstd::string ompl::time::as_string(const point&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[0.964137] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:80:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.964288] (my_robot_motion_planning) StderrLine: {'line': b'   80 |             std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K pt = std::chrono::system_clock::to_time_t(p);\n'}
+[0.964360] (my_robot_motion_planning) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.964422] (my_robot_motion_planning) StderrLine: {'line': b'      |                  \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[0.964481] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:82:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Klocaltime\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Klocale\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.964541] (my_robot_motion_planning) StderrLine: {'line': b'   82 |             ss << std::put_time(std::\x1b[01;31m\x1b[Klocaltime\x1b[m\x1b[K(&pt), "%F %T");\n'}
+[0.964599] (my_robot_motion_planning) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.964655] (my_robot_motion_planning) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[Klocale\x1b[m\x1b[K\n'}
+[0.966083] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:82:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpt\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kp\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[0.966225] (my_robot_motion_planning) StderrLine: {'line': b'   82 |             ss << std::put_time(std::localtime(&\x1b[01;31m\x1b[Kpt\x1b[m\x1b[K), "%F %T");\n'}
+[0.966290] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[0.966350] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[Kp\x1b[m\x1b[K\n'}
+[0.966408] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:78:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kp\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[0.966469] (my_robot_motion_planning) StderrLine: {'line': b'   78 |         inline std::string as_string(\x1b[01;35m\x1b[Kconst point &p\x1b[m\x1b[K)\n'}
+[0.966526] (my_robot_motion_planning) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.002492] (-) TimerEvent: {}
+[1.062485] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/utility.hpp:62\x1b[m\x1b[K,\n'}
+[1.062647] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3392\x1b[m\x1b[K,\n'}
+[1.062717] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[1.062789] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:7\x1b[m\x1b[K:\n'}
+[1.062849] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/mutex:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool std::__timed_mutex_impl<_Derived>::_M_try_lock_until(const std::chrono::time_point<std::chrono::_V2::system_clock, _Duration>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.062916] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/mutex:164:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.063109] (my_robot_motion_planning) StderrLine: {'line': b'  164 |             static_cast<std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K>(__s.time_since_epoch().count()),\n'}
+[1.063178] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.063238] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[1.063296] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/mutex:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool std::__timed_mutex_impl<_Derived>::_M_try_lock_until(const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.063356] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/mutex:181:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.063415] (my_robot_motion_planning) StderrLine: {'line': b'  181 |             static_cast<std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K>(__s.time_since_epoch().count()),\n'}
+[1.063472] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.063528] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[1.070938] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/mutex:185:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCLOCK_MONOTONIC\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.071098] (my_robot_motion_planning) StderrLine: {'line': b'  185 |           return static_cast<_Derived*>(this)->_M_clocklock(\x1b[01;31m\x1b[KCLOCK_MONOTONIC\x1b[m\x1b[K,\n'}
+[1.071164] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.102712] (-) TimerEvent: {}
+[1.202978] (-) TimerEvent: {}
+[1.303309] (-) TimerEvent: {}
+[1.403687] (-) TimerEvent: {}
+[1.465711] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:39\x1b[m\x1b[K,\n'}
+[1.465871] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[1.465937] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.465997] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:12\x1b[m\x1b[K:\n'}
+[1.466055] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/condition_variable:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::cv_status std::condition_variable::__wait_until_impl(std::unique_lock<std::mutex>&, const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.466115] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/condition_variable:197:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.466186] (my_robot_motion_planning) StderrLine: {'line': b'  197 |             static_cast<std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K>(__s.time_since_epoch().count()),\n'}
+[1.466242] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.466299] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[1.474250] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/condition_variable:201:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCLOCK_MONOTONIC\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.474403] (my_robot_motion_planning) StderrLine: {'line': b'  201 |         _M_cond.wait_until(*__lock.mutex(), \x1b[01;31m\x1b[KCLOCK_MONOTONIC\x1b[m\x1b[K, __ts);\n'}
+[1.474468] (my_robot_motion_planning) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.474717] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/condition_variable:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::cv_status std::condition_variable::__wait_until_impl(std::unique_lock<std::mutex>&, const std::chrono::time_point<std::chrono::_V2::system_clock, _Dur2>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.474868] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/condition_variable:218:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.474935] (my_robot_motion_planning) StderrLine: {'line': b'  218 |             static_cast<std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K>(__s.time_since_epoch().count()),\n'}
+[1.474994] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.475051] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[1.503907] (-) TimerEvent: {}
+[1.508397] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/thread:44\x1b[m\x1b[K,\n'}
+[1.508628] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22\x1b[m\x1b[K,\n'}
+[1.508696] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.508757] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.508814] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:12\x1b[m\x1b[K:\n'}
+[1.508871] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/this_thread_sleep.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid std::this_thread::sleep_for(const std::chrono::duration<_Rep1, _Period1>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.508931] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/this_thread_sleep.h:79:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.508993] (my_robot_motion_planning) StderrLine: {'line': b'   79 |             static_cast<std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K>(__s.count()),\n'}
+[1.509055] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.509114] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[1.512927] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/this_thread_sleep.h:82:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::nanosleep\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[1.513039] (my_robot_motion_planning) StderrLine: {'line': b'   82 |         while (::\x1b[01;31m\x1b[Knanosleep\x1b[m\x1b[K(&__ts, &__ts) == -1 && errno == EINTR)\n'}
+[1.513105] (my_robot_motion_planning) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.604143] (-) TimerEvent: {}
+[1.679933] (my_robot_motion_planning) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:20\x1b[m\x1b[K,\n'}
+[1.680093] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:34\x1b[m\x1b[K,\n'}
+[1.680158] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29\x1b[m\x1b[K,\n'}
+[1.680217] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[1.680287] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[1.680349] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[1.680410] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[1.680467] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[1.680525] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[1.680733] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.680819] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.680881] (my_robot_motion_planning) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:12\x1b[m\x1b[K:\n'}
+[1.680939] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool std::shared_timed_mutex::try_lock_until(const std::chrono::time_point<std::chrono::_V2::system_clock, _Dur2>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.680999] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:517:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.681059] (my_robot_motion_planning) StderrLine: {'line': b'  517 |             static_cast<std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K>(__s.time_since_epoch().count()),\n'}
+[1.681116] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.681173] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[1.681242] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool std::shared_timed_mutex::try_lock_until(const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.681309] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:542:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.681369] (my_robot_motion_planning) StderrLine: {'line': b'  542 |             static_cast<std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K>(__s.time_since_epoch().count()),\n'}
+[1.681426] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.681482] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[1.690076] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:546:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCLOCK_MONOTONIC\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.690238] (my_robot_motion_planning) StderrLine: {'line': b'  546 |         int __ret = pthread_rwlock_clockwrlock(&_M_rwlock, \x1b[01;31m\x1b[KCLOCK_MONOTONIC\x1b[m\x1b[K,\n'}
+[1.690305] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.690576] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool std::shared_timed_mutex::try_lock_shared_until(const std::chrono::time_point<std::chrono::_V2::system_clock, _Dur2>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.690725] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:590:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.690792] (my_robot_motion_planning) StderrLine: {'line': b'  590 |             static_cast<std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K>(__s.time_since_epoch().count()),\n'}
+[1.690852] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.690911] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[1.691140] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool std::shared_timed_mutex::try_lock_shared_until(const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.691313] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:629:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktime_t\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktime_put\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.691381] (my_robot_motion_planning) StderrLine: {'line': b'  629 |             static_cast<std::\x1b[01;31m\x1b[Ktime_t\x1b[m\x1b[K>(__s.time_since_epoch().count()),\n'}
+[1.691442] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.691501] (my_robot_motion_planning) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Ktime_put\x1b[m\x1b[K\n'}
+[1.700223] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/shared_mutex:633:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCLOCK_MONOTONIC\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.700368] (my_robot_motion_planning) StderrLine: {'line': b'  633 |         int __ret = pthread_rwlock_clockrdlock(&_M_rwlock, \x1b[01;31m\x1b[KCLOCK_MONOTONIC\x1b[m\x1b[K,\n'}
+[1.700434] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.704254] (-) TimerEvent: {}
+[1.804535] (-) TimerEvent: {}
+[1.904917] (-) TimerEvent: {}
+[2.005307] (-) TimerEvent: {}
+[2.105650] (-) TimerEvent: {}
+[2.206043] (-) TimerEvent: {}
+[2.306432] (-) TimerEvent: {}
+[2.406816] (-) TimerEvent: {}
+[2.507194] (-) TimerEvent: {}
+[2.607568] (-) TimerEvent: {}
+[2.650211] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid plan(const SharedPtr&, const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.650424] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:55:115:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.650500] (my_robot_motion_planning) StderrLine: {'line': b'   55 |  void plan(const rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr& path_publisher,\x1b[01;35m\x1b[Kconst rclcpp::Node::SharedPtr& node\x1b[m\x1b[K)\n'}
+[2.650561] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.652191] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid planWithSimpleSetup(const SharedPtr&, const SharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.652341] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:211:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kompl::geometric::PathGeometric\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.652408] (my_robot_motion_planning) StderrLine: {'line': b'  211 |          for (std::size_t i = 0; i < solution_path\x1b[01;31m\x1b[K->\x1b[m\x1b[KgetStateCount(); ++i)\n'}
+[2.652468] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.652526] (my_robot_motion_planning) StderrLine: {'line': b'\x1b[01m\x1b[K/root/ros2_ws/src/mp.cpp:213:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Kompl::geometric::PathGeometric\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.652584] (my_robot_motion_planning) StderrLine: {'line': b'  213 |             const ob::State* state = solution_path\x1b[01;31m\x1b[K->\x1b[m\x1b[KgetState(i);\n'}
+[2.652641] (my_robot_motion_planning) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.707792] (-) TimerEvent: {}
+[2.808176] (-) TimerEvent: {}
+[2.908551] (-) TimerEvent: {}
+[3.008943] (-) TimerEvent: {}
+[3.109553] (-) TimerEvent: {}
+[3.209943] (-) TimerEvent: {}
+[3.310338] (-) TimerEvent: {}
+[3.410717] (-) TimerEvent: {}
+[3.496151] (my_robot_motion_planning) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1\n'}
+[3.496409] (my_robot_motion_planning) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2\n'}
+[3.496591] (my_robot_motion_planning) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.498837] (my_robot_motion_planning) CommandEnded: {'returncode': 2}
+[3.510922] (-) TimerEvent: {}
+[3.549516] (my_robot_motion_planning) JobEnded: {'identifier': 'my_robot_motion_planning', 'rc': 2}
+[3.560615] (-) EventReactorShutdown: {}

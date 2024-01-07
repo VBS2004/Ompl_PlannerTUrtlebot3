@@ -1,0 +1,52 @@
+In file included from [01m[K/usr/include/c++/11/chrono:42[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2/time.h:32[m[K,
+                 from [01m[K/usr/include/pthread.h:23[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:35[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:148[m[K,
+                 from [01m[K/usr/include/c++/11/ext/atomicity.h:35[m[K,
+                 from [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:61[m[K,
+                 from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:10[m[K,
+                 from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:7[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[01m[K/usr/include/c++/11/ctime:64:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock[m[K’ has not been declared in ‘[01m[K::[m[K’
+   64 |   using ::[01;31m[Kclock[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:65:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdifftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   65 |   using ::[01;31m[Kdifftime[m[K;
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:66:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   66 |   using ::[01;31m[Kmktime[m[K;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:67:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   67 |   using ::[01;31m[Ktime[m[K;
+      |           [01;31m[K^~~~[m[K
+[01m[K/usr/include/c++/11/ctime:68:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kasctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   68 |   using ::[01;31m[Kasctime[m[K;
+      |           [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:69:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   69 |   using ::[01;31m[Kctime[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:70:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgmtime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   70 |   using ::[01;31m[Kgmtime[m[K;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:71:11:[m[K [01;31m[Kerror: [m[K‘[01m[Klocaltime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   71 |   using ::[01;31m[Klocaltime[m[K;
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:72:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   72 |   using ::[01;31m[Kstrftime[m[K;
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:80:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimespec_get[m[K’ has not been declared in ‘[01m[K::[m[K’
+   80 |   using ::[01;31m[Ktimespec_get[m[K;
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:232:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  232 |  int main([01;35m[Kint argc[m[K, char** argv)
+      |           [01;35m[K~~~~^~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:232:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  232 |  int main(int argc, [01;35m[Kchar** argv[m[K)
+      |                     [01;35m[K~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

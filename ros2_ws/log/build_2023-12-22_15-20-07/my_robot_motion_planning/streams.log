@@ -1,0 +1,26 @@
+[0.032s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[1.541s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[1.541s] [01m[K/root/ros2_ws/src/mp.cpp:29:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kconst ompl::base::SO2StateSpace::StateType[m[K’ and ‘[01m[Kint[m[K’)
+[1.541s]    29 |         double theta = (*rot)[01;31m[K[[m[K0];  // In SE2, the rotation is represented by a single angle (theta) in SO2.
+[1.541s]       |                              [01;31m[K^[m[K
+[1.547s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan()[m[K’:
+[1.547s] [01m[K/root/ros2_ws/src/mp.cpp:62:22:[m[K [01;31m[Kerror: [m[K‘[01m[KmapOriginX[m[K’ was not declared in this scope; did you mean ‘[01m[KoriginX[m[K’?
+[1.547s]    62 |     bounds.setLow(0, [01;31m[KmapOriginX[m[K);
+[1.547s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[1.547s]       |                      [32m[KoriginX[m[K
+[1.551s] [01m[K/root/ros2_ws/src/mp.cpp:64:22:[m[K [01;31m[Kerror: [m[K‘[01m[KmapOriginY[m[K’ was not declared in this scope; did you mean ‘[01m[KoriginY[m[K’?
+[1.551s]    64 |     bounds.setLow(1, [01;31m[KmapOriginY[m[K);
+[1.551s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[1.551s]       |                      [32m[KoriginY[m[K
+[1.557s] [01m[K/root/ros2_ws/src/mp.cpp:55:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KoriginX[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.557s]    55 |     double [01;35m[KoriginX[m[K = originNode[0].as<double>();
+[1.557s]       |            [01;35m[K^~~~~~~[m[K
+[1.557s] [01m[K/root/ros2_ws/src/mp.cpp:56:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KoriginY[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.557s]    56 |     double [01;35m[KoriginY[m[K = originNode[1].as<double>();
+[1.557s]       |            [01;35m[K^~~~~~~[m[K
+[1.977s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[1.977s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[1.977s] gmake: *** [Makefile:146: all] Error 2
+[1.980s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

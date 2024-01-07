@@ -1,0 +1,33 @@
+2024-01-06 17:47:20.117 [info] (Client) Pylance async client (2023.12.1) started with python extension (2023.22.1)
+2024-01-06 17:47:20.896 [info] [Info  - 17:47:20] (8757) Pylance language server 2023.12.1 (pyright a78e2b10) starting
+2024-01-06 17:47:20.899 [info] [Info  - 17:47:20] (8757) Server root directory: /root/.vscode/extensions/ms-python.vscode-pylance-2023.12.1/dist
+2024-01-06 17:47:20.899 [info] [Info  - 17:47:20] (8757) Starting service instance "turtlebot3_example"
+2024-01-06 17:47:21.005 [info] [Info  - 17:47:21] (8757) Setting pythonPath for service "turtlebot3_example": "/bin/python"
+2024-01-06 17:47:21.005 [info] [Info  - 17:47:21] (8757) Setting environmentName for service "turtlebot3_example": "3.10.12 (global)"
+2024-01-06 17:47:21.057 [info] [Info  - 17:47:21] (8757) Assuming Python version 3.10
+2024-01-06 17:47:21.184 [info] [Info  - 17:47:21] (8757) Found 15 source files
+2024-01-06 17:47:26.235 [info] [Info  - 17:47:26] (8757) [IDX(2)] Long operation: index execution environment /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example (3335ms)
+2024-01-06 17:47:26.264 [info] [Info  - 17:47:26] (8757) [IDX(2)] Long operation: index packages /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example (3392ms)
+2024-01-06 17:49:12.059 [info] [Info  - 17:49:12] (8757) Found 15 source files
+2024-01-06 17:49:12.482 [info] [Info  - 17:49:12] (8757) Found 15 source files
+2024-01-06 17:49:26.275 [info] [Info  - 17:49:26] (8757) Found 15 source files
+2024-01-06 17:49:26.689 [info] [Info  - 17:49:26] (8757) Found 15 source files
+2024-01-06 18:04:51.498 [info] [Info  - 18:04:51] (8757) Found 15 source files
+2024-01-06 18:05:15.204 [info] [Info  - 18:05:15] (8757) Found 15 source files
+2024-01-06 18:05:22.254 [info] [Info  - 18:05:22] (8757) Found 15 source files
+2024-01-06 18:05:27.849 [info] [Info  - 18:05:27] (8757) Found 15 source files
+2024-01-06 18:05:28.362 [info] [Info  - 18:05:28] (8757) Found 15 source files
+2024-01-06 18:05:43.352 [info] [Info  - 18:05:43] (8757) Found 15 source files
+2024-01-06 18:05:52.687 [info] [Info  - 18:05:52] (8757) Found 15 source files
+2024-01-06 18:06:22.066 [info] [Info  - 18:06:22] (8757) Found 15 source files
+2024-01-06 18:07:15.586 [info] [Info  - 18:07:15] (8757) Found 15 source files
+2024-01-06 18:07:15.992 [info] [Info  - 18:07:15] (8757) Found 15 source files
+2024-01-06 18:09:29.653 [info] [Info  - 18:09:29] (8757) Found 15 source files
+2024-01-06 18:09:30.065 [info] [Info  - 18:09:30] (8757) Found 15 source files
+2024-01-06 18:20:51.267 [info] [Info  - 18:20:51] (8757) Found 15 source files
+2024-01-06 18:21:22.670 [info] [Info  - 18:21:22] (8757) Found 15 source files
+2024-01-06 18:22:14.182 [info] [Info  - 18:22:14] (8757) Found 15 source files
+2024-01-06 18:22:38.753 [info] [Info  - 18:22:38] (8757) Found 15 source files
+2024-01-06 18:22:39.266 [info] [Info  - 18:22:39] (8757) Found 15 source files
+2024-01-06 18:23:06.594 [info] [Info  - 18:23:06] (8757) Found 15 source files
+2024-01-06 18:23:07.129 [info] [Info  - 18:23:07] (8757) Found 15 source files

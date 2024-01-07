@@ -1,0 +1,66 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+In file included from [01m[K/usr/include/c++/11/chrono:42[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2/time.h:32[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[01m[K/usr/include/c++/11/ctime:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock_t[m[K’ has not been declared in ‘[01m[K::[m[K’
+   60 |   using ::[01;31m[Kclock_t[m[K;
+      |           [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:61:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ has not been declared in ‘[01m[K::[m[K’
+   61 |   using ::[01;31m[Ktime_t[m[K;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:62:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktm[m[K’ has not been declared in ‘[01m[K::[m[K’
+   62 |   using ::[01;31m[Ktm[m[K;
+      |           [01;31m[K^~[m[K
+[01m[K/usr/include/c++/11/ctime:64:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock[m[K’ has not been declared in ‘[01m[K::[m[K’
+   64 |   using ::[01;31m[Kclock[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:65:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdifftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   65 |   using ::[01;31m[Kdifftime[m[K;
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:66:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   66 |   using ::[01;31m[Kmktime[m[K;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:67:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   67 |   using ::[01;31m[Ktime[m[K;
+      |           [01;31m[K^~~~[m[K
+[01m[K/usr/include/c++/11/ctime:68:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kasctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   68 |   using ::[01;31m[Kasctime[m[K;
+      |           [01;31m[K^~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:69:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   69 |   using ::[01;31m[Kctime[m[K;
+      |           [01;31m[K^~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:70:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgmtime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   70 |   using ::[01;31m[Kgmtime[m[K;
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:71:11:[m[K [01;31m[Kerror: [m[K‘[01m[Klocaltime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   71 |   using ::[01;31m[Klocaltime[m[K;
+      |           [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:72:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+   72 |   using ::[01;31m[Kstrftime[m[K;
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:79:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimespec[m[K’ has not been declared in ‘[01m[K::[m[K’
+   79 |   using ::[01;31m[Ktimespec[m[K;
+      |           [01;31m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/ctime:80:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimespec_get[m[K’ has not been declared in ‘[01m[K::[m[K’
+   80 |   using ::[01;31m[Ktimespec_get[m[K;
+      |           [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/tf2/time.h:32[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[01m[K/usr/include/c++/11/chrono:1142:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ksize_t[m[K’?
+ 1142 |       static std::[01;31m[Ktime_t[m[K
+      |                   [01;31m[K^~~~~~[m[K
+      |                   [32m[Ksize_t[m[K
+[01m[K/usr/include/c++/11/chrono:1150:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::time_t[m[K’ has not been declared
+ 1150 |       from_time_t([01;31m[Kstd[m[K::time_t __t) noexcept
+      |                   [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:233:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  233 |  int main([01;35m[Kint argc[m[K, char** argv)
+      |           [01;35m[K~~~~^~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:233:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  233 |  int main(int argc, [01;35m[Kchar** argv[m[K)
+      |                     [01;35m[K~~~~~~~^~~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

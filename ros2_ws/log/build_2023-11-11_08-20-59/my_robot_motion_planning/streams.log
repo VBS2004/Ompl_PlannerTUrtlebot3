@@ -1,0 +1,20 @@
+[0.045s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[0.953s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.953s] [01m[K/root/ros2_ws/src/mp.cpp:199:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::endl[m[K’?
+[0.953s]   199 |      std::cout<<"End"<<[01;31m[Kendl[m[K;
+[0.953s]       |                        [01;31m[K^~~~[m[K
+[0.953s]       |                        [32m[Kstd::endl[m[K
+[0.953s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[0.953s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/GenericParam.h:44[m[K,
+[0.953s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/ProjectionEvaluator.h:43[m[K,
+[0.953s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/StateSpace.h:43[m[K,
+[0.953s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/SpaceInformation.h:43[m[K,
+[0.953s]                  from [01m[K/root/ros2_ws/src/mp.cpp:37[m[K:
+[0.953s] [01m[K/usr/include/c++/11/ostream:684:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ declared here
+[0.954s]   684 |     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+[0.954s]       |     [01;36m[K^~~~[m[K
+[1.128s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[1.128s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[1.128s] gmake: *** [Makefile:146: all] Error 2
+[1.130s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

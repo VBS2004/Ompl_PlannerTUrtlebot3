@@ -1,0 +1,35 @@
+2023-12-28 11:01:43.109 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2023-12-28 11:01:43.109 [info] Experiment 'pythonREPLSmartSend' is active
+2023-12-28 11:01:43.109 [info] Experiment 'pythonSurveyNotificationcf' is active
+2023-12-28 11:01:43.109 [info] Experiment 'pythonTerminalEnvVarActivationcf' is active
+2023-12-28 11:01:43.109 [info] Experiment 'pythonTestAdapter' is active
+2023-12-28 11:01:43.135 [info] Default formatter is set to null for workspace /root/ros2_ws
+2023-12-28 11:01:43.149 [info] Test server listening.
+2023-12-28 11:01:43.158 [info] > conda info --json
+2023-12-28 11:01:43.409 [info] Found: /bin/python --> /bin/python3.10
+2023-12-28 11:01:43.410 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-28 11:01:43.410 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-28 11:01:43.410 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-28 11:01:43.410 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-28 11:01:43.410 [info] Found: /bin/python3 --> /bin/python3.10
+2023-12-28 11:01:43.410 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-28 11:01:43.410 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-28 11:01:43.410 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-12-28 11:01:43.410 [info] Found: /bin/python3.10 --> /bin/python3.10
+2023-12-28 11:01:43.432 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2023-12-28 11:01:43.433 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2023-12-28 11:01:43.433 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2023-12-28 11:01:43.462 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-28 11:01:43.480 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2023-12-28 11:01:43.518 [info] Python interpreter path: /bin/python
+2023-12-28 11:01:43.545 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-12-28 11:01:44.613 [info] Starting Pylance language server.
+2023-12-28 11:02:05.986 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/maps/map_viewer.py
+2023-12-28 11:02:07.664 [info] CreateEnv Trigger - Skipping for /root/ros2_ws/src/maps/map_viewer.py
+2023-12-28 11:02:07.768 [info] Send text to terminal: /bin/python /root/ros2_ws/src/maps/map_viewer.py
+2023-12-28 11:03:15.943 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/maps/map_viewer.py
+2023-12-28 11:03:16.247 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/maps/map_viewer.py
+2023-12-28 11:03:16.522 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/maps/map_viewer.py
+2023-12-28 11:03:19.366 [info] Send text to terminal: /bin/python /root/ros2_ws/src/maps/map_viewer.py
+2023-12-28 11:08:00.049 [info] Discover tests for workspace name: ros2_ws - uri: /root/ros2_ws/src/maps/map_viewer.py
+2023-12-28 11:08:03.710 [info] Send text to terminal: /bin/python /root/ros2_ws/src/maps/map_viewer.py

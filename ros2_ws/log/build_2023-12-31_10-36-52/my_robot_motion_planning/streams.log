@@ -1,0 +1,12 @@
+[0.041s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.101s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.146s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[3.346s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[3.346s] [01m[K/root/ros2_ws/src/mp.cpp:50:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kintentsity[m[K’ was not declared in this scope; did you mean ‘[01m[Kintensity[m[K’?
+[3.346s]    50 |     double inten=(255-[01;31m[Kintentsity[m[K.val[0])/255.0;
+[3.346s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[3.346s]       |                       [32m[Kintensity[m[K
+[4.372s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[4.373s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[4.373s] gmake: *** [Makefile:146: all] Error 2
+[4.375s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

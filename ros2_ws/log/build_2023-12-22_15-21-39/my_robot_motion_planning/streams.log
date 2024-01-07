@@ -1,0 +1,13 @@
+[0.034s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[1.570s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[1.570s] [01m[K/root/ros2_ws/src/mp.cpp:29:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst ompl::base::SO2StateSpace::StateType[m[K’ to ‘[01m[Kdouble[m[K’ in initialization
+[1.570s]    29 |         double theta = [01;31m[K(*rot)[m[K;  // In SE2, the rotation is represented by a single angle (theta) in SO2.
+[1.570s]       |                        [01;31m[K~^~~~~[m[K
+[1.570s]       |                         [01;31m[K|[m[K
+[1.570s]       |                         [01;31m[Kconst ompl::base::SO2StateSpace::StateType[m[K
+[2.017s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[2.017s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[2.017s] gmake: *** [Makefile:146: all] Error 2
+[2.019s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

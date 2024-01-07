@@ -1,0 +1,11 @@
+[100%] Built target my_motion_planner
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/launch/LAUNCH.py
+[31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find '/root/ros2_ws/libexec/'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:46 (include)
+
+[0m

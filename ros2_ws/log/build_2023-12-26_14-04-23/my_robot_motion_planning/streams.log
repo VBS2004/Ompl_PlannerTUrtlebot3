@@ -1,0 +1,79 @@
+[0.032s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[0.216s] In file included from [01m[K/usr/include/c++/11/ctime:42[m[K,
+[0.216s]                  from [01m[K/usr/include/c++/11/chrono:42[m[K,
+[0.216s]                  from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[0.216s] [01m[K/opt/ros/humble/include/tf2/time.h:40:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kchrono[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.216s]    40 | using Duration = std::[01;31m[Kchrono[m[K::nanoseconds;
+[0.216s]       |                       [01;31m[K^~~~~~[m[K
+[0.216s] [01m[K/opt/ros/humble/include/tf2/time.h:41:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kchrono[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.217s]    41 | using TimePoint = std::[01;31m[Kchrono[m[K::time_point<std::chrono::system_clock, Duration>;
+[0.217s]       |                        [01;31m[K^~~~~~[m[K
+[0.217s] [01m[K/opt/ros/humble/include/tf2/time.h:43:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kchrono[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.217s]    43 | using IDuration = std::[01;31m[Kchrono[m[K::duration<int, std::nano>;
+[0.217s]       |                        [01;31m[K^~~~~~[m[K
+[0.217s] [01m[K/opt/ros/humble/include/tf2/time.h:45:14:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.217s]    45 | static const [01;31m[KTimePoint[m[K TimePointZero = TimePoint(IDuration::zero());
+[0.218s]       |              [01;31m[K^~~~~~~~~[m[K
+[0.218s] [01m[K/opt/ros/humble/include/tf2/time.h:48:1:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.218s]    48 | [01;31m[KTimePoint[m[K get_now();
+[0.218s]       | [01;31m[K^~~~~~~~~[m[K
+[0.218s] [01m[K/opt/ros/humble/include/tf2/time.h:51:1:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ does not name a type
+[0.218s]    51 | [01;31m[KDuration[m[K durationFromSec(double t_sec);
+[0.218s]       | [01;31m[K^~~~~~~~[m[K
+[0.219s] [01m[K/opt/ros/humble/include/tf2/time.h:54:1:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.219s]    54 | [01;31m[KTimePoint[m[K timeFromSec(double t_sec);
+[0.219s]       | [01;31m[K^~~~~~~~~[m[K
+[0.219s] [01m[K/opt/ros/humble/include/tf2/time.h:57:33:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[0.219s]    57 | double durationToSec(const tf2::[01;31m[KDuration[m[K & input);
+[0.219s]       |                                 [01;31m[K^~~~~~~~[m[K
+[0.219s] [01m[K/opt/ros/humble/include/tf2/time.h:60:24:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.219s]    60 | double timeToSec(const [01;31m[KTimePoint[m[K & timepoint);
+[0.220s]       |                        [01;31m[K^~~~~~~~~[m[K
+[0.220s] [01m[K/opt/ros/humble/include/tf2/time.h:63:36:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.220s]    63 | std::string displayTimePoint(const [01;31m[KTimePoint[m[K & stamp);
+[0.220s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[0.220s] In file included from [01m[K/usr/include/c++/11/chrono:42[m[K,
+[0.220s]                  from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[0.220s] [01m[K/usr/include/c++/11/ctime:64:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.220s]    64 |   using ::[01;31m[Kclock[m[K;
+[0.220s]       |           [01;31m[K^~~~~[m[K
+[0.221s] [01m[K/usr/include/c++/11/ctime:65:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdifftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.221s]    65 |   using ::[01;31m[Kdifftime[m[K;
+[0.221s]       |           [01;31m[K^~~~~~~~[m[K
+[0.221s] [01m[K/usr/include/c++/11/ctime:66:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.221s]    66 |   using ::[01;31m[Kmktime[m[K;
+[0.221s]       |           [01;31m[K^~~~~~[m[K
+[0.221s] [01m[K/usr/include/c++/11/ctime:67:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.221s]    67 |   using ::[01;31m[Ktime[m[K;
+[0.221s]       |           [01;31m[K^~~~[m[K
+[0.221s] [01m[K/usr/include/c++/11/ctime:68:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kasctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.221s]    68 |   using ::[01;31m[Kasctime[m[K;
+[0.221s]       |           [01;31m[K^~~~~~~[m[K
+[0.221s] [01m[K/usr/include/c++/11/ctime:69:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.222s]    69 |   using ::[01;31m[Kctime[m[K;
+[0.222s]       |           [01;31m[K^~~~~[m[K
+[0.222s] [01m[K/usr/include/c++/11/ctime:70:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgmtime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.222s]    70 |   using ::[01;31m[Kgmtime[m[K;
+[0.222s]       |           [01;31m[K^~~~~~[m[K
+[0.222s] [01m[K/usr/include/c++/11/ctime:71:11:[m[K [01;31m[Kerror: [m[K‘[01m[Klocaltime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.222s]    71 |   using ::[01;31m[Klocaltime[m[K;
+[0.222s]       |           [01;31m[K^~~~~~~~~[m[K
+[0.222s] [01m[K/usr/include/c++/11/ctime:72:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.222s]    72 |   using ::[01;31m[Kstrftime[m[K;
+[0.222s]       |           [01;31m[K^~~~~~~~[m[K
+[0.222s] [01m[K/usr/include/c++/11/ctime:80:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimespec_get[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.223s]    80 |   using ::[01;31m[Ktimespec_get[m[K;
+[0.223s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[0.386s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[0.386s] [01m[K/root/ros2_ws/src/mp.cpp:233:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.386s]   233 |  int main([01;35m[Kint argc[m[K, char** argv)
+[0.386s]       |           [01;35m[K~~~~^~~~[m[K
+[0.386s] [01m[K/root/ros2_ws/src/mp.cpp:233:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[0.386s]   233 |  int main(int argc, [01;35m[Kchar** argv[m[K)
+[0.386s]       |                     [01;35m[K~~~~~~~^~~~[m[K
+[0.439s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[0.440s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[0.440s] gmake: *** [Makefile:146: all] Error 2
+[0.442s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

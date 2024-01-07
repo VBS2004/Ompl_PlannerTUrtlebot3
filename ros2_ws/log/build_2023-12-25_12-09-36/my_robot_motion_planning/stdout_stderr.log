@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+In file included from [01m[K/root/ros2_ws/src/mp.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs.hpp:59:10:[m[K [01;31m[Kfatal error: [m[K/opt/ros/humble/include/tf2_ros/buffer_interface.h: No such file or directory
+   59 | #include [01;31m[K"/opt/ros/humble/include/tf2_ros/buffer_interface.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+[0.035s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[2.467s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.467s] [01m[K/root/ros2_ws/src/mp.cpp:157:5:[m[K [01;31m[Kerror: [m[K‘[01m[KwaitKey[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::waitKey[m[K’?
+[2.467s]   157 |     [01;31m[KwaitKey[m[K(0);
+[2.467s]       |     [01;31m[K^~~~~~~[m[K
+[2.467s]       |     [32m[Kcv::waitKey[m[K
+[2.467s] In file included from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[2.467s]                  from [01m[K/root/ros2_ws/src/mp.cpp:7[m[K:
+[2.467s] [01m[K/usr/local/include/opencv4/opencv2/highgui.hpp:359:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::waitKey[m[K’ declared here
+[2.467s]   359 | CV_EXPORTS_W int [01;36m[KwaitKey[m[K(int delay = 0);
+[2.467s]       |                  [01;36m[K^~~~~~~[m[K
+[3.256s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[3.256s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[3.256s] gmake: *** [Makefile:146: all] Error 2
+[3.259s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

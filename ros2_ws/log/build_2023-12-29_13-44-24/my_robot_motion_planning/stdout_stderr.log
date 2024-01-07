@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:129:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KprintAsMatrix[m[K’ in ‘[01m[Ksolution_path[m[K’, which is of pointer type ‘[01m[Kompl::geometric::PathGeometric*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  129 |         solution_path.[01;31m[KprintAsMatrix[m[K(std::cout);
+      |                       [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

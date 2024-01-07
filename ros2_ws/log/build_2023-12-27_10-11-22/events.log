@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000093] (my_robot_motion_planning) JobQueued: {'identifier': 'my_robot_motion_planning', 'dependencies': OrderedDict()}
+[0.000111] (my_robot_motion_planning) JobStarted: {'identifier': 'my_robot_motion_planning'}
+[0.037136] (my_robot_motion_planning) JobProgress: {'identifier': 'my_robot_motion_planning', 'progress': 'cmake'}
+[0.037332] (my_robot_motion_planning) JobProgress: {'identifier': 'my_robot_motion_planning', 'progress': 'build'}
+[0.037847] (my_robot_motion_planning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ros2_ws/build/my_robot_motion_planning', '--', '-j12', '-l12'], 'cwd': '/root/ros2_ws/build/my_robot_motion_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'root'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('CHROME_DESKTOP', 'tabby.desktop'), ('OLDPWD', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/tabby.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2077'), ('SYSTEMD_EXEC_PID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4208'), ('DEBUGINFOD_URLS', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('TABBY_PLUGINS', ''), ('LOGNAME', 'root'), ('JOURNAL_STREAM', '8:22045'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:@/tmp/.ICE-unix/2480,unix/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:/tmp/.ICE-unix/2480'), ('INVOCATION_ID', 'f55e9c5e17d94e91a7d5168f3a37e1f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/0/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'Tabby'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/0/keyring/ssh'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_robot_motion_planning:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('NODE_PATH', 'undefined:/opt/Tabby/resources/builtin-plugins:/opt/Tabby/resources/app.asar/node_modules:/root/.config/tabby/plugins/node_modules'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/0/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('TABBY_CONFIG_DIRECTORY', '/root/.config/tabby'), ('PWD', '/root/ros2_ws/build/my_robot_motion_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_motion_planning:/opt/ros/humble')]), 'shell': False}
+[0.054420] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099680] (-) TimerEvent: {}
+[0.138027] (my_robot_motion_planning) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.141785] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.159192] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.160437] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.163754] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.169808] (my_robot_motion_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.178303] (my_robot_motion_planning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199801] (-) TimerEvent: {}
+[0.212118] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.212739] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.284017] (my_robot_motion_planning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300017] (-) TimerEvent: {}
+[0.375264] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.400227] (-) TimerEvent: {}
+[0.450445] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.454815] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.457155] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.457898] (my_robot_motion_planning) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.500347] (-) TimerEvent: {}
+[0.600599] (-) TimerEvent: {}
+[0.658708] (my_robot_motion_planning) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700694] (-) TimerEvent: {}
+[0.735940] (my_robot_motion_planning) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.736169] (my_robot_motion_planning) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ros2_ws/SYSTEM\n'}
+[0.736245] (my_robot_motion_planning) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.740609] (my_robot_motion_planning) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.748141] (my_robot_motion_planning) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.752095] (my_robot_motion_planning) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.780323] (my_robot_motion_planning) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.780473] (my_robot_motion_planning) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.784104] (my_robot_motion_planning) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.784550] (my_robot_motion_planning) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.800895] (-) TimerEvent: {}
+[0.854838] (my_robot_motion_planning) StdoutLine: {'line': b'-- Generating done\n'}
+[0.855737] (my_robot_motion_planning) StdoutLine: {'line': b'-- Build files have been written to: /root/ros2_ws/build/my_robot_motion_planning\n'}
+[0.878146] (my_robot_motion_planning) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_motion_planner\x1b[0m\n'}
+[0.895374] (my_robot_motion_planning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o\x1b[0m\n'}
+[0.901110] (-) TimerEvent: {}
+[1.001484] (-) TimerEvent: {}
+[1.101871] (-) TimerEvent: {}
+[1.202146] (-) TimerEvent: {}
+[1.302458] (-) TimerEvent: {}
+[1.402799] (-) TimerEvent: {}
+[1.503177] (-) TimerEvent: {}
+[1.603566] (-) TimerEvent: {}
+[1.703870] (-) TimerEvent: {}
+[1.804140] (-) TimerEvent: {}
+[1.904557] (-) TimerEvent: {}
+[2.004810] (-) TimerEvent: {}
+[2.105122] (-) TimerEvent: {}
+[2.205512] (-) TimerEvent: {}
+[2.305863] (-) TimerEvent: {}
+[2.406157] (-) TimerEvent: {}
+[2.506460] (-) TimerEvent: {}
+[2.606840] (-) TimerEvent: {}
+[2.707217] (-) TimerEvent: {}
+[2.807597] (-) TimerEvent: {}
+[2.907869] (-) TimerEvent: {}
+[3.008221] (-) TimerEvent: {}
+[3.108621] (-) TimerEvent: {}
+[3.209008] (-) TimerEvent: {}
+[3.309396] (-) TimerEvent: {}
+[3.409727] (-) TimerEvent: {}
+[3.510010] (-) TimerEvent: {}
+[3.610296] (-) TimerEvent: {}
+[3.710624] (-) TimerEvent: {}
+[3.810882] (-) TimerEvent: {}
+[3.911274] (-) TimerEvent: {}
+[4.011676] (-) TimerEvent: {}
+[4.112068] (-) TimerEvent: {}
+[4.212332] (-) TimerEvent: {}
+[4.312741] (-) TimerEvent: {}
+[4.413129] (-) TimerEvent: {}
+[4.513495] (-) TimerEvent: {}
+[4.613836] (-) TimerEvent: {}
+[4.714186] (-) TimerEvent: {}
+[4.814524] (-) TimerEvent: {}
+[4.924640] (-) TimerEvent: {}
+[5.024995] (-) TimerEvent: {}
+[5.125329] (-) TimerEvent: {}
+[5.225647] (-) TimerEvent: {}
+[5.325898] (-) TimerEvent: {}
+[5.372289] (my_robot_motion_planning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable my_motion_planner\x1b[0m\n'}
+[5.425994] (-) TimerEvent: {}
+[5.526268] (-) TimerEvent: {}
+[5.626545] (-) TimerEvent: {}
+[5.726891] (-) TimerEvent: {}
+[5.827312] (-) TimerEvent: {}
+[5.927853] (-) TimerEvent: {}
+[6.028245] (-) TimerEvent: {}
+[6.128798] (-) TimerEvent: {}
+[6.229117] (-) TimerEvent: {}
+[6.329433] (-) TimerEvent: {}
+[6.429701] (-) TimerEvent: {}
+[6.529932] (-) TimerEvent: {}
+[6.630274] (-) TimerEvent: {}
+[6.730628] (-) TimerEvent: {}
+[6.830880] (-) TimerEvent: {}
+[6.931224] (-) TimerEvent: {}
+[7.031558] (-) TimerEvent: {}
+[7.131889] (-) TimerEvent: {}
+[7.232214] (-) TimerEvent: {}
+[7.332555] (-) TimerEvent: {}
+[7.432828] (-) TimerEvent: {}
+[7.466113] (my_robot_motion_planning) StdoutLine: {'line': b'[100%] Built target my_motion_planner\n'}
+[7.476788] (my_robot_motion_planning) CommandEnded: {'returncode': 0}
+[7.490171] (my_robot_motion_planning) JobProgress: {'identifier': 'my_robot_motion_planning', 'progress': 'install'}
+[7.495701] (my_robot_motion_planning) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ros2_ws/build/my_robot_motion_planning'], 'cwd': '/root/ros2_ws/build/my_robot_motion_planning', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'root'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('CHROME_DESKTOP', 'tabby.desktop'), ('OLDPWD', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/tabby.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2077'), ('SYSTEMD_EXEC_PID', '2500'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4208'), ('DEBUGINFOD_URLS', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/root/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('TABBY_PLUGINS', ''), ('LOGNAME', 'root'), ('JOURNAL_STREAM', '8:22045'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:@/tmp/.ICE-unix/2480,unix/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:/tmp/.ICE-unix/2480'), ('INVOCATION_ID', 'f55e9c5e17d94e91a7d5168f3a37e1f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/0/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'Tabby'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/0/keyring/ssh'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/my_robot_motion_planning:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('NODE_PATH', 'undefined:/opt/Tabby/resources/builtin-plugins:/opt/Tabby/resources/app.asar/node_modules:/root/.config/tabby/plugins/node_modules'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/0/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('TABBY_CONFIG_DIRECTORY', '/root/.config/tabby'), ('PWD', '/root/ros2_ws/build/my_robot_motion_planning'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/my_robot_motion_planning:/opt/ros/humble')]), 'shell': False}
+[7.500604] (my_robot_motion_planning) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.500759] (my_robot_motion_planning) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.501026] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/launch/LAUNCH.py\n'}
+[7.501131] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/ament_index/resource_index/package_run_dependencies/my_robot_motion_planning\n'}
+[7.501199] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/ament_index/resource_index/parent_prefix_path/my_robot_motion_planning\n'}
+[7.501274] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/ament_prefix_path.sh\n'}
+[7.501337] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/ament_prefix_path.dsv\n'}
+[7.501401] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/path.sh\n'}
+[7.501462] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/path.dsv\n'}
+[7.501522] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.bash\n'}
+[7.501582] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.sh\n'}
+[7.501639] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.zsh\n'}
+[7.501706] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.dsv\n'}
+[7.501753] (my_robot_motion_planning) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/package.dsv\n'}
+[7.507142] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/ament_index/resource_index/packages/my_robot_motion_planning\n'}
+[7.507279] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/cmake/my_robot_motion_planningConfig.cmake\n'}
+[7.507327] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/cmake/my_robot_motion_planningConfig-version.cmake\n'}
+[7.507358] (my_robot_motion_planning) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/package.xml\n'}
+[7.508477] (my_robot_motion_planning) CommandEnded: {'returncode': 0}
+[7.532916] (-) TimerEvent: {}
+[7.590579] (my_robot_motion_planning) JobEnded: {'identifier': 'my_robot_motion_planning', 'rc': 0}
+[7.590989] (-) EventReactorShutdown: {}

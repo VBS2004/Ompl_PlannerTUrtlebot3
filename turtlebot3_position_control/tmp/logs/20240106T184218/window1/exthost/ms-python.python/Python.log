@@ -1,0 +1,13 @@
+2024-01-06 18:42:20.953 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-01-06 18:42:20.953 [info] Experiment 'pythonREPLSmartSend' is active
+2024-01-06 18:42:20.953 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-01-06 18:42:20.953 [info] Experiment 'pythonTerminalEnvVarActivationcf' is active
+2024-01-06 18:42:20.953 [info] Experiment 'pythonTestAdapter' is active
+2024-01-06 18:42:20.953 [info] Default formatter is set to null for workspace /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example
+2024-01-06 18:42:20.953 [info] Test server listening.
+2024-01-06 18:42:20.955 [info] Python interpreter path: /bin/python
+2024-01-06 18:42:22.224 [info] Starting Pylance language server.
+2024-01-06 18:42:38.543 [info] Discover tests for workspace name: turtlebot3_example - uri: /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_conntrol.py
+2024-01-06 18:42:39.213 [info] Discover tests for workspace name: turtlebot3_example - uri: /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_conntrol.py
+2024-01-06 20:19:59.758 [info] Discover tests for workspace name: turtlebot3_example - uri: /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_conntrol.py
+2024-01-06 20:20:00.197 [info] Discover tests for workspace name: turtlebot3_example - uri: /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_conntrol.py

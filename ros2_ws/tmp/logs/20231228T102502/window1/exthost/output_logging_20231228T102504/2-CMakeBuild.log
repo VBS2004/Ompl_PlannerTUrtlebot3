@@ -1,0 +1,34 @@
+[proc] Executing command: cmake --version
+[proc] Executing command: cmake -E capabilities
+[variant] Loaded new set of variants
+[kit] Successfully loaded 1 kits from /root/.local/share/CMakeTools/cmake-tools-kits.json
+[kit] Detected kits definition version change from undefined to 2. Silently scanning for kits.
+[proc] Executing command: /usr/bin/c89-gcc -v
+[proc] Executing command: /usr/bin/c99-gcc -v
+[proc] Executing command: /usr/bin/gcc -v
+[proc] Executing command: /usr/bin/gcc-11 -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /usr/bin/x86_64-linux-gnu-gcc-11 -v
+[proc] Executing command: /bin/c89-gcc -v
+[proc] Executing command: /bin/c99-gcc -v
+[proc] Executing command: /bin/gcc -v
+[proc] Executing command: /bin/gcc-11 -v
+[proc] Executing command: /bin/x86_64-linux-gnu-gcc -v
+[proc] Executing command: /bin/x86_64-linux-gnu-gcc-11 -v
+[proc] Executing command: /bin/c99-gcc -v
+[proc] Executing command: /bin/c89-gcc -v
+[proc] Executing command: /usr/bin/c99-gcc -v
+[proc] Executing command: /usr/bin/c89-gcc -v
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Found Kit (trusted): GCC 11.4.0 x86_64-linux-gnu
+[kit] Successfully loaded 1 kits from /root/.local/share/CMakeTools/cmake-tools-kits.json

@@ -1,0 +1,14 @@
+2024-01-06 18:42:20.686 [info] Extension host with pid 7472 started
+2024-01-06 18:42:20.686 [info] Skipping acquiring lock for /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example/turtlebot3_position_control/tmp/User/workspaceStorage/59070a828904ac35b07c78c90c853529.
+2024-01-06 18:42:20.727 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-06 18:42:20.737 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-01-06 18:42:20.956 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-01-06 18:42:21.225 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-06 18:42:21.262 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-06 18:42:21.297 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-06 18:42:21.345 [info] Eager extensions activated
+2024-01-06 18:42:21.373 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 18:42:21.376 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 18:42:21.385 [info] ExtensionService#_doActivateExtension usernamehw.remove-empty-lines, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 20:56:10.861 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-06 20:56:10.872 [info] Extension host with pid 7472 exiting with code 0

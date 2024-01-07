@@ -1,0 +1,22 @@
+2024-01-06 17:46:47.888 [info] Extension host with pid 8434 started
+2024-01-06 17:46:47.933 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-06 17:46:47.952 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-06 17:46:48.044 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-06 17:46:48.165 [info] Eager extensions activated
+2024-01-06 17:46:48.418 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 17:46:48.424 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 17:46:48.457 [info] ExtensionService#_doActivateExtension usernamehw.remove-empty-lines, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 17:46:57.125 [info] Extension host terminating: renderer closed the MessagePort
+2024-01-06 17:46:57.139 [info] Extension host with pid 8434 exiting with code 0
+2024-01-06 17:46:57.958 [info] Extension host with pid 8526 started
+2024-01-06 17:46:57.958 [info] Skipping acquiring lock for /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example/turtlebot3_position_control/tmp/User/workspaceStorage/59070a828904ac35b07c78c90c853529.
+2024-01-06 17:46:57.990 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-01-06 17:46:58.001 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-06 17:46:58.018 [info] Eager extensions activated
+2024-01-06 17:46:58.020 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 17:46:58.022 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 17:47:13.475 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-01-06 17:47:13.570 [info] ExtensionService#_doActivateExtension usernamehw.remove-empty-lines, startup: false, activationEvent: 'onStartupFinished'
+2024-01-06 17:47:16.104 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-01-06 17:47:16.354 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-06 17:47:17.643 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'

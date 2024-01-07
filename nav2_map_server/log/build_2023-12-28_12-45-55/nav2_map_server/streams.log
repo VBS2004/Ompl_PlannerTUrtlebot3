@@ -1,0 +1,97 @@
+[0.030s] Invoking command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server -- -j12 -l12
+[0.061s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.061s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.063s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[0.596s] [ 11%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[0.616s] [ 11%] Built target gtest_main
+[2.949s] [ 13%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[3.068s] [ 16%] Built target map_io
+[3.077s] [35m[1mConsolidate compiler generated dependencies of target test_map_saver_publisher[0m
+[3.078s] [35m[1mConsolidate compiler generated dependencies of target map_server_core[0m
+[3.088s] [ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[3.092s] [ 22%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[3.092s] [ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[3.092s] [ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[4.869s] [ 30%] [32m[1mLinking CXX static library libgtest.a[0m
+[4.895s] [ 30%] Built target gtest
+[4.919s] [ 36%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[4.920s] [ 36%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[6.672s] [ 38%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[6.831s] [ 41%] Built target test_map_saver_publisher
+[8.872s] [ 44%] [32m[1mLinking CXX executable test_map_io[0m
+[9.029s] [ 47%] Built target test_map_io
+[9.955s] [ 50%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[10.041s] [ 52%] Built target test_map_saver_cli
+[11.072s] [ 55%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[11.265s] [ 55%] Built target map_server_core
+[11.280s] [ 63%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[11.280s] [ 63%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[11.280s] [ 63%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[11.281s] [ 66%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[11.282s] [ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[11.282s] [ 72%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[11.284s] [ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[11.284s] [ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[11.285s] [ 80%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[13.618s] [ 83%] [32m[1mLinking CXX executable map_server[0m
+[13.680s] [ 86%] [32m[1mLinking CXX executable map_saver_cli[0m
+[13.850s] [ 86%] Built target map_server
+[13.974s] [ 88%] [32m[1mLinking CXX executable map_saver_server[0m
+[13.977s] [ 88%] Built target map_saver_cli
+[14.185s] [ 88%] Built target map_saver_server
+[14.224s] [ 91%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[14.428s] [ 91%] Built target costmap_filter_info_server
+[16.248s] [ 94%] [32m[1mLinking CXX executable test_map_server_node[0m
+[16.346s] [ 97%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[16.396s] [ 97%] Built target test_map_server_node
+[16.513s] [ 97%] Built target test_map_saver_node
+[19.397s] [100%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[19.602s] [100%] Built target test_costmap_filter_info_server
+[19.613s] Invoked command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server -- -j12 -l12
+[19.643s] Invoking command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server
+[19.647s] -- Install configuration: "Release"
+[19.647s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_server_core.so
+[19.648s] -- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[19.648s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_io.so
+[19.648s] -- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_io.so" to ""
+[19.648s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_server
+[19.648s] -- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[19.648s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[19.648s] -- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[19.648s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[19.648s] -- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[19.649s] -- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include/
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch
+[19.649s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[19.649s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch
+[19.649s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.dsv
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[19.650s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[19.651s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.651s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[19.651s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.651s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[19.651s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[19.651s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.xml
+[19.652s] Invoked command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server

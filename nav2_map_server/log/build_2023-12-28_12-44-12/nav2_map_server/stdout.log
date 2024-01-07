@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target map_io[0m
+[  8%] Built target gtest_main
+[ 11%] Built target gtest
+[ 19%] Built target map_io
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_cli[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_io[0m
+[35m[1mConsolidate compiler generated dependencies of target map_server_core[0m
+[ 27%] Built target test_map_saver_cli
+[ 30%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[ 38%] Built target test_map_io
+[ 41%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m

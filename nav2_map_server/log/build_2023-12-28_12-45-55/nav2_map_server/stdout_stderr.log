@@ -1,0 +1,93 @@
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[ 11%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 11%] Built target gtest_main
+[ 13%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[ 16%] Built target map_io
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target map_server_core[0m
+[ 19%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[ 30%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 30%] Built target gtest
+[ 36%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[ 36%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[ 38%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[ 41%] Built target test_map_saver_publisher
+[ 44%] [32m[1mLinking CXX executable test_map_io[0m
+[ 47%] Built target test_map_io
+[ 50%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[ 52%] Built target test_map_saver_cli
+[ 55%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[ 55%] Built target map_server_core
+[ 63%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[ 66%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[ 75%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[ 77%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[ 80%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable map_server[0m
+[ 86%] [32m[1mLinking CXX executable map_saver_cli[0m
+[ 86%] Built target map_server
+[ 88%] [32m[1mLinking CXX executable map_saver_server[0m
+[ 88%] Built target map_saver_cli
+[ 88%] Built target map_saver_server
+[ 91%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[ 91%] Built target costmap_filter_info_server
+[ 94%] [32m[1mLinking CXX executable test_map_server_node[0m
+[ 97%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[ 97%] Built target test_map_server_node
+[ 97%] Built target test_map_saver_node
+[100%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[100%] Built target test_costmap_filter_info_server
+-- Install configuration: "Release"
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_server_core.so
+-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_server_core.so" to ""
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_io.so
+-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_io.so" to ""
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_server
+-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include/
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch
+-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.dsv
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.xml

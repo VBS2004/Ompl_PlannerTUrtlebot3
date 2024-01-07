@@ -1,0 +1,21 @@
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:96:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kauto[m[K’
+   96 |         goal[3] =0.032868
+      |                          [01;31m[K^[m[K
+      |                          [32m[K;[m[K
+   97 |     [32m[Kauto[m[K pdef(std::make_shared<ob::ProblemDefinition>(si));
+      |     [32m[K~~~~[m[K                  
+[01m[K/root/ros2_ws/src/mp.cpp:98:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpdef[m[K’ was not declared in this scope
+   98 |     [01;31m[Kpdef[m[K->setStartAndGoalStates(start, goal);
+      |     [01;31m[K^~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:108:75:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  108 |    auto solution_path = pdef->getSolutionPath()->as<og::PathGeometric[01;31m[K>[m[K();
+      |                                                                      [01;31m[K^[m[K
+
+[01m[K/root/ros2_ws/src/mp.cpp:108:77:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+  108 |    auto solution_path = pdef->getSolutionPath()->as<og::PathGeometric>([01;31m[K)[m[K;
+      |                                                                        [01;31m[K^[m[K
+
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

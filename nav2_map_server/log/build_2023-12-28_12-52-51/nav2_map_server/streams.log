@@ -1,0 +1,57 @@
+[0.037s] Invoking command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server -- -j12 -l12
+[0.069s] [  5%] Built target gtest_main
+[0.069s] [ 11%] Built target gtest
+[0.071s] [ 19%] Built target map_io
+[0.085s] [ 27%] Built target test_map_saver_cli
+[0.086s] [ 44%] Built target test_map_saver_publisher
+[0.086s] [ 44%] Built target test_map_io
+[0.087s] [ 55%] Built target map_server_core
+[0.104s] [ 72%] Built target map_saver_cli
+[0.104s] [ 72%] Built target map_saver_server
+[0.104s] [ 72%] Built target map_server
+[0.105s] [ 77%] Built target costmap_filter_info_server
+[0.110s] [ 97%] Built target test_costmap_filter_info_server
+[0.110s] [ 97%] Built target test_map_server_node
+[0.110s] [100%] Built target test_map_saver_node
+[0.118s] Invoked command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server -- -j12 -l12
+[0.153s] Invoking command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server
+[0.157s] -- Install configuration: "Release"
+[0.157s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_server_core.so
+[0.157s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_io.so
+[0.157s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_server
+[0.157s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[0.157s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[0.157s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include/
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[0.158s] -- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.dsv
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.158s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[0.159s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[0.159s] -- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.xml
+[0.160s] Invoked command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server

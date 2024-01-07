@@ -1,0 +1,255 @@
+[0.032s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.046s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.135s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.152s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.154s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.157s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.163s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.171s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.204s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.205s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.276s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.367s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.441s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[0.445s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.448s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.448s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.649s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.716s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.716s] -- Configured cppcheck include dirs: 
+[0.717s] -- Configured cppcheck exclude dirs and/or files: 
+[0.722s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.729s] -- Added test 'lint_cmake' to check CMake code style
+[0.732s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.755s] -- Added test 'uncrustify' to check C / C++ code style
+[0.755s] -- Configured uncrustify additional arguments: 
+[0.758s] -- Added test 'xmllint' to check XML markup files
+[0.759s] -- Configuring done
+[0.830s] -- Generating done
+[0.831s] -- Build files have been written to: /root/ros2_ws/build/my_robot_motion_planning
+[0.856s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.875s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[1.200s] In file included from [01m[K/usr/include/c++/11/chrono:42[m[K,
+[1.200s]                  from [01m[K/opt/ros/humble/include/tf2/time.h:32[m[K,
+[1.201s]                  from [01m[K/usr/include/c++/11/ctime:42[m[K,
+[1.201s]                  from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[1.201s] [01m[K/usr/include/c++/11/ctime:60:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock_t[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.201s]    60 |   using ::[01;31m[Kclock_t[m[K;
+[1.201s]       |           [01;31m[K^~~~~~~[m[K
+[1.201s] [01m[K/usr/include/c++/11/ctime:61:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.201s]    61 |   using ::[01;31m[Ktime_t[m[K;
+[1.201s]       |           [01;31m[K^~~~~~[m[K
+[1.201s] [01m[K/usr/include/c++/11/ctime:62:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktm[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.201s]    62 |   using ::[01;31m[Ktm[m[K;
+[1.201s]       |           [01;31m[K^~[m[K
+[1.201s] [01m[K/usr/include/c++/11/ctime:64:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.201s]    64 |   using ::[01;31m[Kclock[m[K;
+[1.201s]       |           [01;31m[K^~~~~[m[K
+[1.201s] [01m[K/usr/include/c++/11/ctime:65:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdifftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.201s]    65 |   using ::[01;31m[Kdifftime[m[K;
+[1.201s]       |           [01;31m[K^~~~~~~~[m[K
+[1.202s] [01m[K/usr/include/c++/11/ctime:66:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.202s]    66 |   using ::[01;31m[Kmktime[m[K;
+[1.202s]       |           [01;31m[K^~~~~~[m[K
+[1.202s] [01m[K/usr/include/c++/11/ctime:67:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.202s]    67 |   using ::[01;31m[Ktime[m[K;
+[1.202s]       |           [01;31m[K^~~~[m[K
+[1.202s] [01m[K/usr/include/c++/11/ctime:68:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kasctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.202s]    68 |   using ::[01;31m[Kasctime[m[K;
+[1.202s]       |           [01;31m[K^~~~~~~[m[K
+[1.202s] [01m[K/usr/include/c++/11/ctime:69:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.202s]    69 |   using ::[01;31m[Kctime[m[K;
+[1.202s]       |           [01;31m[K^~~~~[m[K
+[1.202s] [01m[K/usr/include/c++/11/ctime:70:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgmtime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.202s]    70 |   using ::[01;31m[Kgmtime[m[K;
+[1.202s]       |           [01;31m[K^~~~~~[m[K
+[1.202s] [01m[K/usr/include/c++/11/ctime:71:11:[m[K [01;31m[Kerror: [m[K‘[01m[Klocaltime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.203s]    71 |   using ::[01;31m[Klocaltime[m[K;
+[1.203s]       |           [01;31m[K^~~~~~~~~[m[K
+[1.203s] [01m[K/usr/include/c++/11/ctime:72:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.203s]    72 |   using ::[01;31m[Kstrftime[m[K;
+[1.203s]       |           [01;31m[K^~~~~~~~[m[K
+[1.203s] [01m[K/usr/include/c++/11/ctime:79:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimespec[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.203s]    79 |   using ::[01;31m[Ktimespec[m[K;
+[1.203s]       |           [01;31m[K^~~~~~~~[m[K
+[1.203s] [01m[K/usr/include/c++/11/ctime:80:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimespec_get[m[K’ has not been declared in ‘[01m[K::[m[K’
+[1.203s]    80 |   using ::[01;31m[Ktimespec_get[m[K;
+[1.203s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[1.205s] In file included from [01m[K/opt/ros/humble/include/tf2/time.h:32[m[K,
+[1.205s]                  from [01m[K/usr/include/c++/11/ctime:42[m[K,
+[1.205s]                  from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[1.205s] [01m[K/usr/include/c++/11/chrono:1142:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ksize_t[m[K’?
+[1.205s]  1142 |       static std::[01;31m[Ktime_t[m[K
+[1.205s]       |                   [01;31m[K^~~~~~[m[K
+[1.205s]       |                   [32m[Ksize_t[m[K
+[1.205s] [01m[K/usr/include/c++/11/chrono:1150:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::time_t[m[K’ has not been declared
+[1.205s]  1150 |       from_time_t([01;31m[Kstd[m[K::time_t __t) noexcept
+[1.206s]       |                   [01;31m[K^~~[m[K
+[1.760s] In file included from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:42[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/PlannerTerminationCondition.h:43[m[K,
+[1.760s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/Planner.h:44[m[K,
+[1.761s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/PlannerIncludes.h:40[m[K,
+[1.761s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/rrt/RRTConnect.h:41[m[K,
+[1.761s]                  from [01m[K/root/ros2_ws/src/mp.cpp:5[m[K:
+[1.761s] [01m[K/usr/include/c++/11/iomanip:343:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ktm[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[1.761s]   343 |       const std::[01;31m[Ktm[m[K* _M_tmb;
+[1.761s]       |                  [01;31m[K^~[m[K
+[1.761s] [01m[K/usr/include/c++/11/iomanip:358:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ktm[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[1.761s]   358 |     put_time(const std::[01;31m[Ktm[m[K* __tmb, const _CharT* __fmt)
+[1.761s]       |                         [01;31m[K^~[m[K
+[1.761s] [01m[K/usr/include/c++/11/iomanip:398:12:[m[K [01;31m[Kerror: [m[K‘[01m[Ktm[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[1.761s]   398 |       std::[01;31m[Ktm[m[K*      _M_tmb;
+[1.761s]       |            [01;31m[K^~[m[K
+[1.762s] [01m[K/usr/include/c++/11/iomanip:413:19:[m[K [01;31m[Kerror: [m[K‘[01m[Ktm[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Ktm[m[K’?
+[1.762s]   413 |     get_time(std::[01;31m[Ktm[m[K* __tmb, const _CharT* __fmt)
+[1.762s]       |                   [01;31m[K^~[m[K
+[1.762s] In file included from [01m[K/usr/include/c++/11/cwchar:44[m[K,
+[1.762s]                  from [01m[K/usr/include/c++/11/bits/postypes.h:40[m[K,
+[1.762s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:40[m[K,
+[1.762s]                  from [01m[K/usr/include/c++/11/string:40[m[K,
+[1.762s]                  from [01m[K/opt/ros/humble/include/tf2/time.h:34[m[K,
+[1.762s]                  from [01m[K/usr/include/c++/11/ctime:42[m[K,
+[1.762s]                  from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[1.762s] [01m[K/usr/include/wchar.h:83:8:[m[K [01;36m[Knote: [m[K‘[01m[Ktm[m[K’ declared here
+[1.762s]    83 | struct [01;36m[Ktm[m[K;
+[1.762s]       |        [01;36m[K^~[m[K
+[1.764s] In file included from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:42[m[K,
+[1.764s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/PlannerTerminationCondition.h:43[m[K,
+[1.764s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/Planner.h:44[m[K,
+[1.764s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/PlannerIncludes.h:40[m[K,
+[1.764s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/rrt/RRTConnect.h:41[m[K,
+[1.764s]                  from [01m[K/root/ros2_ws/src/mp.cpp:5[m[K:
+[1.764s] [01m[K/usr/include/c++/11/iomanip:413:23:[m[K [01;31m[Kerror: [m[K‘[01m[K__tmb[m[K’ was not declared in this scope
+[1.764s]   413 |     get_time(std::tm* [01;31m[K__tmb[m[K, const _CharT* __fmt)
+[1.764s]       |                       [01;31m[K^~~~~[m[K
+[1.765s] [01m[K/usr/include/c++/11/iomanip:413:30:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[1.765s]   413 |     get_time(std::tm* __tmb, [01;31m[Kconst[m[K _CharT* __fmt)
+[1.765s]       |                              [01;31m[K^~~~~[m[K
+[1.765s] [01m[K/usr/include/c++/11/iomanip:413:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+[1.765s]   413 |     get_time(std::tm* __tmb, const _CharT* __fmt)
+[1.765s]       |                                                  [01;31m[K^[m[K
+[1.765s]       |                                                  [32m[K;[m[K
+[1.765s]   414 |     [32m[K{[m[K return { __tmb, __fmt }; }
+[1.765s]       |     [32m[K~[m[K                                             
+[1.769s] In file included from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/PlannerTerminationCondition.h:43[m[K,
+[1.769s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/Planner.h:44[m[K,
+[1.769s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/PlannerIncludes.h:40[m[K,
+[1.769s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/rrt/RRTConnect.h:41[m[K,
+[1.769s]                  from [01m[K/root/ros2_ws/src/mp.cpp:5[m[K:
+[1.769s] [01m[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:[m[K In function ‘[01m[Kstd::string ompl::time::as_string(const point&)[m[K’:
+[1.769s] [01m[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:80:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Ktime_put[m[K’?
+[1.769s]    80 |             std::[01;31m[Ktime_t[m[K pt = std::chrono::system_clock::to_time_t(p);
+[1.769s]       |                  [01;31m[K^~~~~~[m[K
+[1.770s]       |                  [32m[Ktime_put[m[K
+[1.770s] [01m[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:82:38:[m[K [01;31m[Kerror: [m[K‘[01m[Klocaltime[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Klocale[m[K’?
+[1.770s]    82 |             ss << std::put_time(std::[01;31m[Klocaltime[m[K(&pt), "%F %T");
+[1.770s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[1.770s]       |                                      [32m[Klocale[m[K
+[1.772s] [01m[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:82:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kpt[m[K’ was not declared in this scope; did you mean ‘[01m[Kp[m[K’?
+[1.772s]    82 |             ss << std::put_time(std::localtime(&[01;31m[Kpt[m[K), "%F %T");
+[1.772s]       |                                                 [01;31m[K^~[m[K
+[1.772s]       |                                                 [32m[Kp[m[K
+[1.772s] [01m[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:78:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kp[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.772s]    78 |         inline std::string as_string([01;35m[Kconst point &p[m[K)
+[1.772s]       |                                      [01;35m[K~~~~~~~~~~~~~^[m[K
+[1.871s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core/utility.hpp:62[m[K,
+[1.871s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:3392[m[K,
+[1.871s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[1.871s]                  from [01m[K/root/ros2_ws/src/mp.cpp:7[m[K:
+[1.871s] [01m[K/usr/include/c++/11/mutex:[m[K In member function ‘[01m[Kbool std::__timed_mutex_impl<_Derived>::_M_try_lock_until(const std::chrono::time_point<std::chrono::_V2::system_clock, _Duration>&)[m[K’:
+[1.871s] [01m[K/usr/include/c++/11/mutex:164:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ktime_put[m[K’?
+[1.871s]   164 |             static_cast<std::[01;31m[Ktime_t[m[K>(__s.time_since_epoch().count()),
+[1.871s]       |                              [01;31m[K^~~~~~[m[K
+[1.871s]       |                              [32m[Ktime_put[m[K
+[1.872s] [01m[K/usr/include/c++/11/mutex:[m[K In member function ‘[01m[Kbool std::__timed_mutex_impl<_Derived>::_M_try_lock_until(const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)[m[K’:
+[1.872s] [01m[K/usr/include/c++/11/mutex:181:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ktime_put[m[K’?
+[1.872s]   181 |             static_cast<std::[01;31m[Ktime_t[m[K>(__s.time_since_epoch().count()),
+[1.872s]       |                              [01;31m[K^~~~~~[m[K
+[1.872s]       |                              [32m[Ktime_put[m[K
+[1.879s] [01m[K/usr/include/c++/11/mutex:185:61:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCK_MONOTONIC[m[K’ was not declared in this scope
+[1.879s]   185 |           return static_cast<_Derived*>(this)->_M_clocklock([01;31m[KCLOCK_MONOTONIC[m[K,
+[1.879s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.278s] In file included from [01m[K/usr/include/c++/11/future:39[m[K,
+[2.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[2.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.278s]                  from [01m[K/root/ros2_ws/src/mp.cpp:12[m[K:
+[2.279s] [01m[K/usr/include/c++/11/condition_variable:[m[K In member function ‘[01m[Kstd::cv_status std::condition_variable::__wait_until_impl(std::unique_lock<std::mutex>&, const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)[m[K’:
+[2.279s] [01m[K/usr/include/c++/11/condition_variable:197:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ktime_put[m[K’?
+[2.279s]   197 |             static_cast<std::[01;31m[Ktime_t[m[K>(__s.time_since_epoch().count()),
+[2.279s]       |                              [01;31m[K^~~~~~[m[K
+[2.279s]       |                              [32m[Ktime_put[m[K
+[2.287s] [01m[K/usr/include/c++/11/condition_variable:201:45:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCK_MONOTONIC[m[K’ was not declared in this scope
+[2.287s]   201 |         _M_cond.wait_until(*__lock.mutex(), [01;31m[KCLOCK_MONOTONIC[m[K, __ts);
+[2.287s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.287s] [01m[K/usr/include/c++/11/condition_variable:[m[K In member function ‘[01m[Kstd::cv_status std::condition_variable::__wait_until_impl(std::unique_lock<std::mutex>&, const std::chrono::time_point<std::chrono::_V2::system_clock, _Dur2>&)[m[K’:
+[2.287s] [01m[K/usr/include/c++/11/condition_variable:218:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ktime_put[m[K’?
+[2.287s]   218 |             static_cast<std::[01;31m[Ktime_t[m[K>(__s.time_since_epoch().count()),
+[2.287s]       |                              [01;31m[K^~~~~~[m[K
+[2.287s]       |                              [32m[Ktime_put[m[K
+[2.326s] In file included from [01m[K/usr/include/c++/11/thread:44[m[K,
+[2.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K,
+[2.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.326s]                  from [01m[K/root/ros2_ws/src/mp.cpp:12[m[K:
+[2.326s] [01m[K/usr/include/c++/11/bits/this_thread_sleep.h:[m[K In function ‘[01m[Kvoid std::this_thread::sleep_for(const std::chrono::duration<_Rep1, _Period1>&)[m[K’:
+[2.326s] [01m[K/usr/include/c++/11/bits/this_thread_sleep.h:79:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ktime_put[m[K’?
+[2.326s]    79 |             static_cast<std::[01;31m[Ktime_t[m[K>(__s.count()),
+[2.326s]       |                              [01;31m[K^~~~~~[m[K
+[2.326s]       |                              [32m[Ktime_put[m[K
+[2.331s] [01m[K/usr/include/c++/11/bits/this_thread_sleep.h:82:18:[m[K [01;31m[Kerror: [m[K‘[01m[K::nanosleep[m[K’ has not been declared
+[2.331s]    82 |         while (::[01;31m[Knanosleep[m[K(&__ts, &__ts) == -1 && errno == EINTR)
+[2.331s]       |                  [01;31m[K^~~~~~~~~[m[K
+[2.495s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:20[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:34[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.495s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.495s]                  from [01m[K/root/ros2_ws/src/mp.cpp:12[m[K:
+[2.495s] [01m[K/usr/include/c++/11/shared_mutex:[m[K In member function ‘[01m[Kbool std::shared_timed_mutex::try_lock_until(const std::chrono::time_point<std::chrono::_V2::system_clock, _Dur2>&)[m[K’:
+[2.495s] [01m[K/usr/include/c++/11/shared_mutex:517:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ktime_put[m[K’?
+[2.495s]   517 |             static_cast<std::[01;31m[Ktime_t[m[K>(__s.time_since_epoch().count()),
+[2.495s]       |                              [01;31m[K^~~~~~[m[K
+[2.495s]       |                              [32m[Ktime_put[m[K
+[2.495s] [01m[K/usr/include/c++/11/shared_mutex:[m[K In member function ‘[01m[Kbool std::shared_timed_mutex::try_lock_until(const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)[m[K’:
+[2.495s] [01m[K/usr/include/c++/11/shared_mutex:542:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ktime_put[m[K’?
+[2.495s]   542 |             static_cast<std::[01;31m[Ktime_t[m[K>(__s.time_since_epoch().count()),
+[2.495s]       |                              [01;31m[K^~~~~~[m[K
+[2.495s]       |                              [32m[Ktime_put[m[K
+[2.505s] [01m[K/usr/include/c++/11/shared_mutex:546:60:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCK_MONOTONIC[m[K’ was not declared in this scope
+[2.505s]   546 |         int __ret = pthread_rwlock_clockwrlock(&_M_rwlock, [01;31m[KCLOCK_MONOTONIC[m[K,
+[2.505s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.505s] [01m[K/usr/include/c++/11/shared_mutex:[m[K In member function ‘[01m[Kbool std::shared_timed_mutex::try_lock_shared_until(const std::chrono::time_point<std::chrono::_V2::system_clock, _Dur2>&)[m[K’:
+[2.505s] [01m[K/usr/include/c++/11/shared_mutex:590:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ktime_put[m[K’?
+[2.505s]   590 |             static_cast<std::[01;31m[Ktime_t[m[K>(__s.time_since_epoch().count()),
+[2.505s]       |                              [01;31m[K^~~~~~[m[K
+[2.505s]       |                              [32m[Ktime_put[m[K
+[2.506s] [01m[K/usr/include/c++/11/shared_mutex:[m[K In member function ‘[01m[Kbool std::shared_timed_mutex::try_lock_shared_until(const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)[m[K’:
+[2.506s] [01m[K/usr/include/c++/11/shared_mutex:629:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_t[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type; did you mean ‘[01m[Ktime_put[m[K’?
+[2.506s]   629 |             static_cast<std::[01;31m[Ktime_t[m[K>(__s.time_since_epoch().count()),
+[2.506s]       |                              [01;31m[K^~~~~~[m[K
+[2.506s]       |                              [32m[Ktime_put[m[K
+[2.517s] [01m[K/usr/include/c++/11/shared_mutex:633:60:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCK_MONOTONIC[m[K’ was not declared in this scope
+[2.518s]   633 |         int __ret = pthread_rwlock_clockrdlock(&_M_rwlock, [01;31m[KCLOCK_MONOTONIC[m[K,
+[2.518s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.468s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&, const SharedPtr&)[m[K’:
+[3.468s] [01m[K/root/ros2_ws/src/mp.cpp:55:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.468s]    55 |  void plan(const rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr& path_publisher,[01;35m[Kconst rclcpp::Node::SharedPtr& node[m[K)
+[3.468s]       |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.470s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid planWithSimpleSetup(const SharedPtr&, const SharedPtr&)[m[K’:
+[3.470s] [01m[K/root/ros2_ws/src/mp.cpp:211:51:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kompl::geometric::PathGeometric[m[K’
+[3.470s]   211 |          for (std::size_t i = 0; i < solution_path[01;31m[K->[m[KgetStateCount(); ++i)
+[3.470s]       |                                                   [01;31m[K^~[m[K
+[3.470s] [01m[K/root/ros2_ws/src/mp.cpp:213:51:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kompl::geometric::PathGeometric[m[K’
+[3.470s]   213 |             const ob::State* state = solution_path[01;31m[K->[m[KgetState(i);
+[3.470s]       |                                                   [01;31m[K^~[m[K
+[4.323s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[4.324s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[4.324s] gmake: *** [Makefile:146: all] Error 2
+[4.327s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:15:43:[m[K [01;31m[Kerror: [m[K‘[01m[KSE2StateSpace[m[K’ is not a member of ‘[01m[Kob[m[K’; did you mean ‘[01m[KSE3StateSpace[m[K’?
+   15 |      const auto *se3state = state->as<ob::[01;31m[KSE2StateSpace[m[K::StateType>();
+      |                                           [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                           [32m[KSE3StateSpace[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:15:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   15 |      const auto *se3state = state->[01;31m[Kas<ob::SE2StateSpace::StateType>[m[K();
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:15:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kompl::base::State::as<<expression error> >() const[m[K’
+   15 |      const auto *se3state = [01;31m[Kstate->as<ob::SE2StateSpace::StateType>()[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/SpaceInformation.h:40[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/State.h:66:22:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> const T* ompl::base::State::as() const[m[K’
+   66 |             const T *[01;36m[Kas[m[K() const
+      |                      [01;36m[K^~[m[K
+[01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/State.h:66:22:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/ros2_ws/src/mp.cpp:15:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |      const auto *se3state = [01;31m[Kstate->as<ob::SE2StateSpace::StateType>()[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/SpaceInformation.h:40[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/State.h:76:16:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> T* ompl::base::State::as()[m[K’
+   76 |             T *[01;36m[Kas[m[K()
+      |                [01;36m[K^~[m[K
+[01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/State.h:76:16:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/root/ros2_ws/src/mp.cpp:15:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |      const auto *se3state = [01;31m[Kstate->as<ob::SE2StateSpace::StateType>()[m[K;
+      |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:18:72:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   18 |      const auto *pos = se3state->as<ob::RealVectorStateSpace::StateType[01;31m[K>[m[K(0);
+      |                                                                        [01;31m[K^[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:21:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   21 |      const auto *rot = se3state->as<ob::SO3StateSpace::StateType[01;31m[K>[m[K(1);
+      |                                                                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

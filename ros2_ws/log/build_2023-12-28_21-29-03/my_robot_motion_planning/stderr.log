@@ -1,0 +1,4 @@
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:22:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstate[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   22 |  bool isStateValid([01;35m[Kconst ob::State *state[m[K)
+      |                    [01;35m[K~~~~~~~~~~~~~~~~~^~~~~[m[K

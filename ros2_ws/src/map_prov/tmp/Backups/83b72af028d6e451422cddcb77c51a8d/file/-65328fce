@@ -1,0 +1,5 @@
+file:///root/ros2_ws/src/map_prov/launch/map_provider.launch {"mtime":1703675252847,"ctime":1703675051977,"size":78,"etag":"3bm4r4r1s2g","orphaned":false,"typeId":""}
+<launch>
+    <arg name="map_file" default="${find map_provider}/maps/map.yaml"
+    <node pkg="map_Server" name=/>
+</launch>

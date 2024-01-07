@@ -1,0 +1,10 @@
+[0.030s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[2.362s] [100%] [32m[1mLinking CXX executable my_motion_planner[0m
+[2.380s] /usr/bin/ld: cannot find -l{OpenCV_LIBS}: No such file or directory
+[2.397s] collect2: error: ld returned 1 exit status
+[2.398s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:102: my_motion_planner] Error 1
+[2.398s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[2.398s] gmake: *** [Makefile:146: all] Error 2
+[2.399s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

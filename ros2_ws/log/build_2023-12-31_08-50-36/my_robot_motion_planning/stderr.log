@@ -1,0 +1,7 @@
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:152:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrc[m[K’ was not declared in this scope
+  152 |     cv::warpAffine(image, dst, r, cv::Size([01;31m[Ksrc[m[K.cols, src.rows));  ///applie an affine transforation to image.
+      |                                            [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

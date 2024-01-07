@@ -1,0 +1,78 @@
+2023-12-26 13:53:37.668 [info] Extension host with pid 11544 started
+2023-12-26 13:53:37.775 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-26 13:53:37.848 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-26 13:53:37.922 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-26 13:53:38.001 [info] Eager extensions activated
+2023-12-26 13:53:38.007 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-26 13:53:38.009 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-26 13:53:45.333 [info] Extension host terminating: renderer closed the MessagePort
+2023-12-26 13:53:45.353 [info] Extension host with pid 11544 exiting with code 0
+2023-12-26 13:53:46.093 [info] Extension host with pid 11636 started
+2023-12-26 13:53:46.093 [info] Skipping acquiring lock for /root/ros2_ws/src/tmp/User/workspaceStorage/d3c7039dc4f3aea61f49414fac31189f.
+2023-12-26 13:53:46.186 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-12-26 13:53:46.292 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-26 13:53:46.328 [info] Eager extensions activated
+2023-12-26 13:53:46.346 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-26 13:53:46.349 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-12-26 13:53:49.004 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-12-26 13:53:49.081 [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools, startup: false, activationEvent: 'workspaceContains:CMakeLists.txt'
+2023-12-26 13:53:49.189 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'workspaceContains:/.vscode/c_cpp_properties.json'
+2023-12-26 13:53:49.715 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-12-26 13:53:49.724 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-12-26 13:53:49.758 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2023-12-26 13:53:49.775 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-26 13:53:49.796 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-12-26 13:54:16.729 [info] ExtensionService#_doActivateExtension twxs.cmake, startup: false, activationEvent: 'onLanguage:cmake'
+2023-12-26 13:54:31.811 [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action is of kind 'refactor.extract.function'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2023-12-26 13:54:53.489 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-12-26 13:54:53.516 [info] ExtensionService#_doActivateExtension vscode.grunt, startup: false, activationEvent: 'onTaskType:grunt'
+2023-12-26 13:54:53.518 [info] ExtensionService#_doActivateExtension vscode.gulp, startup: false, activationEvent: 'onTaskType:gulp'
+2023-12-26 13:54:53.521 [info] ExtensionService#_doActivateExtension vscode.jake, startup: false, activationEvent: 'onTaskType:jake'
+2023-12-26 13:54:56.365 [error] Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAExit (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:35)
+    at m.S (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16966)
+    at o.value (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at x.onmessage (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1657:7802)
+2023-12-26 13:54:56.366 [error] Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAError (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1552:7629)
+    at m.S (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16827)
+    at o.value (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at x.onmessage (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1657:7802)
+2023-12-26 13:55:13.186 [error] Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAError (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1552:7629)
+    at m.S (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16827)
+    at o.value (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at x.onmessage (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1657:7802)
+2023-12-26 13:55:13.187 [error] Error: Invalid debug adapter
+    at v.m (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:95)
+    at v.$acceptDAExit (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1553:35)
+    at m.S (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18889)
+    at m.Q (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:18655)
+    at m.M (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:17748)
+    at m.L (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:16966)
+    at o.value (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1561:15630)
+    at u.y (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:1902)
+    at u.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:87:2119)
+    at s.fire (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:14449)
+    at x.onmessage (vscode-file://vscode-app/snap/code/148/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1657:7802)

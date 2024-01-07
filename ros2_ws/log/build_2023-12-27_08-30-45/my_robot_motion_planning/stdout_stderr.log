@@ -1,0 +1,27 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&, const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:55:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 | s::msg::Path>::SharedPtr& path_publisher,[01;35m[Kconst rclcpp::Node::SharedPtr& node[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[100%] [32m[1mLinking CXX executable my_motion_planner[0m
+[100%] Built target my_motion_planner
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/launch/LAUNCH.py
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/ament_index/resource_index/package_run_dependencies/my_robot_motion_planning
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/ament_index/resource_index/parent_prefix_path/my_robot_motion_planning
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/ament_prefix_path.dsv
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/path.sh
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/path.dsv
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.bash
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.sh
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.zsh
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.dsv
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/package.dsv
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/ament_index/resource_index/packages/my_robot_motion_planning
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/cmake/my_robot_motion_planningConfig.cmake
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/cmake/my_robot_motion_planningConfig-version.cmake
+-- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/package.xml

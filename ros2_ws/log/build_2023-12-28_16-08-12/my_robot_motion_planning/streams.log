@@ -1,0 +1,40 @@
+[0.040s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.073s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[2.818s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[2.818s] [01m[K/root/ros2_ws/src/mp.cpp:29:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktheta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.818s]    29 |         double [01;35m[Ktheta[m[K = rot->value;
+[2.818s]       |                [01;35m[K^~~~~[m[K
+[2.818s] [01m[K/root/ros2_ws/src/mp.cpp:30:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmap_width[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.818s]    30 |         double [01;35m[Kmap_width[m[K = 348 * 0.05; // Convert map width from pixels to meters
+[2.818s]       |                [01;35m[K^~~~~~~~~[m[K
+[2.818s] [01m[K/root/ros2_ws/src/mp.cpp:31:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmap_height[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.818s]    31 |         double [01;35m[Kmap_height[m[K = 348 * 0.05; // Convert map height from pixels to meters
+[2.819s]       |                [01;35m[K^~~~~~~~~~[m[K
+[2.841s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.841s] [01m[K/root/ros2_ws/src/mp.cpp:133:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kocct[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.841s]   133 |     double [01;35m[Kocct[m[K=config["occupied_thresh"].as<double>();
+[2.841s]       |            [01;35m[K^~~~[m[K
+[4.687s] [100%] [32m[1mLinking CXX executable my_motion_planner[0m
+[6.778s] [100%] Built target my_motion_planner
+[6.789s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[6.813s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/my_robot_motion_planning
+[6.817s] -- Install configuration: ""
+[6.818s] -- Execute custom install script
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/launch/LAUNCH.py
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/ament_index/resource_index/package_run_dependencies/my_robot_motion_planning
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/ament_index/resource_index/parent_prefix_path/my_robot_motion_planning
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/ament_prefix_path.sh
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/ament_prefix_path.dsv
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/path.sh
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/environment/path.dsv
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.bash
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.sh
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.zsh
+[6.818s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/local_setup.dsv
+[6.819s] -- Symlinking: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/package.dsv
+[6.823s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/ament_index/resource_index/packages/my_robot_motion_planning
+[6.823s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/cmake/my_robot_motion_planningConfig.cmake
+[6.824s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/cmake/my_robot_motion_planningConfig-version.cmake
+[6.824s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/package.xml
+[6.826s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/my_robot_motion_planning

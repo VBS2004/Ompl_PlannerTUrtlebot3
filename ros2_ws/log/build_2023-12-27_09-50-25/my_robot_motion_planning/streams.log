@@ -1,0 +1,15 @@
+[0.039s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.081s] [100%] Built target my_motion_planner
+[0.087s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.107s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/my_robot_motion_planning
+[0.113s] -- Install configuration: ""
+[0.113s] -- Execute custom install script
+[0.114s] -- Up-to-date symlink: /root/ros2_ws/install/my_robot_motion_planning/share/my_robot_motion_planning/launch/LAUNCH.py
+[0.114s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.114s]   ament_cmake_symlink_install_directory() can't find '/root/ros2_ws/libexec/'
+[0.114s] Call Stack (most recent call first):
+[0.114s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[0.115s]   cmake_install.cmake:46 (include)
+[0.115s] 
+[0.115s] [0m
+[0.116s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/ros2_ws/build/my_robot_motion_planning

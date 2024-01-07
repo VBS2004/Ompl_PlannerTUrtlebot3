@@ -1,0 +1,2 @@
+Invoking command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server -- -j12 -l12
+Invoked command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server -- -j12 -l12

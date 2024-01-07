@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.000090] (nav2_map_server) JobQueued: {'identifier': 'nav2_map_server', 'dependencies': OrderedDict()}
+[0.000107] (nav2_map_server) JobStarted: {'identifier': 'nav2_map_server'}
+[0.028236] (nav2_map_server) JobProgress: {'identifier': 'nav2_map_server', 'progress': 'cmake'}
+[0.028392] (nav2_map_server) JobProgress: {'identifier': 'nav2_map_server', 'progress': 'build'}
+[0.028416] (nav2_map_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server', '--', '-j12', '-l12'], 'cwd': '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'root'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus,guid=2abf9636f5adad7da5723984658cefc1'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:@/tmp/.ICE-unix/2341,unix/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:/tmp/.ICE-unix/2341'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d9c359fd_9795_4080_bd2f_a946bee2ed1c'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/0/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.216'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/0/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/0/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/0/bus,guid=2abf9636f5adad7da5723984658cefc1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060532] (nav2_map_server) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[0.060908] (nav2_map_server) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.062905] (nav2_map_server) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o\x1b[0m\n'}
+[0.099595] (-) TimerEvent: {}
+[0.199922] (-) TimerEvent: {}
+[0.300310] (-) TimerEvent: {}
+[0.400699] (-) TimerEvent: {}
+[0.501094] (-) TimerEvent: {}
+[0.596363] (nav2_map_server) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[0.601314] (-) TimerEvent: {}
+[0.616436] (nav2_map_server) StdoutLine: {'line': b'[ 11%] Built target gtest_main\n'}
+[0.701537] (-) TimerEvent: {}
+[0.801938] (-) TimerEvent: {}
+[0.902276] (-) TimerEvent: {}
+[1.002622] (-) TimerEvent: {}
+[1.103015] (-) TimerEvent: {}
+[1.203413] (-) TimerEvent: {}
+[1.303816] (-) TimerEvent: {}
+[1.404207] (-) TimerEvent: {}
+[1.504597] (-) TimerEvent: {}
+[1.604985] (-) TimerEvent: {}
+[1.705360] (-) TimerEvent: {}
+[1.805754] (-) TimerEvent: {}
+[1.906048] (-) TimerEvent: {}
+[2.006275] (-) TimerEvent: {}
+[2.106608] (-) TimerEvent: {}
+[2.206995] (-) TimerEvent: {}
+[2.307368] (-) TimerEvent: {}
+[2.407754] (-) TimerEvent: {}
+[2.508124] (-) TimerEvent: {}
+[2.608412] (-) TimerEvent: {}
+[2.708736] (-) TimerEvent: {}
+[2.809115] (-) TimerEvent: {}
+[2.909420] (-) TimerEvent: {}
+[2.949126] (nav2_map_server) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking CXX shared library libmap_io.so\x1b[0m\n'}
+[3.009641] (-) TimerEvent: {}
+[3.068336] (nav2_map_server) StdoutLine: {'line': b'[ 16%] Built target map_io\n'}
+[3.076860] (nav2_map_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_map_saver_publisher\x1b[0m\n'}
+[3.078259] (nav2_map_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_server_core\x1b[0m\n'}
+[3.087587] (nav2_map_server) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o\x1b[0m\n'}
+[3.091942] (nav2_map_server) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o\x1b[0m\n'}
+[3.092243] (nav2_map_server) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o\x1b[0m\n'}
+[3.092346] (nav2_map_server) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o\x1b[0m\n'}
+[3.109739] (-) TimerEvent: {}
+[3.210047] (-) TimerEvent: {}
+[3.310281] (-) TimerEvent: {}
+[3.410568] (-) TimerEvent: {}
+[3.510878] (-) TimerEvent: {}
+[3.611205] (-) TimerEvent: {}
+[3.711504] (-) TimerEvent: {}
+[3.811825] (-) TimerEvent: {}
+[3.912165] (-) TimerEvent: {}
+[4.012496] (-) TimerEvent: {}
+[4.112837] (-) TimerEvent: {}
+[4.213167] (-) TimerEvent: {}
+[4.313495] (-) TimerEvent: {}
+[4.413818] (-) TimerEvent: {}
+[4.514162] (-) TimerEvent: {}
+[4.614473] (-) TimerEvent: {}
+[4.714754] (-) TimerEvent: {}
+[4.815078] (-) TimerEvent: {}
+[4.869068] (nav2_map_server) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[4.895003] (nav2_map_server) StdoutLine: {'line': b'[ 30%] Built target gtest\n'}
+[4.915211] (-) TimerEvent: {}
+[4.919451] (nav2_map_server) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o\x1b[0m\n'}
+[4.919642] (nav2_map_server) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o\x1b[0m\n'}
+[5.015346] (-) TimerEvent: {}
+[5.115660] (-) TimerEvent: {}
+[5.216007] (-) TimerEvent: {}
+[5.316361] (-) TimerEvent: {}
+[5.416684] (-) TimerEvent: {}
+[5.517044] (-) TimerEvent: {}
+[5.617413] (-) TimerEvent: {}
+[5.717699] (-) TimerEvent: {}
+[5.818076] (-) TimerEvent: {}
+[5.918421] (-) TimerEvent: {}
+[6.018739] (-) TimerEvent: {}
+[6.119099] (-) TimerEvent: {}
+[6.219449] (-) TimerEvent: {}
+[6.319787] (-) TimerEvent: {}
+[6.420144] (-) TimerEvent: {}
+[6.520468] (-) TimerEvent: {}
+[6.620808] (-) TimerEvent: {}
+[6.672286] (nav2_map_server) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable test_map_saver_publisher\x1b[0m\n'}
+[6.720969] (-) TimerEvent: {}
+[6.821286] (-) TimerEvent: {}
+[6.831267] (nav2_map_server) StdoutLine: {'line': b'[ 41%] Built target test_map_saver_publisher\n'}
+[6.921431] (-) TimerEvent: {}
+[7.021758] (-) TimerEvent: {}
+[7.122096] (-) TimerEvent: {}
+[7.222411] (-) TimerEvent: {}
+[7.322734] (-) TimerEvent: {}
+[7.423048] (-) TimerEvent: {}
+[7.523447] (-) TimerEvent: {}
+[7.623855] (-) TimerEvent: {}
+[7.724199] (-) TimerEvent: {}
+[7.824598] (-) TimerEvent: {}
+[7.924945] (-) TimerEvent: {}
+[8.025285] (-) TimerEvent: {}
+[8.125628] (-) TimerEvent: {}
+[8.225942] (-) TimerEvent: {}
+[8.326272] (-) TimerEvent: {}
+[8.426536] (-) TimerEvent: {}
+[8.526828] (-) TimerEvent: {}
+[8.627104] (-) TimerEvent: {}
+[8.727492] (-) TimerEvent: {}
+[8.827814] (-) TimerEvent: {}
+[8.872154] (nav2_map_server) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable test_map_io\x1b[0m\n'}
+[8.928052] (-) TimerEvent: {}
+[9.028356] (-) TimerEvent: {}
+[9.029104] (nav2_map_server) StdoutLine: {'line': b'[ 47%] Built target test_map_io\n'}
+[9.128508] (-) TimerEvent: {}
+[9.228789] (-) TimerEvent: {}
+[9.329060] (-) TimerEvent: {}
+[9.429435] (-) TimerEvent: {}
+[9.529747] (-) TimerEvent: {}
+[9.630113] (-) TimerEvent: {}
+[9.730403] (-) TimerEvent: {}
+[9.830704] (-) TimerEvent: {}
+[9.931016] (-) TimerEvent: {}
+[9.954497] (nav2_map_server) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable test_map_saver_cli\x1b[0m\n'}
+[10.031245] (-) TimerEvent: {}
+[10.041298] (nav2_map_server) StdoutLine: {'line': b'[ 52%] Built target test_map_saver_cli\n'}
+[10.131384] (-) TimerEvent: {}
+[10.231748] (-) TimerEvent: {}
+[10.332121] (-) TimerEvent: {}
+[10.432486] (-) TimerEvent: {}
+[10.532734] (-) TimerEvent: {}
+[10.633118] (-) TimerEvent: {}
+[10.733493] (-) TimerEvent: {}
+[10.833857] (-) TimerEvent: {}
+[10.934237] (-) TimerEvent: {}
+[11.034486] (-) TimerEvent: {}
+[11.071999] (nav2_map_server) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmap_server_core.so\x1b[0m\n'}
+[11.134596] (-) TimerEvent: {}
+[11.234845] (-) TimerEvent: {}
+[11.264898] (nav2_map_server) StdoutLine: {'line': b'[ 55%] Built target map_server_core\n'}
+[11.279930] (nav2_map_server) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o\x1b[0m\n'}
+[11.280138] (nav2_map_server) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o\x1b[0m\n'}
+[11.280202] (nav2_map_server) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o\x1b[0m\n'}
+[11.281489] (nav2_map_server) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o\x1b[0m\n'}
+[11.281713] (nav2_map_server) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o\x1b[0m\n'}
+[11.282327] (nav2_map_server) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o\x1b[0m\n'}
+[11.283619] (nav2_map_server) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o\x1b[0m\n'}
+[11.284226] (nav2_map_server) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o\x1b[0m\n'}
+[11.284660] (nav2_map_server) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o\x1b[0m\n'}
+[11.334954] (-) TimerEvent: {}
+[11.435273] (-) TimerEvent: {}
+[11.535607] (-) TimerEvent: {}
+[11.635938] (-) TimerEvent: {}
+[11.736268] (-) TimerEvent: {}
+[11.836612] (-) TimerEvent: {}
+[11.936958] (-) TimerEvent: {}
+[12.037292] (-) TimerEvent: {}
+[12.137635] (-) TimerEvent: {}
+[12.237993] (-) TimerEvent: {}
+[12.338341] (-) TimerEvent: {}
+[12.438689] (-) TimerEvent: {}
+[12.539021] (-) TimerEvent: {}
+[12.639371] (-) TimerEvent: {}
+[12.739743] (-) TimerEvent: {}
+[12.840110] (-) TimerEvent: {}
+[12.940468] (-) TimerEvent: {}
+[13.040824] (-) TimerEvent: {}
+[13.141165] (-) TimerEvent: {}
+[13.241519] (-) TimerEvent: {}
+[13.341880] (-) TimerEvent: {}
+[13.442257] (-) TimerEvent: {}
+[13.542628] (-) TimerEvent: {}
+[13.618014] (nav2_map_server) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable map_server\x1b[0m\n'}
+[13.642751] (-) TimerEvent: {}
+[13.679588] (nav2_map_server) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable map_saver_cli\x1b[0m\n'}
+[13.742873] (-) TimerEvent: {}
+[13.843201] (-) TimerEvent: {}
+[13.850138] (nav2_map_server) StdoutLine: {'line': b'[ 86%] Built target map_server\n'}
+[13.943352] (-) TimerEvent: {}
+[13.973910] (nav2_map_server) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable map_saver_server\x1b[0m\n'}
+[13.976982] (nav2_map_server) StdoutLine: {'line': b'[ 88%] Built target map_saver_cli\n'}
+[14.043510] (-) TimerEvent: {}
+[14.143875] (-) TimerEvent: {}
+[14.184572] (nav2_map_server) StdoutLine: {'line': b'[ 88%] Built target map_saver_server\n'}
+[14.223910] (nav2_map_server) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable costmap_filter_info_server\x1b[0m\n'}
+[14.244106] (-) TimerEvent: {}
+[14.344525] (-) TimerEvent: {}
+[14.427877] (nav2_map_server) StdoutLine: {'line': b'[ 91%] Built target costmap_filter_info_server\n'}
+[14.444749] (-) TimerEvent: {}
+[14.545149] (-) TimerEvent: {}
+[14.645552] (-) TimerEvent: {}
+[14.745916] (-) TimerEvent: {}
+[14.846362] (-) TimerEvent: {}
+[14.946692] (-) TimerEvent: {}
+[15.047093] (-) TimerEvent: {}
+[15.147495] (-) TimerEvent: {}
+[15.247904] (-) TimerEvent: {}
+[15.348313] (-) TimerEvent: {}
+[15.448702] (-) TimerEvent: {}
+[15.549039] (-) TimerEvent: {}
+[15.649382] (-) TimerEvent: {}
+[15.749773] (-) TimerEvent: {}
+[15.850176] (-) TimerEvent: {}
+[15.950561] (-) TimerEvent: {}
+[16.050955] (-) TimerEvent: {}
+[16.151358] (-) TimerEvent: {}
+[16.248252] (nav2_map_server) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable test_map_server_node\x1b[0m\n'}
+[16.251580] (-) TimerEvent: {}
+[16.345499] (nav2_map_server) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable test_map_saver_node\x1b[0m\n'}
+[16.351798] (-) TimerEvent: {}
+[16.395597] (nav2_map_server) StdoutLine: {'line': b'[ 97%] Built target test_map_server_node\n'}
+[16.452017] (-) TimerEvent: {}
+[16.512848] (nav2_map_server) StdoutLine: {'line': b'[ 97%] Built target test_map_saver_node\n'}
+[16.552229] (-) TimerEvent: {}
+[16.652586] (-) TimerEvent: {}
+[16.752868] (-) TimerEvent: {}
+[16.853243] (-) TimerEvent: {}
+[16.953623] (-) TimerEvent: {}
+[17.054006] (-) TimerEvent: {}
+[17.154327] (-) TimerEvent: {}
+[17.254800] (-) TimerEvent: {}
+[17.355123] (-) TimerEvent: {}
+[17.455436] (-) TimerEvent: {}
+[17.555747] (-) TimerEvent: {}
+[17.656060] (-) TimerEvent: {}
+[17.756390] (-) TimerEvent: {}
+[17.856654] (-) TimerEvent: {}
+[17.956968] (-) TimerEvent: {}
+[18.057299] (-) TimerEvent: {}
+[18.157621] (-) TimerEvent: {}
+[18.257952] (-) TimerEvent: {}
+[18.358283] (-) TimerEvent: {}
+[18.458608] (-) TimerEvent: {}
+[18.558925] (-) TimerEvent: {}
+[18.659266] (-) TimerEvent: {}
+[18.759595] (-) TimerEvent: {}
+[18.859913] (-) TimerEvent: {}
+[18.960238] (-) TimerEvent: {}
+[19.060554] (-) TimerEvent: {}
+[19.160886] (-) TimerEvent: {}
+[19.261229] (-) TimerEvent: {}
+[19.361449] (-) TimerEvent: {}
+[19.397070] (nav2_map_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_costmap_filter_info_server\x1b[0m\n'}
+[19.461643] (-) TimerEvent: {}
+[19.561931] (-) TimerEvent: {}
+[19.602451] (nav2_map_server) StdoutLine: {'line': b'[100%] Built target test_costmap_filter_info_server\n'}
+[19.612826] (nav2_map_server) CommandEnded: {'returncode': 0}
+[19.637463] (nav2_map_server) JobProgress: {'identifier': 'nav2_map_server', 'progress': 'install'}
+[19.642942] (nav2_map_server) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server'], 'cwd': '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'root'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus,guid=2abf9636f5adad7da5723984658cefc1'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:@/tmp/.ICE-unix/2341,unix/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:/tmp/.ICE-unix/2341'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d9c359fd_9795_4080_bd2f_a946bee2ed1c'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/0/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.216'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/0/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/0/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/0/bus,guid=2abf9636f5adad7da5723984658cefc1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.646854] (nav2_map_server) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[19.646966] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_server_core.so\n'}
+[19.647975] (nav2_map_server) StdoutLine: {'line': b'-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_server_core.so" to ""\n'}
+[19.648046] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_io.so\n'}
+[19.648125] (nav2_map_server) StdoutLine: {'line': b'-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/libmap_io.so" to ""\n'}
+[19.648201] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_server\n'}
+[19.648278] (nav2_map_server) StdoutLine: {'line': b'-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_server" to ""\n'}
+[19.648352] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_cli\n'}
+[19.648431] (nav2_map_server) StdoutLine: {'line': b'-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""\n'}
+[19.648491] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_server\n'}
+[19.648558] (nav2_map_server) StdoutLine: {'line': b'-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""\n'}
+[19.648629] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server\n'}
+[19.648702] (nav2_map_server) StdoutLine: {'line': b'-- Set runtime path of "/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""\n'}
+[19.648787] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include/\n'}
+[19.648864] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server\n'}
+[19.648943] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_server.hpp\n'}
+[19.649029] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_mode.hpp\n'}
+[19.649107] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp\n'}
+[19.649176] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_saver.hpp\n'}
+[19.649246] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/include//nav2_map_server/map_io.hpp\n'}
+[19.649323] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch\n'}
+[19.649398] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py\n'}
+[19.649467] (nav2_map_server) StdoutLine: {'line': b'-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch\n'}
+[19.649545] (nav2_map_server) StdoutLine: {'line': b'-- Up-to-date: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py\n'}
+[19.649622] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh\n'}
+[19.649691] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv\n'}
+[19.649760] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server\n'}
+[19.649847] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server\n'}
+[19.649924] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh\n'}
+[19.649983] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv\n'}
+[19.650048] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.sh\n'}
+[19.650137] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/environment/path.dsv\n'}
+[19.650196] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.bash\n'}
+[19.650260] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.sh\n'}
+[19.650318] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.zsh\n'}
+[19.650376] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/local_setup.dsv\n'}
+[19.650434] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.dsv\n'}
+[19.650496] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server\n'}
+[19.650559] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server\n'}
+[19.650618] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[19.650676] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[19.650735] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.650792] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake\n'}
+[19.650849] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake\n'}
+[19.650906] (nav2_map_server) StdoutLine: {'line': b'-- Installing: /root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.xml\n'}
+[19.651592] (nav2_map_server) CommandEnded: {'returncode': 0}
+[19.662017] (-) TimerEvent: {}
+[19.754964] (nav2_map_server) JobEnded: {'identifier': 'nav2_map_server', 'rc': 0}
+[19.755422] (-) EventReactorShutdown: {}

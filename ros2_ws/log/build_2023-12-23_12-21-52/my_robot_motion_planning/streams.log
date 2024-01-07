@@ -1,0 +1,11 @@
+[0.032s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.065s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[0.270s] [01m[K/root/ros2_ws/src/mp.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.270s]    11 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.270s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.271s] compilation terminated.
+[0.274s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[0.274s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[0.274s] gmake: *** [Makefile:146: all] Error 2
+[0.277s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

@@ -1,0 +1,13 @@
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:166:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ompl::base::Path[m[K’ {aka ‘[01m[Kclass ompl::base::Path[m[K’} has no member named ‘[01m[KprintAsMatrix[m[K’
+  166 |         planner->getProblemDefinition()->getSolutionPath()->[01;31m[KprintAsMatrix[m[K(std::cout);
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:165:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kelse[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+  165 |     [01;35m[Kelse[m[K
+      |     [01;35m[K^~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:167:9:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kelse[m[K’
+  167 |         [01;36m[Kstd[m[K::cout << "No solution found" << std::endl;
+      |         [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

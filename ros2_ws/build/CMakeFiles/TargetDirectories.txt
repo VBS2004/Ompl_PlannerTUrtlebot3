@@ -1,0 +1,10 @@
+/root/ros2_ws/build/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/CMakeFiles/my_robot_motion_planning_uninstall.dir
+/root/ros2_ws/build/CMakeFiles/my_motion_planner.dir
+/root/ros2_ws/build/CMakeFiles/test.dir
+/root/ros2_ws/build/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/CMakeFiles/install.dir
+/root/ros2_ws/build/CMakeFiles/install/local.dir
+/root/ros2_ws/build/CMakeFiles/install/strip.dir

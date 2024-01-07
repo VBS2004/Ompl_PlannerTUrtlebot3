@@ -1,0 +1,120 @@
+[0.506s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.506s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f00e13a3b50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f00e252bd30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f00e252bd30>>)
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.531s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/Downloads/navigation2-main/nav2_map_server'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.539s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'nav2_map_server'
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.603s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 409 installed packages in /opt/ros/humble
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.657s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'nav2_map_server' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding nav2_map_server
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_target' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.665s] Level 5:colcon.colcon_core.verb:set package 'nav2_map_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.665s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_map_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server', 'merge_install': False, 'path': '/root/Downloads/navigation2-main/nav2_map_server', 'symlink_install': False, 'test_result_base': None}
+[0.672s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.681s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.681s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/Downloads/navigation2-main/nav2_map_server' with build type 'ament_cmake'
+[0.681s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/Downloads/navigation2-main/nav2_map_server'
+[0.690s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server -- -j12 -l12
+[20.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server -- -j12 -l12
+[20.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server
+[20.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_map_server)
+[20.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server
+[20.342s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server' for CMake module files
+[20.342s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server' for CMake config files
+[20.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_map_server', 'cmake_prefix_path')
+[20.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/cmake_prefix_path.ps1'
+[20.350s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/cmake_prefix_path.dsv'
+[20.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/cmake_prefix_path.sh'
+[20.351s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib'
+[20.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_map_server', 'ld_library_path_lib')
+[20.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/ld_library_path_lib.ps1'
+[20.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/ld_library_path_lib.dsv'
+[20.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/ld_library_path_lib.sh'
+[20.359s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/bin'
+[20.359s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/pkgconfig/nav2_map_server.pc'
+[20.359s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/python3.10/site-packages'
+[20.359s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/bin'
+[20.367s] INFO:colcon.colcon_core.shell:Creating package script '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.ps1'
+[20.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.dsv'
+[20.368s] INFO:colcon.colcon_core.shell:Creating package script '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.sh'
+[20.368s] INFO:colcon.colcon_core.shell:Creating package script '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.bash'
+[20.368s] INFO:colcon.colcon_core.shell:Creating package script '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.zsh'
+[20.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/colcon-core/packages/nav2_map_server)
+[20.402s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_map_server)
+[20.410s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server' for CMake module files
+[20.411s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server' for CMake config files
+[20.411s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_map_server', 'cmake_prefix_path')
+[20.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/cmake_prefix_path.ps1'
+[20.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/cmake_prefix_path.dsv'
+[20.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/cmake_prefix_path.sh'
+[20.419s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib'
+[20.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_map_server', 'ld_library_path_lib')
+[20.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/ld_library_path_lib.ps1'
+[20.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/ld_library_path_lib.dsv'
+[20.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/hook/ld_library_path_lib.sh'
+[20.427s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/bin'
+[20.427s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/pkgconfig/nav2_map_server.pc'
+[20.427s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/lib/python3.10/site-packages'
+[20.427s] Level 1:colcon.colcon_core.environment:checking '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/bin'
+[20.435s] INFO:colcon.colcon_core.shell:Creating package script '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.ps1'
+[20.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.dsv'
+[20.435s] INFO:colcon.colcon_core.shell:Creating package script '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.sh'
+[20.435s] INFO:colcon.colcon_core.shell:Creating package script '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.bash'
+[20.435s] INFO:colcon.colcon_core.shell:Creating package script '/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/nav2_map_server/package.zsh'
+[20.436s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/Downloads/navigation2-main/nav2_map_server/install/nav2_map_server/share/colcon-core/packages/nav2_map_server)
+[20.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.436s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.436s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.448s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.448s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.448s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.464s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Downloads/navigation2-main/nav2_map_server/install/local_setup.ps1'
+[20.465s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Downloads/navigation2-main/nav2_map_server/install/_local_setup_util_ps1.py'
+[20.466s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Downloads/navigation2-main/nav2_map_server/install/setup.ps1'
+[20.475s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Downloads/navigation2-main/nav2_map_server/install/local_setup.sh'
+[20.475s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/Downloads/navigation2-main/nav2_map_server/install/_local_setup_util_sh.py'
+[20.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Downloads/navigation2-main/nav2_map_server/install/setup.sh'
+[20.484s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Downloads/navigation2-main/nav2_map_server/install/local_setup.bash'
+[20.484s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Downloads/navigation2-main/nav2_map_server/install/setup.bash'
+[20.493s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/Downloads/navigation2-main/nav2_map_server/install/local_setup.zsh'
+[20.493s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/Downloads/navigation2-main/nav2_map_server/install/setup.zsh'

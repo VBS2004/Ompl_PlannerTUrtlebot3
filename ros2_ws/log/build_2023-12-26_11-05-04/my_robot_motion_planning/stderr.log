@@ -1,0 +1,55 @@
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&, const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:126:65:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} and ‘[01m[Kstd::chrono::_V2::system_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’})
+  126 |         path_msg->header.stamp = std::chrono::system_clock::now([01;31m[K)[m[K;
+      |                                                                 [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:10[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr builtin_interfaces::msg::Time_<std::allocator<void> >& builtin_interfaces::msg::Time_<std::allocator<void> >::operator=(const builtin_interfaces::msg::Time_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KTime_[m[K
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::system_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr builtin_interfaces::msg::Time_<std::allocator<void> >& builtin_interfaces::msg::Time_<std::allocator<void> >::operator=(builtin_interfaces::msg::Time_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::chrono::_V2::system_clock::time_point[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} to ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >&&[m[K’
+[01m[K/root/ros2_ws/src/mp.cpp:140:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  140 |             pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(tf2::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                     [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:140:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  140 |             pose.pose.orientation = tf2::toMsg([01;31m[Ktf2[m[K::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:140:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  140 |             pose.pose.orientation = tf2::toMsg(tf2::Quaternion([01;31m[Ktf2[m[K::Vector3(0, 0, 1), rot->value));
+      |                                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:52:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   52 |  void plan(const rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr& path_publisher,[01;35m[Kconst rclcpp::Node::SharedPtr& node[m[K)
+      |                                                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid planWithSimpleSetup(const SharedPtr&, const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:201:51:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kompl::geometric::PathGeometric[m[K’
+  201 |          for (std::size_t i = 0; i < solution_path[01;31m[K->[m[KgetStateCount(); ++i)
+      |                                                   [01;31m[K^~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:203:51:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kompl::geometric::PathGeometric[m[K’
+  203 |             const ob::State* state = solution_path[01;31m[K->[m[KgetState(i);
+      |                                                   [01;31m[K^~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:211:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  211 |             pose.pose.orientation = [01;31m[Ktf2[m[K::toMsg(tf2::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                     [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:211:48:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  211 |             pose.pose.orientation = tf2::toMsg([01;31m[Ktf2[m[K::Quaternion(tf2::Vector3(0, 0, 1), rot->value));
+      |                                                [01;31m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:211:64:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  211 |             pose.pose.orientation = tf2::toMsg(tf2::Quaternion([01;31m[Ktf2[m[K::Vector3(0, 0, 1), rot->value));
+      |                                                                [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

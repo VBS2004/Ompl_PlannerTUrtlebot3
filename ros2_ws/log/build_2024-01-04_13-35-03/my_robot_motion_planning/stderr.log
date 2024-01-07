@@ -1,0 +1,10 @@
+[01m[K/root/ros2_ws/src/mp.cpp:96:19:[m[K [01;31m[Kerror: [m[Kextended character − is not valid in an identifier
+   96 |         goal[1] = [01;31m[K−[m[K0.0174552;
+      |                   [01;31m[K^[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:96:19:[m[K [01;31m[Kerror: [m[K‘[01m[K−0[m[K’ was not declared in this scope
+   96 |         goal[1] = [01;31m[K−0[m[K.0174552;
+      |                   [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

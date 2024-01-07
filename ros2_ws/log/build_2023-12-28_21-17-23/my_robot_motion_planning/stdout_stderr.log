@@ -1,0 +1,17 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:47:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+   47 |         [01;31m[Kcout[m[K << "Default Exception\n";
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Kstd::cout[m[K
+In file included from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/GenericParam.h:44[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/ProjectionEvaluator.h:43[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/StateSpace.h:43[m[K,
+                 from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/SpaceInformation.h:43[m[K,
+                 from [01m[K/root/ros2_ws/src/mp.cpp:3[m[K:
+[01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+   61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+      |                  [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

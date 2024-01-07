@@ -1,0 +1,28 @@
+2024-01-06 17:47:17.533 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-01-06 17:47:17.533 [info] Experiment 'pythonREPLSmartSend' is active
+2024-01-06 17:47:17.533 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-01-06 17:47:17.533 [info] Experiment 'pythonTerminalEnvVarActivationcf' is active
+2024-01-06 17:47:17.533 [info] Experiment 'pythonTestAdapter' is active
+2024-01-06 17:47:17.586 [info] Default formatter is set to null for workspace /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example
+2024-01-06 17:47:17.616 [info] Test server listening.
+2024-01-06 17:47:17.629 [info] > conda info --json
+2024-01-06 17:47:18.110 [info] Found: /bin/python --> /bin/python3.10
+2024-01-06 17:47:18.113 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-06 17:47:18.113 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-06 17:47:18.113 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-06 17:47:18.113 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-06 17:47:18.113 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-01-06 17:47:18.113 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-01-06 17:47:18.113 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-01-06 17:47:18.114 [info] Found: /bin/python3 --> /bin/python3.10
+2024-01-06 17:47:18.126 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-01-06 17:47:18.159 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2024-01-06 17:47:18.160 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-01-06 17:47:18.160 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-01-06 17:47:18.224 [info] > /bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-06 17:47:18.252 [info] > /usr/bin/python -I ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2023.22.1/pythonFiles/interpreterInfo.py
+2024-01-06 17:47:18.372 [info] Python interpreter path: /bin/python
+2024-01-06 17:47:18.375 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-01-06 17:47:20.069 [info] CreateEnv Trigger - Skipping for /root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example/turtlebot3_position_control/main.py
+2024-01-06 17:47:20.173 [info] Send text to terminal: /bin/python "/root/Downloads/ROBOTIS-GIT turtlebot3 humble-devel turtlebot3_example/turtlebot3_example/turtlebot3_position_control/main.py"
+2024-01-06 17:47:20.929 [info] Starting Pylance language server.

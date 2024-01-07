@@ -1,0 +1,4 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/root/ros2_ws/launch": No such file or directory.
+
+[0m

@@ -1,0 +1,439 @@
+[0.032s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[0.464s] In file included from [01m[K/usr/include/c++/11/ctime:42[m[K,
+[0.464s]                  from [01m[K/usr/include/c++/11/chrono:42[m[K,
+[0.464s]                  from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[0.464s] [01m[K/opt/ros/humble/include/tf2/time.h:40:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kchrono[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.464s]    40 | using Duration = std::[01;31m[Kchrono[m[K::nanoseconds;
+[0.464s]       |                       [01;31m[K^~~~~~[m[K
+[0.464s] [01m[K/opt/ros/humble/include/tf2/time.h:41:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kchrono[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.464s]    41 | using TimePoint = std::[01;31m[Kchrono[m[K::time_point<std::chrono::system_clock, Duration>;
+[0.464s]       |                        [01;31m[K^~~~~~[m[K
+[0.464s] [01m[K/opt/ros/humble/include/tf2/time.h:43:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kchrono[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[0.464s]    43 | using IDuration = std::[01;31m[Kchrono[m[K::duration<int, std::nano>;
+[0.464s]       |                        [01;31m[K^~~~~~[m[K
+[0.466s] [01m[K/opt/ros/humble/include/tf2/time.h:45:14:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.466s]    45 | static const [01;31m[KTimePoint[m[K TimePointZero = TimePoint(IDuration::zero());
+[0.466s]       |              [01;31m[K^~~~~~~~~[m[K
+[0.467s] [01m[K/opt/ros/humble/include/tf2/time.h:48:1:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.467s]    48 | [01;31m[KTimePoint[m[K get_now();
+[0.467s]       | [01;31m[K^~~~~~~~~[m[K
+[0.469s] [01m[K/opt/ros/humble/include/tf2/time.h:51:1:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ does not name a type
+[0.469s]    51 | [01;31m[KDuration[m[K durationFromSec(double t_sec);
+[0.469s]       | [01;31m[K^~~~~~~~[m[K
+[0.470s] [01m[K/opt/ros/humble/include/tf2/time.h:54:1:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.470s]    54 | [01;31m[KTimePoint[m[K timeFromSec(double t_sec);
+[0.470s]       | [01;31m[K^~~~~~~~~[m[K
+[0.470s] [01m[K/opt/ros/humble/include/tf2/time.h:57:33:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[0.471s]    57 | double durationToSec(const tf2::[01;31m[KDuration[m[K & input);
+[0.471s]       |                                 [01;31m[K^~~~~~~~[m[K
+[0.472s] [01m[K/opt/ros/humble/include/tf2/time.h:60:24:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.472s]    60 | double timeToSec(const [01;31m[KTimePoint[m[K & timepoint);
+[0.472s]       |                        [01;31m[K^~~~~~~~~[m[K
+[0.473s] [01m[K/opt/ros/humble/include/tf2/time.h:63:36:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[0.473s]    63 | std::string displayTimePoint(const [01;31m[KTimePoint[m[K & stamp);
+[0.473s]       |                                    [01;31m[K^~~~~~~~~[m[K
+[0.473s] In file included from [01m[K/usr/include/c++/11/chrono:42[m[K,
+[0.473s]                  from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[0.473s] [01m[K/usr/include/c++/11/ctime:64:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclock[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.473s]    64 |   using ::[01;31m[Kclock[m[K;
+[0.473s]       |           [01;31m[K^~~~~[m[K
+[0.473s] [01m[K/usr/include/c++/11/ctime:65:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdifftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.473s]    65 |   using ::[01;31m[Kdifftime[m[K;
+[0.474s]       |           [01;31m[K^~~~~~~~[m[K
+[0.474s] [01m[K/usr/include/c++/11/ctime:66:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kmktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.474s]    66 |   using ::[01;31m[Kmktime[m[K;
+[0.474s]       |           [01;31m[K^~~~~~[m[K
+[0.474s] [01m[K/usr/include/c++/11/ctime:67:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.474s]    67 |   using ::[01;31m[Ktime[m[K;
+[0.474s]       |           [01;31m[K^~~~[m[K
+[0.474s] [01m[K/usr/include/c++/11/ctime:68:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kasctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.474s]    68 |   using ::[01;31m[Kasctime[m[K;
+[0.474s]       |           [01;31m[K^~~~~~~[m[K
+[0.474s] [01m[K/usr/include/c++/11/ctime:69:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kctime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.474s]    69 |   using ::[01;31m[Kctime[m[K;
+[0.474s]       |           [01;31m[K^~~~~[m[K
+[0.474s] [01m[K/usr/include/c++/11/ctime:70:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgmtime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.474s]    70 |   using ::[01;31m[Kgmtime[m[K;
+[0.474s]       |           [01;31m[K^~~~~~[m[K
+[0.474s] [01m[K/usr/include/c++/11/ctime:71:11:[m[K [01;31m[Kerror: [m[K‘[01m[Klocaltime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.474s]    71 |   using ::[01;31m[Klocaltime[m[K;
+[0.474s]       |           [01;31m[K^~~~~~~~~[m[K
+[0.474s] [01m[K/usr/include/c++/11/ctime:72:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kstrftime[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.474s]    72 |   using ::[01;31m[Kstrftime[m[K;
+[0.474s]       |           [01;31m[K^~~~~~~~[m[K
+[0.474s] [01m[K/usr/include/c++/11/ctime:80:11:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimespec_get[m[K’ has not been declared in ‘[01m[K::[m[K’
+[0.474s]    80 |   using ::[01;31m[Ktimespec_get[m[K;
+[0.474s]       |           [01;31m[K^~~~~~~~~~~~[m[K
+[0.966s] In file included from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/PlannerTerminationCondition.h:43[m[K,
+[0.967s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/base/Planner.h:44[m[K,
+[0.967s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/PlannerIncludes.h:40[m[K,
+[0.967s]                  from [01m[K/opt/ros/humble/include/ompl-1.6/ompl/geometric/planners/rrt/RRTConnect.h:41[m[K,
+[0.967s]                  from [01m[K/root/ros2_ws/src/mp.cpp:6[m[K:
+[0.967s] [01m[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:[m[K In function ‘[01m[Kstd::string ompl::time::as_string(const point&)[m[K’:
+[0.967s] [01m[K/opt/ros/humble/include/ompl-1.6/ompl/util/Time.h:82:38:[m[K [01;31m[Kerror: [m[K‘[01m[Klocaltime[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Klocale[m[K’?
+[0.967s]    82 |             ss << std::put_time(std::[01;31m[Klocaltime[m[K(&pt), "%F %T");
+[0.967s]       |                                      [01;31m[K^~~~~~~~~[m[K
+[0.967s]       |                                      [32m[Klocale[m[K
+[1.070s] In file included from [01m[K/usr/local/include/opencv4/opencv2/core/utility.hpp:62[m[K,
+[1.070s]                  from [01m[K/usr/local/include/opencv4/opencv2/core.hpp:3392[m[K,
+[1.070s]                  from [01m[K/usr/local/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[1.070s]                  from [01m[K/root/ros2_ws/src/mp.cpp:8[m[K:
+[1.070s] [01m[K/usr/include/c++/11/mutex:[m[K In member function ‘[01m[Kbool std::__timed_mutex_impl<_Derived>::_M_try_lock_until(const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)[m[K’:
+[1.070s] [01m[K/usr/include/c++/11/mutex:185:61:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCK_MONOTONIC[m[K’ was not declared in this scope
+[1.070s]   185 |           return static_cast<_Derived*>(this)->_M_clocklock([01;31m[KCLOCK_MONOTONIC[m[K,
+[1.070s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.473s] In file included from [01m[K/usr/include/c++/11/future:39[m[K,
+[1.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[1.473s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.473s]                  from [01m[K/root/ros2_ws/src/mp.cpp:13[m[K:
+[1.473s] [01m[K/usr/include/c++/11/condition_variable:[m[K In member function ‘[01m[Kstd::cv_status std::condition_variable::__wait_until_impl(std::unique_lock<std::mutex>&, const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)[m[K’:
+[1.473s] [01m[K/usr/include/c++/11/condition_variable:201:45:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCK_MONOTONIC[m[K’ was not declared in this scope
+[1.473s]   201 |         _M_cond.wait_until(*__lock.mutex(), [01;31m[KCLOCK_MONOTONIC[m[K, __ts);
+[1.473s]       |                                             [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.510s] In file included from [01m[K/usr/include/c++/11/thread:44[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.510s]                  from [01m[K/root/ros2_ws/src/mp.cpp:13[m[K:
+[1.510s] [01m[K/usr/include/c++/11/bits/this_thread_sleep.h:[m[K In function ‘[01m[Kvoid std::this_thread::sleep_for(const std::chrono::duration<_Rep1, _Period1>&)[m[K’:
+[1.510s] [01m[K/usr/include/c++/11/bits/this_thread_sleep.h:82:18:[m[K [01;31m[Kerror: [m[K‘[01m[K::nanosleep[m[K’ has not been declared
+[1.510s]    82 |         while (::[01;31m[Knanosleep[m[K(&__ts, &__ts) == -1 && errno == EINTR)
+[1.510s]       |                  [01;31m[K^~~~~~~~~[m[K
+[1.664s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:20[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:34[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:29[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.665s]                  from [01m[K/root/ros2_ws/src/mp.cpp:13[m[K:
+[1.665s] [01m[K/usr/include/c++/11/shared_mutex:[m[K In member function ‘[01m[Kbool std::shared_timed_mutex::try_lock_until(const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)[m[K’:
+[1.665s] [01m[K/usr/include/c++/11/shared_mutex:546:60:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCK_MONOTONIC[m[K’ was not declared in this scope
+[1.665s]   546 |         int __ret = pthread_rwlock_clockwrlock(&_M_rwlock, [01;31m[KCLOCK_MONOTONIC[m[K,
+[1.665s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.673s] [01m[K/usr/include/c++/11/shared_mutex:[m[K In member function ‘[01m[Kbool std::shared_timed_mutex::try_lock_shared_until(const std::chrono::time_point<std::chrono::_V2::steady_clock, _Duration>&)[m[K’:
+[1.673s] [01m[K/usr/include/c++/11/shared_mutex:633:60:[m[K [01;31m[Kerror: [m[K‘[01m[KCLOCK_MONOTONIC[m[K’ was not declared in this scope
+[1.673s]   633 |         int __ret = pthread_rwlock_clockrdlock(&_M_rwlock, [01;31m[KCLOCK_MONOTONIC[m[K,
+[1.673s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.553s] In file included from [01m[K/opt/ros/humble/include/tf2/convert.h:42[m[K,
+[2.553s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:55[m[K,
+[2.553s]                  from [01m[K/root/ros2_ws/src/mp.cpp:16[m[K:
+[2.554s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:[m[K At global scope:
+[2.554s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[2.554s]    49 |   [01;31m[KTimePoint[m[K stamp_;   ///< The timestamp associated with this data
+[2.554s]       |   [01;31m[K^~~~~~~~~[m[K
+[2.555s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:59:34:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[2.555s]    59 |   Stamped(const T & input, const [01;31m[KTimePoint[m[K & timestamp, const std::string & frame_id)
+[2.555s]       |                                  [01;31m[K^~~~~~~~~[m[K
+[2.555s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:[m[K In constructor ‘[01m[Ktf2::Stamped<T>::Stamped(const T&, const int&, const string&)[m[K’:
+[2.555s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:60:15:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ktf2::Stamped<T>[m[K’ does not have any field named ‘[01m[Kstamp_[m[K’
+[2.555s]    60 |   : T(input), [01;31m[Kstamp_[m[K(timestamp), frame_id_(frame_id)
+[2.555s]       |               [01;31m[K^~~~~~[m[K
+[2.555s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:[m[K In copy constructor ‘[01m[Ktf2::Stamped<T>::Stamped(const tf2::Stamped<T>&)[m[K’:
+[2.556s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:67:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ktf2::Stamped<T>[m[K’ does not have any field named ‘[01m[Kstamp_[m[K’
+[2.556s]    67 |     [01;31m[Kstamp_[m[K(s.stamp_),
+[2.556s]       |     [01;31m[K^~~~~~[m[K
+[2.557s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:[m[K At global scope:
+[2.557s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:98:3:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[2.557s]    98 |   [01;31m[KTimePoint[m[K stamp_;   ///< The timestamp associated with this data
+[2.557s]       |   [01;31m[K^~~~~~~~~[m[K
+[2.560s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:112:11:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ does not name a type
+[2.560s]   112 |     const [01;31m[KTimePoint[m[K & timestamp,
+[2.560s]       |           [01;31m[K^~~~~~~~~[m[K
+[2.560s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:[m[K In constructor ‘[01m[Ktf2::WithCovarianceStamped<T>::WithCovarianceStamped(const T&, const int&, const string&, const std::array<std::array<double, 6>, 6>&)[m[K’:
+[2.560s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:117:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ktf2::WithCovarianceStamped<T>[m[K’ does not have any field named ‘[01m[Kstamp_[m[K’
+[2.560s]   117 |     [01;31m[Kstamp_[m[K(timestamp),
+[2.560s]       |     [01;31m[K^~~~~~[m[K
+[2.560s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:[m[K In copy constructor ‘[01m[Ktf2::WithCovarianceStamped<T>::WithCovarianceStamped(const tf2::WithCovarianceStamped<T>&)[m[K’:
+[2.560s] [01m[K/opt/ros/humble/include/tf2/tf2/transform_datatypes.h:126:5:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Ktf2::WithCovarianceStamped<T>[m[K’ does not have any field named ‘[01m[Kstamp_[m[K’
+[2.560s]   126 |     [01;31m[Kstamp_[m[K(w.stamp_),
+[2.560s]       |     [01;31m[K^~~~~~[m[K
+[2.560s] In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:55[m[K,
+[2.560s]                  from [01m[K/root/ros2_ws/src/mp.cpp:16[m[K:
+[2.560s] [01m[K/opt/ros/humble/include/tf2/convert.h:[m[K At global scope:
+[2.560s] [01m[K/opt/ros/humble/include/tf2/convert.h:67:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.560s]    67 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const T & t);
+[2.560s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.560s] [01m[K/opt/ros/humble/include/tf2/convert.h:91:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.560s]    91 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const tf2::Stamped<P> & t)
+[2.560s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.565s] In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:59[m[K,
+[2.566s]                  from [01m[K/root/ros2_ws/src/mp.cpp:16[m[K:
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:53:55:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.566s]    53 | inline builtin_interfaces::msg::Time toMsg(const tf2::[01;31m[KTimePoint[m[K & t)
+[2.566s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K In function ‘[01m[Kbuiltin_interfaces::msg::Time tf2_ros::toMsg(const int&)[m[K’:
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:56:60:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktime_since_epoch[m[K’ in ‘[01m[Kt[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.566s]    56 |     std::chrono::duration_cast<std::chrono::nanoseconds>(t.[01;31m[Ktime_since_epoch[m[K());
+[2.566s]       |                                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:58:56:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktime_since_epoch[m[K’ in ‘[01m[Kt[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.566s]    58 |     std::chrono::duration_cast<std::chrono::seconds>(t.[01;31m[Ktime_since_epoch[m[K());
+[2.566s]       |                                                        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K At global scope:
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:65:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.566s]    65 | inline tf2::[01;31m[KTimePoint[m[K fromMsg(const builtin_interfaces::msg::Time & time_msg)
+[2.566s]       |             [01;31m[K^~~~~~~~~[m[K
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:72:59:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.566s]    72 | inline builtin_interfaces::msg::Duration toMsg(const tf2::[01;31m[KDuration[m[K & t)
+[2.566s]       |                                                           [01;31m[K^~~~~~~~[m[K
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:72:42:[m[K [01;31m[Kerror: [m[Kambiguating new declaration of ‘[01m[Kbuiltin_interfaces::msg::Duration tf2_ros::toMsg(const int&)[m[K’
+[2.566s]    72 | inline builtin_interfaces::msg::Duration [01;31m[KtoMsg[m[K(const tf2::Duration & t)
+[2.566s]       |                                          [01;31m[K^~~~~[m[K
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:53:38:[m[K [01;36m[Knote: [m[Kold declaration ‘[01m[Kbuiltin_interfaces::msg::Time tf2_ros::toMsg(const int&)[m[K’
+[2.566s]    53 | inline builtin_interfaces::msg::Time [01;36m[KtoMsg[m[K(const tf2::TimePoint & t)
+[2.566s]       |                                      [01;36m[K^~~~~[m[K
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K In function ‘[01m[Kbuiltin_interfaces::msg::Duration tf2_ros::toMsg(const int&)[m[K’:
+[2.566s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:75:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kduration_cast<std::chrono::nanoseconds>(const int&)[m[K’
+[2.566s]    75 |     [01;31m[Kstd::chrono::duration_cast<std::chrono::nanoseconds>(t)[m[K;
+[2.566s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.566s] In file included from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[2.566s] [01m[K/usr/include/c++/11/chrono:267:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ToDur, class _Rep, class _Period> constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const std::chrono::duration<_Rep, _Period>&)[m[K’
+[2.566s]   267 |       [01;36m[Kduration_cast[m[K(const duration<_Rep, _Period>& __d)
+[2.566s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[2.566s] [01m[K/usr/include/c++/11/chrono:267:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.566s] In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:59[m[K,
+[2.566s]                  from [01m[K/root/ros2_ws/src/mp.cpp:16[m[K:
+[2.567s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:75:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep, _Period>[m[K’ and ‘[01m[Kconst int[m[K’
+[2.567s]    75 |     [01;36m[Kstd::chrono::duration_cast<std::chrono::nanoseconds>(t)[m[K;
+[2.567s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.567s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:77:53:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kduration_cast<std::chrono::seconds>(const int&)[m[K’
+[2.567s]    77 |     [01;31m[Kstd::chrono::duration_cast<std::chrono::seconds>(t)[m[K;
+[2.567s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.567s] In file included from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[2.567s] [01m[K/usr/include/c++/11/chrono:267:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ToDur, class _Rep, class _Period> constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const std::chrono::duration<_Rep, _Period>&)[m[K’
+[2.567s]   267 |       [01;36m[Kduration_cast[m[K(const duration<_Rep, _Period>& __d)
+[2.567s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[2.567s] [01m[K/usr/include/c++/11/chrono:267:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.567s] In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:59[m[K,
+[2.567s]                  from [01m[K/root/ros2_ws/src/mp.cpp:16[m[K:
+[2.567s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:77:53:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep, _Period>[m[K’ and ‘[01m[Kconst int[m[K’
+[2.567s]    77 |     [01;36m[Kstd::chrono::duration_cast<std::chrono::seconds>(t)[m[K;
+[2.567s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.567s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K At global scope:
+[2.567s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:84:13:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.567s]    84 | inline tf2::[01;31m[KDuration[m[K fromMsg(const builtin_interfaces::msg::Duration & duration_msg)
+[2.567s]       |             [01;31m[K^~~~~~~~[m[K
+[2.567s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:98:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.567s]    98 | inline tf2::[01;31m[KTimePoint[m[K fromRclcpp(const rclcpp::Time & time)
+[2.567s]       |             [01;31m[K^~~~~~~~~[m[K
+[2.567s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:105:41:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.567s]   105 | inline rclcpp::Time toRclcpp(const tf2::[01;31m[KTimePoint[m[K & time)
+[2.567s]       |                                         [01;31m[K^~~~~~~~~[m[K
+[2.567s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K In function ‘[01m[Krclcpp::Time tf2_ros::toRclcpp(const int&)[m[K’:
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:109:53:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktime_since_epoch[m[K’ in ‘[01m[Ktime[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+[2.568s]   109 |   return rclcpp::Time(std::chrono::nanoseconds(time.[01;31m[Ktime_since_epoch[m[K()).count());
+[2.568s]       |                                                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K At global scope:
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:112:13:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.568s]   112 | inline tf2::[01;31m[KDuration[m[K fromRclcpp(const rclcpp::Duration & duration)
+[2.568s]       |             [01;31m[K^~~~~~~~[m[K
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:117:45:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.568s]   117 | inline rclcpp::Duration toRclcpp(const tf2::[01;31m[KDuration[m[K & duration)
+[2.568s]       |                                             [01;31m[K^~~~~~~~[m[K
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:117:25:[m[K [01;31m[Kerror: [m[Kambiguating new declaration of ‘[01m[Krclcpp::Duration tf2_ros::toRclcpp(const int&)[m[K’
+[2.568s]   117 | inline rclcpp::Duration [01;31m[KtoRclcpp[m[K(const tf2::Duration & duration)
+[2.568s]       |                         [01;31m[K^~~~~~~~[m[K
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:105:21:[m[K [01;36m[Knote: [m[Kold declaration ‘[01m[Krclcpp::Time tf2_ros::toRclcpp(const int&)[m[K’
+[2.568s]   105 | inline rclcpp::Time [01;36m[KtoRclcpp[m[K(const tf2::TimePoint & time)
+[2.568s]       |                     [01;36m[K^~~~~~~~[m[K
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K In function ‘[01m[Krclcpp::Duration tf2_ros::toRclcpp(const int&)[m[K’:
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:119:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kduration_cast<std::chrono::nanoseconds>(const int&)[m[K’
+[2.568s]   119 | cpp::Duration([01;31m[Kstd::chrono::duration_cast<std::chrono::nanoseconds>(duration)[m[K);
+[2.568s]       |               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.568s] 
+[2.568s] In file included from [01m[K/root/ros2_ws/src/mp.cpp:1[m[K:
+[2.568s] [01m[K/usr/include/c++/11/chrono:267:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _ToDur, class _Rep, class _Period> constexpr std::chrono::__enable_if_is_duration<_ToDur> std::chrono::duration_cast(const std::chrono::duration<_Rep, _Period>&)[m[K’
+[2.568s]   267 |       [01;36m[Kduration_cast[m[K(const duration<_Rep, _Period>& __d)
+[2.568s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[2.568s] [01m[K/usr/include/c++/11/chrono:267:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.568s] In file included from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:59[m[K,
+[2.568s]                  from [01m[K/root/ros2_ws/src/mp.cpp:16[m[K:
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:119:79:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::chrono::duration<_Rep, _Period>[m[K’ and ‘[01m[Kconst int[m[K’
+[2.568s]   119 | cpp::Duration([01;36m[Kstd::chrono::duration_cast<std::chrono::nanoseconds>(duration)[m[K);
+[2.568s]       |               [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[2.568s] 
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K At global scope:
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:142:16:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.568s]   142 |     const tf2::[01;31m[KTimePoint[m[K & time, const tf2::Duration timeout) const = 0;
+[2.568s]       |                [01;31m[K^~~~~~~~~[m[K
+[2.568s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:142:45:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.568s]   142 |     const tf2::TimePoint & time, const tf2::[01;31m[KDuration[m[K timeout) const = 0;
+[2.568s]       |                                             [01;31m[K^~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:159:50:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.569s]   159 |     const std::string & target_frame, const tf2::[01;31m[KTimePoint[m[K & target_time,
+[2.569s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:160:50:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.569s]   160 |     const std::string & source_frame, const tf2::[01;31m[KTimePoint[m[K & source_time,
+[2.569s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:161:49:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.569s]   161 |     const std::string & fixed_frame, const tf2::[01;31m[KDuration[m[K timeout) const = 0;
+[2.569s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:176:16:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.569s]   176 |     const tf2::[01;31m[KTimePoint[m[K & time, const tf2::Duration timeout,
+[2.569s]       |                [01;31m[K^~~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:176:45:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.569s]   176 |     const tf2::TimePoint & time, const tf2::[01;31m[KDuration[m[K timeout,
+[2.569s]       |                                             [01;31m[K^~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:192:50:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.569s]   192 |     const std::string & target_frame, const tf2::[01;31m[KTimePoint[m[K & target_time,
+[2.569s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:193:50:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.569s]   193 |     const std::string & source_frame, const tf2::[01;31m[KTimePoint[m[K & source_time,
+[2.569s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:194:49:[m[K [01;31m[Kerror: [m[K‘[01m[KDuration[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.569s]   194 |     const std::string & fixed_frame, const tf2::[01;31m[KDuration[m[K timeout,
+[2.569s]       |                                                 [01;31m[K^~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:211:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2::Duration[m[K’ has not been declared
+[2.569s]   211 |     const std::string & target_frame, [01;31m[Ktf2[m[K::Duration timeout = tf2::durationFromSec(0.0)) const
+[2.569s]       |                                       [01;31m[K^~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:233:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2::Duration[m[K’ has not been declared
+[2.569s]   233 |     const std::string & target_frame, [01;31m[Ktf2[m[K::Duration timeout = tf2::durationFromSec(0.0)) const
+[2.569s]       |                                       [01;31m[K^~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:259:39:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2::Duration[m[K’ has not been declared
+[2.569s]   259 |     const std::string & target_frame, [01;31m[Ktf2[m[K::Duration timeout = tf2::durationFromSec(0.0)) const
+[2.569s]       |                                       [01;31m[K^~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:284:50:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.569s]   284 |     const std::string & target_frame, const tf2::[01;31m[KTimePoint[m[K & target_time,
+[2.569s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.569s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:285:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2::Duration[m[K’ has not been declared
+[2.569s]   285 |     const std::string & fixed_frame, [01;31m[Ktf2[m[K::Duration timeout = tf2::durationFromSec(0.0)) const
+[2.569s]       |                                      [01;31m[K^~~[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:314:50:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.570s]   314 |     const std::string & target_frame, const tf2::[01;31m[KTimePoint[m[K & target_time,
+[2.570s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:315:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2::Duration[m[K’ has not been declared
+[2.570s]   315 |     const std::string & fixed_frame, [01;31m[Ktf2[m[K::Duration timeout = tf2::durationFromSec(0.0)) const
+[2.570s]       |                                      [01;31m[K^~~[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:345:50:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.570s]   345 |     const std::string & target_frame, const tf2::[01;31m[KTimePoint[m[K & target_time,
+[2.570s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:346:38:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2::Duration[m[K’ has not been declared
+[2.570s]   346 |     const std::string & fixed_frame, [01;31m[Ktf2[m[K::Duration timeout = tf2::durationFromSec(0.0)) const
+[2.570s]       |                                      [01;31m[K^~~[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:211:68:[m[K [01;31m[Kerror: [m[K‘[01m[KdurationFromSec[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[KdurationToSec[m[K’?
+[2.570s]   211 |    const std::string & target_frame, tf2::Duration timeout = tf2::[01;31m[KdurationFromSec[m[K(0.0)) const
+[2.570s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.570s]       |                                                                   [32m[KdurationToSec[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:233:68:[m[K [01;31m[Kerror: [m[K‘[01m[KdurationFromSec[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[KdurationToSec[m[K’?
+[2.570s]   233 |    const std::string & target_frame, tf2::Duration timeout = tf2::[01;31m[KdurationFromSec[m[K(0.0)) const
+[2.570s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.570s]       |                                                                   [32m[KdurationToSec[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:259:68:[m[K [01;31m[Kerror: [m[K‘[01m[KdurationFromSec[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[KdurationToSec[m[K’?
+[2.570s]   259 |    const std::string & target_frame, tf2::Duration timeout = tf2::[01;31m[KdurationFromSec[m[K(0.0)) const
+[2.570s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.570s]       |                                                                   [32m[KdurationToSec[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:285:67:[m[K [01;31m[Kerror: [m[K‘[01m[KdurationFromSec[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[KdurationToSec[m[K’?
+[2.570s]   285 |     const std::string & fixed_frame, tf2::Duration timeout = tf2::[01;31m[KdurationFromSec[m[K(0.0)) const
+[2.570s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.570s]       |                                                                   [32m[KdurationToSec[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:315:67:[m[K [01;31m[Kerror: [m[K‘[01m[KdurationFromSec[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[KdurationToSec[m[K’?
+[2.570s]   315 |     const std::string & fixed_frame, tf2::Duration timeout = tf2::[01;31m[KdurationFromSec[m[K(0.0)) const
+[2.570s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.570s]       |                                                                   [32m[KdurationToSec[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:346:67:[m[K [01;31m[Kerror: [m[K‘[01m[KdurationFromSec[m[K’ is not a member of ‘[01m[Ktf2[m[K’; did you mean ‘[01m[KdurationToSec[m[K’?
+[2.570s]   346 |     const std::string & fixed_frame, tf2::Duration timeout = tf2::[01;31m[KdurationFromSec[m[K(0.0)) const
+[2.570s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.570s]       |                                                                   [32m[KdurationToSec[m[K
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K In member function ‘[01m[KT& tf2_ros::BufferInterface::transform(const T&, T&, const string&, int) const[m[K’:
+[2.570s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:215:72:[m[K [01;31m[Kerror: [m[K‘[01m[KgetTimestamp[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[2.570s]   215 |  in, out, lookupTransform(target_frame, tf2::getFrameId(in), tf2::[01;31m[KgetTimestamp[m[K(in), timeout));
+[2.571s]       |                                                                   [01;31m[K^~~~~~~~~~~~[m[K
+[2.571s] 
+[2.571s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:[m[K In member function ‘[01m[KT& tf2_ros::BufferInterface::transform(const T&, T&, const string&, const int&, const string&, int) const[m[K’:
+[2.571s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:291:35:[m[K [01;31m[Kerror: [m[K‘[01m[KgetTimestamp[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[2.571s]   291 |         tf2::getFrameId(in), tf2::[01;31m[KgetTimestamp[m[K(in),
+[2.571s]       |                                   [01;31m[K^~~~~~~~~~~~[m[K
+[2.571s] In file included from [01m[K/root/ros2_ws/src/mp.cpp:16[m[K:
+[2.571s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K At global scope:
+[2.571s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:140:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.571s]   140 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const geometry_msgs::msg::Vector3Stamped & t)
+[2.571s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.571s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:307:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.571s]   307 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const geometry_msgs::msg::PointStamped & t)
+[2.571s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.571s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:380:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.571s]   380 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const geometry_msgs::msg::PoseStamped & t)
+[2.571s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.571s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:508:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.571s]   508 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const geometry_msgs::msg::PolygonStamped & t)
+[2.571s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.573s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:753:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.573s]   753 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const geometry_msgs::msg::PoseWithCovarianceStamped & t)
+[2.573s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.573s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K In function ‘[01m[KB tf2::toMsg(const A&) [with A = tf2::WithCovarianceStamped<tf2::Transform>; B = geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >][m[K’:
+[2.573s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:852:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class tf2::WithCovarianceStamped<tf2::Transform>[m[K’ has no member named ‘[01m[Kstamp_[m[K’
+[2.573s]   852 |   out.header.stamp = tf2_ros::toMsg(in.[01;31m[Kstamp_[m[K);
+[2.573s]       |                                        [01;31m[K^~~~~~[m[K
+[2.573s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K In function ‘[01m[Kvoid tf2::fromMsg(const A&, B&) [with A = geometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >; B = tf2::WithCovarianceStamped<tf2::Transform>][m[K’:
+[2.573s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:876:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::WithCovarianceStamped<tf2::Transform>[m[K’ has no member named ‘[01m[Kstamp_[m[K’
+[2.573s]   876 |   out.[01;31m[Kstamp_[m[K = tf2_ros::fromMsg(in.header.stamp);
+[2.573s]       |       [01;31m[K^~~~~~[m[K
+[2.573s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:876:25:[m[K [01;31m[Kerror: [m[K‘[01m[KfromMsg[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’; did you mean ‘[01m[KtoMsg[m[K’?
+[2.573s]   876 |   out.stamp_ = tf2_ros::[01;31m[KfromMsg[m[K(in.header.stamp);
+[2.573s]       |                         [01;31m[K^~~~~~~[m[K
+[2.573s]       |                         [32m[KtoMsg[m[K
+[2.574s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K At global scope:
+[2.574s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:952:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.574s]   952 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const geometry_msgs::msg::QuaternionStamped & t)
+[2.574s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.574s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::QuaternionStamped tf2::toMsg(const tf2::Stamped<tf2::Quaternion>&)[m[K’:
+[2.574s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:1024:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class tf2::Stamped<tf2::Quaternion>[m[K’ has no member named ‘[01m[Kstamp_[m[K’
+[2.574s]  1024 |   out.header.stamp = tf2_ros::toMsg(in.[01;31m[Kstamp_[m[K);
+[2.574s]       |                                        [01;31m[K^~~~~~[m[K
+[2.574s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K In function ‘[01m[Kvoid tf2::fromMsg(const QuaternionStamped&, tf2::Stamped<tf2::Quaternion>&)[m[K’:
+[2.574s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:1041:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::Stamped<tf2::Quaternion>[m[K’ has no member named ‘[01m[Kstamp_[m[K’
+[2.574s]  1041 |   out.[01;31m[Kstamp_[m[K = tf2_ros::fromMsg(in.header.stamp);
+[2.574s]       |       [01;31m[K^~~~~~[m[K
+[2.574s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:1041:25:[m[K [01;31m[Kerror: [m[K‘[01m[KfromMsg[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’; did you mean ‘[01m[KtoMsg[m[K’?
+[2.574s]  1041 |   out.stamp_ = tf2_ros::[01;31m[KfromMsg[m[K(in.header.stamp);
+[2.574s]       |                         [01;31m[K^~~~~~~[m[K
+[2.574s]       |                         [32m[KtoMsg[m[K
+[2.575s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K At global scope:
+[2.575s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:1133:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.575s]  1133 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const geometry_msgs::msg::TransformStamped & t)
+[2.575s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.575s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K In function ‘[01m[Kvoid tf2::fromMsg(const TransformStamped&, tf2::Stamped<tf2::Transform>&)[m[K’:
+[2.575s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:1212:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::Stamped<tf2::Transform>[m[K’ has no member named ‘[01m[Kstamp_[m[K’
+[2.575s]  1212 |   out.[01;31m[Kstamp_[m[K = tf2_ros::fromMsg(in.header.stamp);
+[2.575s]       |       [01;31m[K^~~~~~[m[K
+[2.575s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:1212:25:[m[K [01;31m[Kerror: [m[K‘[01m[KfromMsg[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’; did you mean ‘[01m[KtoMsg[m[K’?
+[2.575s]  1212 |   out.stamp_ = tf2_ros::[01;31m[KfromMsg[m[K(in.header.stamp);
+[2.575s]       |                         [01;31m[K^~~~~~~[m[K
+[2.575s]       |                         [32m[KtoMsg[m[K
+[2.575s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::TransformStamped tf2::toMsg(const tf2::Stamped<tf2::Transform>&)[m[K’:
+[2.575s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:1228:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst class tf2::Stamped<tf2::Transform>[m[K’ has no member named ‘[01m[Kstamp_[m[K’
+[2.575s]  1228 |   out.header.stamp = tf2_ros::toMsg(in.[01;31m[Kstamp_[m[K);
+[2.575s]       |                                        [01;31m[K^~~~~~[m[K
+[2.576s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:[m[K At global scope:
+[2.576s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:1327:6:[m[K [01;31m[Kerror: [m[K‘[01m[KTimePoint[m[K’ in namespace ‘[01m[Ktf2[m[K’ does not name a type
+[2.576s]  1327 | tf2::[01;31m[KTimePoint[m[K getTimestamp(const geometry_msgs::msg::WrenchStamped & t)
+[2.576s]       |      [01;31m[K^~~~~~~~~[m[K
+[2.591s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid plan(const SharedPtr&, const SharedPtr&)[m[K’:
+[2.591s] [01m[K/root/ros2_ws/src/mp.cpp:56:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.591s]    56 | s::msg::Path>::SharedPtr& path_publisher,[01;35m[Kconst rclcpp::Node::SharedPtr& node[m[K)
+[2.591s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.591s] 
+[2.593s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kvoid planWithSimpleSetup(const SharedPtr&, const SharedPtr&)[m[K’:
+[2.593s] [01m[K/root/ros2_ws/src/mp.cpp:212:51:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kompl::geometric::PathGeometric[m[K’
+[2.593s]   212 |          for (std::size_t i = 0; i < solution_path[01;31m[K->[m[KgetStateCount(); ++i)
+[2.593s]       |                                                   [01;31m[K^~[m[K
+[2.593s] [01m[K/root/ros2_ws/src/mp.cpp:214:51:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kompl::geometric::PathGeometric[m[K’
+[2.593s]   214 |             const ob::State* state = solution_path[01;31m[K->[m[KgetState(i);
+[2.593s]       |                                                   [01;31m[K^~[m[K
+[2.593s] [01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.593s] [01m[K/root/ros2_ws/src/mp.cpp:233:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.593s]   233 |  int main([01;35m[Kint argc[m[K, char** argv)
+[2.593s]       |           [01;35m[K~~~~^~~~[m[K
+[2.593s] [01m[K/root/ros2_ws/src/mp.cpp:233:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.593s]   233 |  int main(int argc, [01;35m[Kchar** argv[m[K)
+[2.593s]       |                     [01;35m[K~~~~~~~^~~~[m[K
+[3.255s] gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+[3.255s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+[3.255s] gmake: *** [Makefile:146: all] Error 2
+[3.257s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

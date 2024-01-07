@@ -1,0 +1,33 @@
+[35m[1mConsolidate compiler generated dependencies of target my_motion_planner[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_motion_planner.dir/src/mp.cpp.o[0m
+[01m[K/root/ros2_ws/src/mp.cpp:[m[K In function ‘[01m[Kbool isStateValid(const ompl::base::State*)[m[K’:
+[01m[K/root/ros2_ws/src/mp.cpp:41:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kintensity[m[K’
+   41 |     cv::Scalar [01;31m[Kintensity[m[K = image.at<uchar>(cv::Point(static_cast<int>(y / 0.05), static_cast<int>(x / 0.05)));
+      |                [01;31m[K^~~~~~~~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:42:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kif[m[K’
+   42 |     [01;31m[Kif[m[K(intensity.val[0]<=occt){
+      |     [01;31m[K^~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:41:111:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kif[m[K’
+   41 |     cv::Scalar intensity = image.at<uchar>(cv::Point(static_cast<int>(y / 0.05), static_cast<int>(x / 0.05)));
+      |                                                                                                               [01;31m[K^[m[K
+      |                                                                                                               [32m[K)[m[K
+   42 |     [32m[Kif[m[K(intensity.val[0]<=occt){
+      |     [32m[K~~[m[K                                                                                                         
+[01m[K/root/ros2_ws/src/mp.cpp:40:7:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   40 |     if[01;36m[K([m[Kx<
+      |       [01;36m[K^[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:45:17:[m[K [01;35m[Kwarning: [m[Ksuggest braces around empty body in an ‘[01m[Kif[m[K’ statement [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wempty-body-Wempty-body]8;;[m[K]
+   45 |      return true[01;35m[K;[m[K
+      |                 [01;35m[K^[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:27:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   27 |         const auto *[01;35m[Krot[m[K = se2state->as<ob::SO2StateSpace::StateType>(1);
+      |                     [01;35m[K^~~[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:29:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   29 |         double [01;35m[Ky[m[K = (*pos)[1];
+      |                [01;35m[K^[m[K
+[01m[K/root/ros2_ws/src/mp.cpp:46:2:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   46 |  [01;35m[K}[m[K
+      |  [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/my_motion_planner.dir/build.make:76: CMakeFiles/my_motion_planner.dir/src/mp.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/my_motion_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

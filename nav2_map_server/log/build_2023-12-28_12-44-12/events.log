@@ -1,0 +1,217 @@
+[0.000000] (-) TimerEvent: {}
+[0.000452] (nav2_map_server) JobQueued: {'identifier': 'nav2_map_server', 'dependencies': OrderedDict()}
+[0.000480] (nav2_map_server) JobStarted: {'identifier': 'nav2_map_server'}
+[0.028296] (nav2_map_server) JobProgress: {'identifier': 'nav2_map_server', 'progress': 'cmake'}
+[0.028344] (nav2_map_server) JobProgress: {'identifier': 'nav2_map_server', 'progress': 'build'}
+[0.028790] (nav2_map_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server', '--', '-j12', '-l12'], 'cwd': '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'root'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2341'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus,guid=2abf9636f5adad7da5723984658cefc1'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'root'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:@/tmp/.ICE-unix/2341,unix/vbs-Victus-by-HP-Gaming-Laptop-15-fa0xxx:/tmp/.ICE-unix/2341'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d9c359fd_9795_4080_bd2f_a946bee2ed1c'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/0/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.216'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/0/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/0/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/root/Downloads/navigation2-main/nav2_map_server/build/nav2_map_server'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/0/bus,guid=2abf9636f5adad7da5723984658cefc1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054004] (nav2_map_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[0.054170] (nav2_map_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[0.054334] (nav2_map_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_io\x1b[0m\n'}
+[0.061672] (nav2_map_server) StdoutLine: {'line': b'[  8%] Built target gtest_main\n'}
+[0.061831] (nav2_map_server) StdoutLine: {'line': b'[ 11%] Built target gtest\n'}
+[0.065211] (nav2_map_server) StdoutLine: {'line': b'[ 19%] Built target map_io\n'}
+[0.068325] (nav2_map_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_map_saver_cli\x1b[0m\n'}
+[0.072145] (nav2_map_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_map_saver_publisher\x1b[0m\n'}
+[0.072271] (nav2_map_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test_map_io\x1b[0m\n'}
+[0.073097] (nav2_map_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_server_core\x1b[0m\n'}
+[0.079365] (nav2_map_server) StdoutLine: {'line': b'[ 27%] Built target test_map_saver_cli\n'}
+[0.082360] (nav2_map_server) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o\x1b[0m\n'}
+[0.083013] (nav2_map_server) StdoutLine: {'line': b'[ 38%] Built target test_map_io\n'}
+[0.086554] (nav2_map_server) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o\x1b[0m\n'}
+[0.087478] (nav2_map_server) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o\x1b[0m\n'}
+[0.088253] (nav2_map_server) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o\x1b[0m\n'}
+[0.099740] (-) TimerEvent: {}
+[0.200117] (-) TimerEvent: {}
+[0.300509] (-) TimerEvent: {}
+[0.310472] (nav2_map_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ctime:42\x1b[m\x1b[K,\n'}
+[0.310667] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/chrono:42\x1b[m\x1b[K,\n'}
+[0.310743] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/fs_fwd.h:37\x1b[m\x1b[K,\n'}
+[0.310922] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/filesystem:44\x1b[m\x1b[K,\n'}
+[0.311001] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/Downloads/navigation2-main/nav2_map_server/test/component/test_map_saver_publisher.cpp:15\x1b[m\x1b[K:\n'}
+[0.311066] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:40:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.311137] (nav2_map_server) StderrLine: {'line': b'   40 | using Duration = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::nanoseconds;\n'}
+[0.311195] (nav2_map_server) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.311253] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:41:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.311311] (nav2_map_server) StderrLine: {'line': b'   41 | using TimePoint = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::time_point<std::chrono::system_clock, Duration>;\n'}
+[0.311370] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.311427] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:43:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.311486] (nav2_map_server) StderrLine: {'line': b'   43 | using IDuration = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::duration<int, std::nano>;\n'}
+[0.311547] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.311700] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:45:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.311780] (nav2_map_server) StderrLine: {'line': b'   45 | static const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K TimePointZero = TimePoint(IDuration::zero());\n'}
+[0.311846] (nav2_map_server) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.312390] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:48:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.312478] (nav2_map_server) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K get_now();\n'}
+[0.312544] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.313017] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:51:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDuration\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.313093] (nav2_map_server) StderrLine: {'line': b'   51 | \x1b[01;31m\x1b[KDuration\x1b[m\x1b[K durationFromSec(double t_sec);\n'}
+[0.313153] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.313667] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:54:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.313755] (nav2_map_server) StderrLine: {'line': b'   54 | \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K timeFromSec(double t_sec);\n'}
+[0.313821] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.313881] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:57:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDuration\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.313951] (nav2_map_server) StderrLine: {'line': b'   57 | double durationToSec(const tf2::\x1b[01;31m\x1b[KDuration\x1b[m\x1b[K & input);\n'}
+[0.314010] (nav2_map_server) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.314239] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:60:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.314333] (nav2_map_server) StderrLine: {'line': b'   60 | double timeToSec(const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K & timepoint);\n'}
+[0.314399] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.314913] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:63:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.315010] (nav2_map_server) StderrLine: {'line': b'   63 | std::string displayTimePoint(const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K & stamp);\n'}
+[0.315076] (nav2_map_server) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.353544] (nav2_map_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ctime:42\x1b[m\x1b[K,\n'}
+[0.361462] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/chrono:42\x1b[m\x1b[K,\n'}
+[0.361555] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:39\x1b[m\x1b[K,\n'}
+[0.361618] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[0.361676] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[0.361735] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[0.361792] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/Downloads/navigation2-main/nav2_map_server/include/nav2_map_server/map_saver.hpp:22\x1b[m\x1b[K,\n'}
+[0.361850] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/Downloads/navigation2-main/nav2_map_server/src/map_saver/map_saver.cpp:32\x1b[m\x1b[K:\n'}
+[0.361907] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:40:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.361965] (nav2_map_server) StderrLine: {'line': b'   40 | using Duration = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::nanoseconds;\n'}
+[0.362021] (nav2_map_server) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.362079] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:41:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.362150] (nav2_map_server) StderrLine: {'line': b'   41 | using TimePoint = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::time_point<std::chrono::system_clock, Duration>;\n'}
+[0.362208] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.362265] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:43:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.362321] (nav2_map_server) StderrLine: {'line': b'   43 | using IDuration = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::duration<int, std::nano>;\n'}
+[0.362378] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.362434] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:45:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.362496] (nav2_map_server) StderrLine: {'line': b'   45 | static const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K TimePointZero = TimePoint(IDuration::zero());\n'}
+[0.362553] (nav2_map_server) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.362608] (nav2_map_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ctime:42\x1b[m\x1b[K,\n'}
+[0.362665] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/chrono:42\x1b[m\x1b[K,\n'}
+[0.362721] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:39\x1b[m\x1b[K,\n'}
+[0.362777] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[0.362832] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[0.362888] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[0.362945] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/Downloads/navigation2-main/nav2_map_server/include/nav2_map_server/costmap_filter_info_server.hpp:20\x1b[m\x1b[K,\n'}
+[0.363003] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/Downloads/navigation2-main/nav2_map_server/src/costmap_filter_info/costmap_filter_info_server.cpp:18\x1b[m\x1b[K:\n'}
+[0.363060] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:40:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.363117] (nav2_map_server) StderrLine: {'line': b'   40 | using Duration = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::nanoseconds;\n'}
+[0.363175] (nav2_map_server) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.363231] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:41:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.363293] (nav2_map_server) StderrLine: {'line': b'   41 | using TimePoint = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::time_point<std::chrono::system_clock, Duration>;\n'}
+[0.363351] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.363408] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:48:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.363464] (nav2_map_server) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K get_now();\n'}
+[0.363521] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.363576] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:43:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.363633] (nav2_map_server) StderrLine: {'line': b'   43 | using IDuration = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::duration<int, std::nano>;\n'}
+[0.363689] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.363745] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:51:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDuration\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.363801] (nav2_map_server) StderrLine: {'line': b'   51 | \x1b[01;31m\x1b[KDuration\x1b[m\x1b[K durationFromSec(double t_sec);\n'}
+[0.363864] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.363920] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:45:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.363977] (nav2_map_server) StderrLine: {'line': b'   45 | static const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K TimePointZero = TimePoint(IDuration::zero());\n'}
+[0.364033] (nav2_map_server) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.364088] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:54:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.364145] (nav2_map_server) StderrLine: {'line': b'   54 | \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K timeFromSec(double t_sec);\n'}
+[0.364201] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.364256] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:57:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDuration\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.364313] (nav2_map_server) StderrLine: {'line': b'   57 | double durationToSec(const tf2::\x1b[01;31m\x1b[KDuration\x1b[m\x1b[K & input);\n'}
+[0.364370] (nav2_map_server) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.364426] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:48:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.364482] (nav2_map_server) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K get_now();\n'}
+[0.364537] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.364593] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:60:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.364653] (nav2_map_server) StderrLine: {'line': b'   60 | double timeToSec(const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K & timepoint);\n'}
+[0.364710] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.364766] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:51:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDuration\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.364824] (nav2_map_server) StderrLine: {'line': b'   51 | \x1b[01;31m\x1b[KDuration\x1b[m\x1b[K durationFromSec(double t_sec);\n'}
+[0.364881] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.364937] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:63:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.364993] (nav2_map_server) StderrLine: {'line': b'   63 | std::string displayTimePoint(const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K & stamp);\n'}
+[0.365049] (nav2_map_server) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.365120] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:54:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.365178] (nav2_map_server) StderrLine: {'line': b'   54 | \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K timeFromSec(double t_sec);\n'}
+[0.365233] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.365294] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:57:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDuration\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.365350] (nav2_map_server) StderrLine: {'line': b'   57 | double durationToSec(const tf2::\x1b[01;31m\x1b[KDuration\x1b[m\x1b[K & input);\n'}
+[0.365406] (nav2_map_server) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.365462] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:60:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.365518] (nav2_map_server) StderrLine: {'line': b'   60 | double timeToSec(const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K & timepoint);\n'}
+[0.365574] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.365630] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:63:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.365689] (nav2_map_server) StderrLine: {'line': b'   63 | std::string displayTimePoint(const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K & stamp);\n'}
+[0.365745] (nav2_map_server) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.400749] (-) TimerEvent: {}
+[0.419873] (nav2_map_server) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ctime:42\x1b[m\x1b[K,\n'}
+[0.420038] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/chrono:42\x1b[m\x1b[K,\n'}
+[0.420186] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:39\x1b[m\x1b[K,\n'}
+[0.420257] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/future:38\x1b[m\x1b[K,\n'}
+[0.420320] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[0.420386] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[0.420445] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/Downloads/navigation2-main/nav2_map_server/include/nav2_map_server/map_server.hpp:22\x1b[m\x1b[K,\n'}
+[0.420505] (nav2_map_server) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/root/Downloads/navigation2-main/nav2_map_server/src/map_server/map_server.cpp:47\x1b[m\x1b[K:\n'}
+[0.420564] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:40:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.420624] (nav2_map_server) StderrLine: {'line': b'   40 | using Duration = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::nanoseconds;\n'}
+[0.420684] (nav2_map_server) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.420744] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:41:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.420805] (nav2_map_server) StderrLine: {'line': b'   41 | using TimePoint = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::time_point<std::chrono::system_clock, Duration>;\n'}
+[0.420896] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.420958] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:43:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kchrono\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.421015] (nav2_map_server) StderrLine: {'line': b'   43 | using IDuration = std::\x1b[01;31m\x1b[Kchrono\x1b[m\x1b[K::duration<int, std::nano>;\n'}
+[0.421081] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.421336] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:45:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.421425] (nav2_map_server) StderrLine: {'line': b'   45 | static const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K TimePointZero = TimePoint(IDuration::zero());\n'}
+[0.421490] (nav2_map_server) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.422166] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:48:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.422254] (nav2_map_server) StderrLine: {'line': b'   48 | \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K get_now();\n'}
+[0.422319] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.422822] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:51:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDuration\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.422910] (nav2_map_server) StderrLine: {'line': b'   51 | \x1b[01;31m\x1b[KDuration\x1b[m\x1b[K durationFromSec(double t_sec);\n'}
+[0.422975] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.423423] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:54:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.423518] (nav2_map_server) StderrLine: {'line': b'   54 | \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K timeFromSec(double t_sec);\n'}
+[0.423583] (nav2_map_server) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.423643] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:57:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDuration\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ktf2\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.423702] (nav2_map_server) StderrLine: {'line': b'   57 | double durationToSec(const tf2::\x1b[01;31m\x1b[KDuration\x1b[m\x1b[K & input);\n'}
+[0.423759] (nav2_map_server) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[0.424094] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:60:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.424202] (nav2_map_server) StderrLine: {'line': b'   60 | double timeToSec(const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K & timepoint);\n'}
+[0.424270] (nav2_map_server) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.424768] (nav2_map_server) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2/time.h:63:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTimePoint\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[0.424870] (nav2_map_server) StderrLine: {'line': b'   63 | std::string displayTimePoint(const \x1b[01;31m\x1b[KTimePoint\x1b[m\x1b[K & stamp);\n'}
+[0.424936] (nav2_map_server) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[0.500970] (-) TimerEvent: {}
+[0.601251] (-) TimerEvent: {}
+[0.701619] (-) TimerEvent: {}
+[0.801963] (-) TimerEvent: {}
+[0.902370] (-) TimerEvent: {}
+[1.002796] (-) TimerEvent: {}
+[1.103105] (-) TimerEvent: {}
+[1.203388] (-) TimerEvent: {}
+[1.303792] (-) TimerEvent: {}
+[1.404215] (-) TimerEvent: {}
+[1.504633] (-) TimerEvent: {}
+[1.605045] (-) TimerEvent: {}
+[1.705372] (-) TimerEvent: {}
+[1.805690] (-) TimerEvent: {}
+[1.906099] (-) TimerEvent: {}
+[2.006507] (-) TimerEvent: {}
+[2.106927] (-) TimerEvent: {}
+[2.152315] (nav2_map_server) StderrLine: {'line': b'gmake[2]: *** [test/component/CMakeFiles/test_map_saver_publisher.dir/build.make:76: test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o] Error 1\n'}
+[2.152516] (nav2_map_server) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:566: test/component/CMakeFiles/test_map_saver_publisher.dir/all] Error 2\n'}
+[2.152585] (nav2_map_server) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.207165] (-) TimerEvent: {}
+[2.300359] (nav2_map_server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/map_server_core.dir/build.make:104: CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o] Error 1\n'}
+[2.300525] (nav2_map_server) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.307291] (-) TimerEvent: {}
+[2.407685] (-) TimerEvent: {}
+[2.508081] (-) TimerEvent: {}
+[2.608472] (-) TimerEvent: {}
+[2.708872] (-) TimerEvent: {}
+[2.809248] (-) TimerEvent: {}
+[2.909521] (-) TimerEvent: {}
+[2.953878] (nav2_map_server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/map_server_core.dir/build.make:76: CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o] Error 1\n'}
+[3.009736] (-) TimerEvent: {}
+[3.110115] (-) TimerEvent: {}
+[3.210493] (-) TimerEvent: {}
+[3.310878] (-) TimerEvent: {}
+[3.378015] (nav2_map_server) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/map_server_core.dir/build.make:90: CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o] Error 1\n'}
+[3.378220] (nav2_map_server) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:373: CMakeFiles/map_server_core.dir/all] Error 2\n'}
+[3.378391] (nav2_map_server) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.380327] (nav2_map_server) CommandEnded: {'returncode': 2}
+[3.411293] (-) TimerEvent: {}
+[3.431886] (nav2_map_server) JobEnded: {'identifier': 'nav2_map_server', 'rc': 2}
+[3.442269] (-) EventReactorShutdown: {}

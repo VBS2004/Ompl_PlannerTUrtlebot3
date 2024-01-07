@@ -1,0 +1,23 @@
+[0.030s] Invoking command in '/root/ros2_ws/build/my_robot_motion_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12
+[0.044s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.139s] -- Configuring incomplete, errors occurred!
+[0.139s] See also "/root/ros2_ws/build/my_robot_motion_planning/CMakeFiles/CMakeOutput.log".
+[0.139s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.139s]   By not providing "FindOpenCV4.cmake" in CMAKE_MODULE_PATH this project has
+[0.139s]   asked CMake to find a package configuration file provided by "OpenCV4", but
+[0.139s]   CMake did not find one.
+[0.139s] 
+[0.139s]   Could not find a package configuration file provided by "OpenCV4" with any
+[0.139s]   of the following names:
+[0.139s] 
+[0.140s]     OpenCV4Config.cmake
+[0.140s]     opencv4-config.cmake
+[0.140s] 
+[0.140s]   Add the installation prefix of "OpenCV4" to CMAKE_PREFIX_PATH or set
+[0.140s]   "OpenCV4_DIR" to a directory containing one of the above files.  If
+[0.140s]   "OpenCV4" provides a separate development package or SDK, be sure it has
+[0.140s]   been installed.
+[0.140s] 
+[0.140s] [0m
+[0.140s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.142s] Invoked command in '/root/ros2_ws/build/my_robot_motion_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /root/ros2_ws/build/my_robot_motion_planning -- -j12 -l12

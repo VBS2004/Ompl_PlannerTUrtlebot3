@@ -1,0 +1,95 @@
+2023-12-28 10:25:05.007 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.036 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.049 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.111 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.147 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.198 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.265 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.282 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.326 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.357 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.403 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.464 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.515 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.564 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:05.610 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:07.103 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:07.199 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:07.202 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:25:07.818 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:29:47.399 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:29:47.409 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:29:47.435 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:29:57.384 [info] Getting Manifest... plibither8.remove-comments
+2023-12-28 10:29:57.389 [info] Installing extension: plibither8.remove-comments
+2023-12-28 10:29:57.426 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:29:57.458 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:29:57.501 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:29:58.665 [info] Extension signature is verified: plibither8.remove-comments
+2023-12-28 10:29:58.683 [info] Extracted extension to file:///root/.vscode/extensions/plibither8.remove-comments-1.2.2: plibither8.remove-comments
+2023-12-28 10:29:58.686 [info] Renamed to /root/.vscode/extensions/plibither8.remove-comments-1.2.2
+2023-12-28 10:29:58.687 [info] Extracting extension completed. plibither8.remove-comments
+2023-12-28 10:29:58.695 [info] Extension installed successfully: plibither8.remove-comments
+2023-12-28 10:29:58.772 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2023-12-28 10:29:59.748 [info] Getting Manifest... usernamehw.remove-empty-lines
+2023-12-28 10:29:59.754 [info] Installing extension: usernamehw.remove-empty-lines
+2023-12-28 10:29:59.789 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:29:59.827 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:29:59.862 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:30:00.732 [info] Extension signature is verified: usernamehw.remove-empty-lines
+2023-12-28 10:30:00.737 [info] Extracted extension to file:///root/.vscode/extensions/usernamehw.remove-empty-lines-1.0.1: usernamehw.remove-empty-lines
+2023-12-28 10:30:00.751 [info] Renamed to /root/.vscode/extensions/usernamehw.remove-empty-lines-1.0.1
+2023-12-28 10:30:00.753 [info] Extracting extension completed. usernamehw.remove-empty-lines
+2023-12-28 10:30:00.759 [info] Extension installed successfully: usernamehw.remove-empty-lines
+2023-12-28 10:30:00.834 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2023-12-28 10:30:07.252 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:34:18.394 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:34:18.407 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:34:33.508 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:34:33.528 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:35:07.293 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:40:07.331 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:45:07.370 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:50:07.411 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:54:40.835 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:54:41.350 [info] Getting Manifest... ngtystr.ppm-pgm-viewer-for-vscode
+2023-12-28 10:54:41.355 [info] Installing extension: ngtystr.ppm-pgm-viewer-for-vscode
+2023-12-28 10:54:41.387 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:54:41.421 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:54:41.460 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 10:54:43.058 [info] Extension signature is verified: ngtystr.ppm-pgm-viewer-for-vscode
+2023-12-28 10:54:43.672 [info] Extracted extension to file:///root/.vscode/extensions/ngtystr.ppm-pgm-viewer-for-vscode-1.1.5: ngtystr.ppm-pgm-viewer-for-vscode
+2023-12-28 10:54:43.677 [info] Renamed to /root/.vscode/extensions/ngtystr.ppm-pgm-viewer-for-vscode-1.1.5
+2023-12-28 10:54:43.678 [info] Extracting extension completed. ngtystr.ppm-pgm-viewer-for-vscode
+2023-12-28 10:54:43.683 [info] Extension installed successfully: ngtystr.ppm-pgm-viewer-for-vscode
+2023-12-28 10:54:43.759 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/root/.vscode/extensions/extensions.json.vsctmp'
+    at r.create (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30056)
+    at a (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30170)
+    at s.fb (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async Y.tb (/snap/code/148/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:100:111319)
+2023-12-28 10:55:07.461 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:00:07.498 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:05:07.662 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:10:07.696 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:15:07.749 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:20:07.787 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:25:07.829 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:30:07.870 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:35:07.912 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:40:07.954 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:45:07.998 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
+2023-12-28 11:50:08.040 [warning] [cmake-tools]: Couldn't find message for key cmake-tools.configuration.cmake.options.advanced.statusBarVisibility.variant.description.
